@@ -486,4 +486,24 @@
     <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
     <sprite>weapon-witchguard-gladius.xml</sprite>
   </monster>
+  <monster id="94" name="Lava Slime">
+    <sprite>monsters/monster-slime-lava.xml</sprite>
+    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+  </monster>
+  <monster id="95" name="Snow Flake">
+    <sprite>monsters/monster-snowflake.xml</sprite>
+  </monster>
+  <monster id="96" name="Penguin">
+    <sprite>monsters/monster-whirlybird.xml</sprite>
+  </monster>
+  <monster id="97" name="Treasure Box">
+    <sprite>monsters/npc-treasurebox.xml</sprite>
+  </monster>
+  <monster id="98" name="Black Slime">
+    <sprite>monsters/slime.xml|#494949,ffffff</sprite>
+    <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
+  </monster>
+  <monster id="99" name="Fafi Dragon" targetCursor="big">
+		<sprite>monsters/monster-fafidragon.xml</sprite>
+  </monster>
 </monsters>

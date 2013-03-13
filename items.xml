@@ -733,12 +733,15 @@
         image="equipment/weapon/bow-desertbow.png"
         name="Desert Bow"
         description="A tonorian short bow."
-        effect="Damage +? / Range ?"
+        effect="Damage 80 / Range 8"
         type="equip-2hand"
         weapon-type="bow"
         attack-action="attack_bow"
         weight="1200"
-        missile-particle="graphics/particles/arrow.particle.xml"/>
+        missile-particle="graphics/particles/arrow-banshee.particle.xml">
+        <sprite>weapon-bow.xml</sprite>
+        <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
+    </item>
     <item id="576"
         image="equipment/weapon/sword-beheader.png"
         name="Beheader"
@@ -8089,6 +8092,461 @@
         weight="5">
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#EFEFEF</sprite>
+    </item>
+
+<!-- Land of Fire items -->
+   <item id="8000" 
+        image="equipment/chest/savior-armor.png|W:#5b5b5b" 
+        name="Black Savior Armor" 
+        description="Savior Armor." 
+        effect="Defense: +40" 
+        type="equip-torso" 
+        weight="40">
+        <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#5b5b5b</sprite>
+        <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#5b5b5b</sprite>
+    </item>
+    <item id="8001" 
+        image="equipment/chest/savior-armor.png|W:#3996f5" 
+        name="Blue Savior Armor" 
+        description="Blue Savior Armor." 
+        effect="Defense: +40" 
+        type="equip-torso" 
+        weight="40">
+        <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#3996f5</sprite>
+        <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#3996f5</sprite>
+    </item>
+    <item id="8002" 
+        image="equipment/chest/savior-armor.png|W:#f72424" 
+        name="Red Savior Armor" 
+        description="Red Savior Armor." 
+        effect="Defense: +40" 
+        type="equip-torso" 
+        weight="40">
+        <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#f72424</sprite>
+        <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#f72424</sprite>
+    </item>
+    <item id="8003" 
+        image="equipment/chest/savior-armor.png" 
+        name="White Savior Armor" 
+        description="Savior Armor." 
+        effect="Defense: +40" 
+        type="equip-torso" 
+        weight="40">
+        <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#FFFFFF</sprite>
+        <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|FFFFFF</sprite>
+    </item>
+    <item id="8004" 
+        image="equipment/legs/saviorpants.png" 
+        name="Savior Pants" 
+        description="A Pair of matching pants for your cape." 
+        effect="Defense: +15" 
+        type="equip-legs" 
+        weight="40">
+        <sprite gender="male">equipment/legs/saviorpants-male.xml</sprite>
+        <sprite gender="female">equipment/legs/saviorpants-male.xml</sprite>
+    </item>
+    <item id="8005"
+        image="equipment/shield/buckler.png"
+        name="Buckler"
+        description="A wooden shield that can be used effectively for defense."
+        effect="Defense: +5"
+        type="equip-shield"
+        weight="500">
+        <sprite>equipment/armor/shield-buckler.xml</sprite>
+    </item>
+    <item id="8006"
+        image="equipment/ammo/cursedarrow.png"
+        name="Cursed Arrow"
+        description="A Cursed arrow."
+        effect="Damage: 50"
+        type="equip-ammo"
+        weight="8"/>
+    <item id="8007"
+        image="equipment/ammo/poisonarrow.png"
+        name="Poison Arrow"
+        description="A Poisoned arrow."
+        effect="Damage: 55"
+        type="equip-ammo"
+        weight="8"/>
+    <item id="8008"
+        image="equipment/ammo/thornarrow.png"
+        name="Thorn Arrow"
+        description="A Thorned arrow."
+        effect="Damage: 60"
+        type="equip-ammo"
+        weight="8"/>
+    <item id="8009"
+        image="equipment/feet/regular-boots.png"
+        name="Regular Boots"
+        description="Some worn out boots."
+        effect="Defense: +1"
+        type="equip-feet"
+        weight="15">
+        <sprite gender="male">equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
+        <sprite gender="female">equipment/feet/boots-female.xml|#623a34,f0c2b4</sprite>
+    </item>
+    <item id="8010"
+        image="equipment/head/mapcap.png|R:#4D6A4D"
+        name="Mappers Cap"
+        description="A cap which identifies you as a mapper."
+        effect="Defense: +30"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/mapcap.xml|#4D6A4D</sprite>
+    </item>
+    <item id="8011"
+        image="equipment/head/artcap.png|R:#e68858"
+        name="Artists Cap"
+        description="A cap which identifies you as an artist."
+        effect="Defense: +30"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/artcap.xml|#e68858</sprite>
+    </item>
+    <item id="8012"
+        image="equipment/head/centurionhelm.png"
+        name="Centurion Helm"
+        description="A Centurion Helmet."
+        effect="Defense: +30"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/centurionhelm.xml</sprite>
+    </item>
+    <item id="8013"
+        image="equipment/head/gladiatorhelm.png"
+        name="Gladiator Helm"
+        description="A Gladiator's Helmet"
+        effect="Defense: +25"
+        type="equip-head"
+        weight="1">
+        <sprite>equipment/head/gladiator-helm.xml</sprite>
+    </item>
+    <item id="8014"
+        image="equipment/head/majorhelm.png"
+        name="Major Helmet"
+        description="A Helmet worn by a major."
+        effect="Defense: +15"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/majorhelmet.xml</sprite>
+    </item>
+    <item id="8015"
+        image="equipment/head/soldierhelm.png"
+        name="Soldier Helmet"
+        description="A Helmet thats seen battle."
+        effect="Defense: +12"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/soldiershelmet.xml</sprite>
+    </item>
+    <item id="8016"
+        image="equipment/head/ninjamask.png"
+        name="Ninja Mask"
+        description="A Mask of the Ninja."
+        effect="Defense: +4"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/ninjamask.xml</sprite>
+    </item>
+    <item id="8017"
+        image="equipment/head/unsilvered-crusadehelm.png"
+        name="unsilvered Crusade Helmet"
+        description="A crusade helmet that hasn't yet been infused with silver."
+        effect="Defense: +15"
+        type="equip-head"
+        weight="40">
+        <sprite>equipment/head/unsilvered-crusadehelm.xml</sprite>
+    </item>
+    <item id="8018"
+        image="equipment/head/vikinghelm.png"
+        name="Viking Helmet"
+        description="A Helmet thats seen battle long ago."
+        effect="Defense: +10"
+        type="equip-head"
+        weight="20">
+        <sprite>equipment/head/vikinghelm.xml</sprite>
+    </item>
+    <item id="8019"
+        image="equipment/weapon/bow-silverbow.png"
+        name="Silver Bow"
+        description="The Silver Bow."
+        effect="Damage: +125 / Range: 8"
+        type="equip-2hand"
+        weapon_type="bow"
+        attack-action="attack_bow"
+        missile-particle="graphics/particles/arrow.particle.xml">>
+        <sprite>bow-halo.xml</sprite>
+        <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
+    </item>
+    <item id="8020"
+        image="equipment/weapon/axe-blacksmithsaxe.png"
+        name="Blacksmith's axe"
+        description="An axe usually used by blacksmiths."
+        effect="Damage 375"
+        type="equip-2hand"
+        weapon-type="knife"
+        attack-action="attack"
+        weight="10">
+        <sprite>smith-axe.xml</sprite>
+    </item>
+    <item id="8021"
+        image="equipment/weapon/mace-kanabo.png"
+        name="Kanabo"
+        description="A kanabo."
+        effect="Damage 95"
+        type="equip-2hand"
+        weapon-type="knife"
+        attack-action="attack"
+        weight="10">
+        <sprite>kanabo.xml</sprite>
+    </item>
+    <item id="8022"
+        image="equipment/weapon/sword-gladius.png"
+        name="Gladius"
+        description="A sword from a dead soldier."
+        effect="Damage +75 / Range: 1"
+        type="equip-1hand"
+        weapon-type="knife"
+        attack-action="attack"
+        weight="1025">
+        <sprite>weapon-dagger.xml</sprite>
+        <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
+        <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
+    </item>
+    <item id="8023"
+        image="equipment/weapon/sword-silversword.png"
+        name="Silver Sword"
+        description="A silver sword."
+        effect="Damage +200 / Range: 1"
+        type="equip-1hand"
+        weapon-type="knife"
+        attack-action="attack"
+        weight="1025">
+        <sprite>weapon-dagger.xml</sprite>
+        <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
+        <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
+    </item>
+    <item id="8031"
+        image="equipment/chest/cottonshirt.png"
+        name="Afk Shirt"
+        description="A shirt that somehow changes for the afk."
+        effect="M. Attack -2"
+        type="equip-torso"
+        defense="2"
+        weight="13">
+        <sprite gender="male">equipment/chest/cotton-male-afk-black.xml</sprite>
+        <sprite gender="female">equipment/chest/cotton-female-afk-black.xml</sprite>
+    </item>
+    <item id="8024"
+        image="generic/treasuremap.png"
+        name="Treasure Map"
+        description="An Old Pirate Treasure Map"
+        effect=""
+        type="generic"
+        weight="50"/>
+	   <item id="8025"
+        image="generic/clothespack.png"
+        name="Clothes Pack"
+        description="A starter kit"
+        effect=""
+        type="generic"
+        weight="50"/>
+    <item id="8026"
+        image="generic/emerald.png"
+        name="Emerald"
+        description="An uncut emerald."
+        effect=""
+        type="generic"
+        weight="10"/>
+    <item id="8027"
+        image="generic/ore.png|W:#101010,303030,707070"
+        name="Raw Coal"
+        description="A lump of raw coal."
+        effect=""
+        type="generic"
+        weight="10"/>
+    <item id="8028"
+        image="generic/silverore.png"
+        name="Silver Ore"
+        description="Raw Siver Ore used to refine weapons."
+        effect=""
+        type="generic"
+        weight="300"/>
+   <item id="8029" 
+        image="equipment/chest/savior-armor.png|W:#8c339f" 
+        name="Royal Savior Armor" 
+        description="The King's Savior Armor." 
+        effect="Defense: +50" 
+        type="equip-torso" 
+        weight="40">
+        <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#8c339f</sprite>
+        <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#8c339f</sprite>
+    </item>
+    <item id="8030"
+        image="generic/ore.png|W:#573f10,9c8226,d3c04b"
+        name="Gold"
+        description="A lump of gold."
+        effect=""
+        type="generic"
+        weight="10"/>
+    <item id="8032"
+	image="equipment/wings/angelwings.png"
+	name="Angel Wings"
+	description="Wings similar to those of an angel."
+	effect="+% Defense"
+	type="equip-ring"
+	weight="200"
+	defense=""
+	max-per-slot="1">
+	<sprite>equipment/wings/angelwings.xml</sprite>
+    </item>
+    <item id="8033"
+	image="equipment/wings/daemonwings.png"
+	name="Daemon Wings"
+	description="Some scary looking wings."
+	effect="+% Attack"
+	type="equip-ring"
+	weight="200"
+	attack=""
+	max-per-slot="1">
+	<sprite>equipment/wings/daemonwings.xml</sprite>
+    </item>
+    <item id="8034"
+	image="equipment/wings/dragonflywings.png"
+	name="Dragonfly Wings"
+	description="Wings of a Dragonfly."
+	effect="+% Attack"
+	type="equip-ring"
+	weight="200"
+	attack=""
+	max-per-slot="1">
+	<sprite>equipment/wings/dragonflywings.xml</sprite>
+    </item>
+    <item id="8035"
+	image="equipment/wings/butterflywings.png"
+	name="Butterfly Wings"
+	description="Wings of A Butterfly."
+	effect="+% Attack"
+	type="equip-ring"
+	weight="200"
+	attack=""
+	max-per-slot="1">
+	<sprite>equipment/wings/butterflywings.xml</sprite>
+    </item>
+    <item id="8036"
+	image="pets/pet-dog-icon.png"
+	name="Hund"
+	description="Ich bin ein kleiner Hund, kümmer dich um mich. Wuff, Wuff."
+	effect="Str +50, HP +100"
+	type="equip-ring"
+	weight="1"
+	max-per-slot="1">
+	<sprite>pets/pet-dog.xml</sprite>
+    </item>
+    <item id="8037"
+	image="pets/fairy-blue.png"
+	name="Green Fairy"
+	description="A green Fairy."
+	effect="Str +50, HP +100"
+	type="equip-ring"
+	weight="1"
+	max-per-slot="1">
+	<sprite>pets/green-fairy.xml</sprite>
+    </item>
+    <item id="8038"
+	image="pets/fairy-red.png"
+	name="Red Fairy"
+	description="A red Fairy."
+	effect="Str +50, HP +100"
+	type="equip-ring"
+	weight="1"
+	max-per-slot="1">
+	<sprite>pets/pet-fairy-red.xml</sprite>
+    </item>	
+    <item id="8039"
+	image="pets/fairy-blue.png"
+	name="Blue Fairy"
+	description="A blue Fairy."
+	effect="Str +50, HP +100"
+	type="equip-ring"
+	weight="1"
+	max-per-slot="1">
+	<sprite>pets/pet-fairy-blue.xml</sprite>
+    </item>
+    <item id="8040"
+	image="pets/cat-icon.png"
+	name="Cat"
+	description="A cat, purrrr..."
+	type="equip-ring"
+	weight="50">
+	<sprite>pets/pet-cat.xml</sprite>
+    </item>
+    <item id="8041"
+	image="pets/ratte.png"
+	name="Rat"
+	description="Eeeek, a rat!."
+	type="equip-ring"
+	weight="50">
+	<sprite>pets/pet-rat.xml</sprite>
+    </item>
+    <item id="8042"
+        image="equipment/head/head-admincap.png|R:#BF0E08"
+        name="Administrator Cap"
+        description="Only for Admins."
+        effect="+5% Defense"
+        type="equip-head"
+        defense="5"
+        weight="10">
+        <sprite>equipment/head/head-admincap.xml|#BF0E08</sprite>
+    </item>
+    <item id="8043"
+	image="equipment/head/armor-head-afkcap.png|#BF0E08"
+        name="AFK Cap"
+        description="(Away from Keyboard)"
+        type="equip-head"
+        defense="5"
+        weight="10"
+	max-per-slot="1">
+        <sprite>equipment/head/head-afkcap.xml</sprite>
+    </item>
+    <item id="8044"
+        image="equipment/chest/armor-chest-assassinrobe.png"
+        name="Assassin Robe"
+        description="Robe of the Assassin"
+        type="equip-torso"
+        weight="10"
+        defense="10"
+        max-per-slot="1">
+        <sprite gender="male">equipment/chest/chest-assassinrobe-male.xml</sprite>
+        <sprite gender="female">equipment/chest/chest-assassinrobe-female.xml</sprite>
+    </item>
+    <item id="8045"
+        image="equipment/head/cap.png|R:#25bdcb"
+        name="Beta Tester Cap"
+        description="A cap for beta testers."
+        type="equip-head"
+        defense="5"
+        weight="20">
+        <sprite>equipment/head/btcap.xml|#d94800</sprite>
+    </item>
+    <item id="8046"
+        image="pets/cat-black.png"
+        name="Black Cat"
+        description="A magical cat, meooowww..."
+        type="equip-ring"
+        weight="50">
+        <sprite>pets/pet-black-cat.xml</sprite>
+    </item>
+    <item id="8047"
+        image="equipment/head/bromenalhelmet.png"
+        name="Coder's Helmet"
+        description="A strong helmet for coders."
+        effect="M. Attack -200"
+        type="equip-head"
+        defense="25"
+	dex="5"
+        weight="400">
+        <sprite>equipment/head/codershelmet.xml</sprite>
     </item>
 
 </items>
