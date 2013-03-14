@@ -540,16 +540,6 @@
         type="equip-2hand"
         weapon-type="axe"
         weight="1200"/>
-    <item id="550"
-        image="equipment/weapon/axe-blacksmithsaxe.png"
-        name="Blacksmith's Axe"
-        description="An axe usually used by blacksmiths."
-        effect="Damage +?"
-        type="equip-2hand"
-        weapon-type="axe"
-        weight="1200">
-        <sprite>weapon-axe-blacksmith.xml</sprite>
-    </item>
     <item id="551"
         image="generic/hint.png|W:#74e1f4"
         name="Aqua Hint"
