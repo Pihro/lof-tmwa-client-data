@@ -444,7 +444,7 @@
     <sprite>monsters/snake.xml|#664d28,a6673a,86D6DB,ffffff</sprite>
     <particlefx>graphics/particles/monster-soulsnake.particle.xml</particlefx>
   </monster>
-  <monster id="95" name="Soul Eater">
+  <monster id="95" name="Punk Skeleton">
     <sprite>monsters/skeleton.xml|#D9BFFF</sprite>
     <sprite>equipment/chest/tanktop-male.xml|#333333,555555,444444</sprite>
     <sprite>equipment/legs/shorts-male.xml|#333333,555555,444444</sprite>
@@ -464,7 +464,7 @@
     <sprite>monsters/slime-littleslime.xml|#3080e4,d2f4ff</sprite>
     <sound event="die">monsters/slime/slime-hit1.ogg</sound>
   </monster>
-  <monster id="99" name="Demonic Spirit">
+  <monster id="99" name="Shadow Snake">
     <sprite>monsters/spirit-demonic.xml|#444444,9933ff</sprite>
   </monster>
   <monster id="100" name="Luvia">
@@ -486,24 +486,24 @@
     <particlefx>graphics/particles/monster-witchguard.particle.xml</particlefx>
     <sprite>weapon-witchguard-gladius.xml</sprite>
   </monster>
-  <monster id="94" name="Lava Slime">
+  <monster id="102" name="Lava Slime">
     <sprite>monsters/monster-slime-lava.xml</sprite>
     <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
   </monster>
-  <monster id="95" name="Snow Flake">
+  <monster id="103" name="Snow Flake">
     <sprite>monsters/monster-snowflake.xml</sprite>
   </monster>
-  <monster id="96" name="Penguin">
+  <monster id="104" name="Penguin">
     <sprite>monsters/monster-whirlybird.xml</sprite>
   </monster>
-  <monster id="97" name="Treasure Box">
+  <monster id="105" name="Treasure Box">
     <sprite>monsters/npc-treasurebox.xml</sprite>
   </monster>
-  <monster id="98" name="Black Slime">
+  <monster id="106" name="Black Slime">
     <sprite>monsters/slime.xml|#494949,ffffff</sprite>
     <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
   </monster>
-  <monster id="99" name="Fafi Dragon" targetCursor="big">
+  <monster id="107" name="Fafi Dragon" targetCursor="big">
 		<sprite>monsters/monster-fafidragon.xml</sprite>
   </monster>
 </monsters>
