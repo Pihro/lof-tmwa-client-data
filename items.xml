@@ -8166,7 +8166,7 @@
         type="equip-ammo"
         weight="8"/>
     <item id="8009"
-        image="equipment/feet/regular-boots.png"
+        image="equipment/feet/boots.png|W:#4f2d29,c89078"
         name="Regular Boots"
         description="Some worn out boots."
         effect="Defense: +1"
