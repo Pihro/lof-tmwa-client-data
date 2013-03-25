@@ -3424,6 +3424,84 @@
         <sprite gender="male">equipment/legs/shorts-male.xml|#95887F,E0D1C9</sprite>
         <sprite gender="female">equipment/legs/shorts-female.xml|#95887F,E0D1C9</sprite>
     </item>
+    <item id="882"
+        image="equipment/head/eggshell-hat.png|W:#BC5959,E33636,FFA0A0"
+        name="Red Eggshell Hat"
+        description="A novelty hat shaped like an eggshell half."
+        type="equip-head"
+        effect="M. Defense +3"
+        defense="9"
+        weight="15">
+        <sprite>equipment/head/eggshell.xml|#BC5959,E33636,FFA0A0</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
+    </item>
+    <item id="883"
+        image="equipment/head/eggshell-hat.png|W:#7eabfe,6590C7,cccfe7"
+        name="Blue Eggshell Hat"
+        description="A novelty hat shaped like an eggshell half."
+        type="equip-head"
+        effect="M. Defense +3"
+        defense="9"
+        weight="15">
+        <sprite>equipment/head/eggshell.xml|#7eabfe,6590C7,cccfe7</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
+    </item>
+    <item id="884"
+        image="equipment/head/eggshell-hat.png|W:#EFD806,D7C821,FFF476"
+        name="Yellow Eggshell Hat"
+        description="A novelty hat shaped like an eggshell half."
+        type="equip-head"
+        effect="M. Defense +3"
+        defense="9"
+        weight="15">
+        <sprite>equipment/head/eggshell.xml|#EFD806,D7C821,FFF476</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
+    </item>
+    <item id="885"
+        image="equipment/head/eggshell-hat.png|W:#2A9409,70BA59,ACF696"
+        name="Green Eggshell Hat"
+        description="A novelty hat shaped like an eggshell half."
+        type="equip-head"
+        effect="M. Defense +3"
+        defense="9"
+        weight="15">
+        <sprite>equipment/head/eggshell.xml|#2A9409,70BA59,ACF696</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
+    </item>
+    <item id="886"
+        image="equipment/head/eggshell-hat.png|W:#9B5D00,E17828,F7B37E"
+        name="Orange Eggshell Hat"
+        description="A novelty hat shaped like an eggshell half."
+        type="equip-head"
+        effect="M. Defense +3"
+        defense="9"
+        weight="15">
+        <sprite>equipment/head/eggshell.xml|#9B5D00,E17828,F7B37E</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
+    </item>
+    <item id="887"
+        image="equipment/head/eggshell-hat.png|W:#482D07,574123,877863"
+        name="Dark Eggshell Hat"
+        description="A novelty hat shaped like an eggshell half."
+        type="equip-head"
+        effect="M. Defense +3"
+        defense="9"
+        weight="15">
+        <sprite>equipment/head/eggshell.xml|#482D07,574123,877863</sprite>
+        <replace direction="upall" sprite="hair">
+            <item from="-5"/>
+        </replace>
+    </item>
     <item id="888"
         image="equipment/head/magicgmtophat.png"
         name="Magic GM Top Hat"
@@ -3448,6 +3526,16 @@
         defense="4"
         weight="240">
         <sprite>equipment/head/thin-crown.xml|#343434,ababab;#003300,00FF00;#29758A,9BDBEC</sprite>
+    </item>
+    <item id="890"
+        image="equipment/head/beaniecopter.png"
+        name="Beanie Copter"
+        description="A funny beanie cap with a spinning propeller."
+        effect="M. Attack +2"
+        type="equip-head"
+        defense="4"
+        weight="20">
+        <sprite>equipment/head/beaniecopter.xml</sprite>
     </item>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
@@ -3548,37 +3636,37 @@
     <item id="1208"
         image="generic/easteregg-red.png"
         name="Red Easter Egg"
-        description="A red easter egg. Find all six different easter eggs to win a prize."
+        description="A red easter egg. In the past there was a game to find all six of them. Now they're just a nice souvenir."
         type="generic"
         weight="10"/>
     <item id="1209"
         image="generic/easteregg-green.png"
         name="Green Easter Egg"
-        description="A green easter egg. Find all six different easter eggs to win a prize."
+        description="A green easter egg. In the past there was a game to find all six of them. Now they're just a nice souvenir."
         type="generic"
         weight="10"/>
     <item id="1210"
         image="generic/easteregg-blue.png"
         name="Blue Easter Egg"
-        description="A blue easter egg. Find all six different easter eggs to win a prize."
+        description="A blue easter egg. In the past there was a game to find all six of them. Now they're just a nice souvenir."
         type="generic"
         weight="10"/>
     <item id="1211"
         image="generic/easteregg-yellow.png"
         name="Yellow Easter Egg"
-        description="A yellow easter egg. Find all six different easter eggs to win a prize."
+        description="A yellow easter egg. In the past there was a game to find all six of them. Now they're just a nice souvenir."
         type="generic"
         weight="10"/>
     <item id="1212"
         image="generic/easteregg-pink.png"
         name="Pink Easter Egg"
-        description="A pink easter egg. Find all six different easter eggs to win a prize."
+        description="A pink easter egg. In the past there was a game to find all six of them. Now they're just a nice souvenir."
         type="generic"
         weight="10"/>
     <item id="1213"
         image="generic/easteregg-teal.png"
         name="Teal Easter Egg"
-        description="A teal easter egg. Find all six different easter eggs to win a prize."
+        description="A teal easter egg. In the past there was a game to find all six of them. Now they're just a nice souvenir."
         type="generic"
         weight="10"/>
     <item id="1214"
@@ -3912,14 +4000,14 @@
         <sprite>equipment/head/rabbit-ears.xml|#ffffff</sprite>
     </item>
     <item id="1256"
-        image="equipment/head/eggshell-hat.png"
+        image="equipment/head/eggshell-hat.png|W:#727272,A0A9AC,DBECF2"
         name="Eggshell Hat"
         description="A novelty hat shaped like an eggshell half."
         type="equip-head"
         defense="12"
         agi="-1"
         weight="15">
-        <sprite>equipment/head/eggshell.xml</sprite>
+        <sprite>equipment/head/eggshell.xml|#727272,A0A9AC,DBECF2</sprite>
         <replace direction="upall" sprite="hair">
             <item from="-5"/>
         </replace>
