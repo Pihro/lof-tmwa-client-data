@@ -7,6 +7,12 @@ import subprocess
 import tempfile
 import re
 
+CLIENT_DATA_ROOT = os.path.realpath(
+    os.path.join(
+        os.path.dirname(__file__),
+        u'..',
+    )
+)
 
 class MinimapRenderer(object):
 
@@ -38,8 +44,8 @@ class MinimapRenderer(object):
             self.map_name = self.map_name+u'.tmx'
 
         map_number = os.path.splitext(os.path.basename(self.map_name))[0]
-        tmx_file = os.path.normpath(os.path.join(os.getcwdu(), u'..', u'maps', self.map_name))
-        minimap_file = os.path.normpath(os.path.join(os.getcwdu(), u'..', u'graphics', u'minimaps', map_number+u'.png'))
+        tmx_file = os.path.join(CLIENT_DATA_ROOT, u'maps', self.map_name)
+        minimap_file = os.path.join(CLIENT_DATA_ROOT, u'graphics', u'minimaps', map_number+u'.png')
 
         prefix = os.path.commonprefix((tmx_file, minimap_file))
         sys.stdout.write(u'%s -> %s\n' % (os.path.relpath(tmx_file, prefix), os.path.relpath(minimap_file, prefix)))
@@ -123,21 +129,20 @@ def usage():
     Example:
         $ ./minimap-render.py 007-1
     will render the map at maps/007-1.tmx in the graphics/minimaps directory.
+        $ ./minimap-render.py all
+    will render all existing maps found in the maps directory.
+        $ ./minimap-render.py update
+    will update all existing minimaps found in the graphics/minimaps directory.
 
     For convenience,
         $ ./minimap-render.py 007-1.tmx
-    is also acceptable, for e.g running things like,
-        $ ./minimap-render.py $(ls ../maps/)
-    that would render all existing maps.
+    is also accepted.
     \n''' % sys.argv[0])
 
 def main():
     if not len(sys.argv) > 1:
         usage()
         return 127
-    if not os.path.basename(os.path.dirname(os.getcwdu())) == u'client-data':
-        sys.stderr.write(u'This script must be run from client-data/tools.\n')
-        return 1
     try:
         MinimapRenderer.check_programs()
     except Exception as e:
@@ -145,7 +150,14 @@ def main():
         return 126
 
     status = 0
-    for map_name in sys.argv[1:]:
+    if sys.argv[1].lower() == 'all':
+        map_names = sorted([os.path.splitext(p)[0] for p in os.listdir(os.path.join(CLIENT_DATA_ROOT, u'maps'))])
+    elif sys.argv[1].lower() == 'update':
+        map_names = sorted([os.path.splitext(p)[0] for p in os.listdir(os.path.join(CLIENT_DATA_ROOT, u'graphics', u'minimaps'))])
+    else:
+        map_names = sys.argv[1:]
+
+    for map_name in map_names:
         # Render tiles at 1 pixel size
         map_renderer = MinimapRenderer(map_name, 1, True)
         status += map_renderer.render()
