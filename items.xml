@@ -8626,5 +8626,19 @@
         weight="400">
         <sprite>equipment/head/codershelmet.xml</sprite>
     </item>
+    <item id="8048"
+        image="equipment/hands/leathergloves.png"
+        name="Fire Gloves"
+        description="Gloves that shoot fire. Fwoosh!"
+        effect="Damage +50 / Range 5"
+        type="equip-2hand"
+        weapon-type="bow"
+        attack-action="attack"
+        weight="100"
+        missile-particle="graphics/particles/fire-burst.xml">
+        <sprite gender="male">equipment/hands/generic-male.xml|#4e2e18,c8752f</sprite>
+        <sprite gender="female">equipment/hands/generic-female.xml|#4e2e18,c8752f</sprite>
+        <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
+    </item>
 
 </items>
