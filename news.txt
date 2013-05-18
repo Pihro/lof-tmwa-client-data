@@ -1,21 +1,3 @@
-##1 Welcome to Land of Fire
-##0
-##0 We have moved the server to
-##0 Platinum, some speed issues
-##0 should be resolved.
-##0 Nothing has changed except for
-##0 the port you connect to, and
-##0 manaplus has already updated that.
-##0 Have fun!
-##0
-##0 Heya all, some updates are coming.
-##0 There is no set date but the
-##0 quests written by our own player
-##0 Ozthokk are in the process of
-##0 being scripted, as well as
-##0 the server is being rebuilt upon
-##0 new TMW content, and many changes
-##0 will occur. Visit our forums and
-##0 look around for more info!
-##0
-##3 - Land of Fire's dev team.
+##1 Welcome to Land of Fire Testing
+##0 This is a testserver for an up
+##0 to date remake of TMW-LoF.
