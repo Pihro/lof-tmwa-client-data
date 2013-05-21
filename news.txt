@@ -1,3 +1,15 @@
-##1 Welcome to Land of Fire Testing
-##0 This is a testserver for an up
-##0 to date remake of TMW-LoF.
+##1 Welcome to TMW-LoF V2!
+
+##0 We have finished and
+##0 released TMW-LoF V2,
+##0 This update includes
+##0 most new content from
+##0 TMW, as well as allows
+##0 us to use a newer tmwa
+##0 setup. New quests are in
+##0 progress, including 
+##0 Pyndragon's Heroes Hold
+##0 and Ozthokk's An Episode
+##0 for You. Have fun!
+
+##3 -LoF Dev Team
