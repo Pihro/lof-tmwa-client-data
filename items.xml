@@ -398,8 +398,8 @@
         type="equip-arms"
         defense="4"
         weight="20">
-        <sprite gender="male">equipment/hands/generic-male.xml|#4e2e18,c8752f</sprite>
-        <sprite gender="female">equipment/hands/generic-female.xml|#4e2e18,c8752f</sprite>
+        <sprite gender="male">equipment/hands/generic-male.xml|W:#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
+        <sprite gender="female">equipment/hands/generic-female.xml|W:#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
     </item>
     <item id="533"
         image="use/food/roastedmaggot.png"
