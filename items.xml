@@ -2208,7 +2208,7 @@
         effect="M. Attack -10"
         type="equip-feet"
         weight="25"
-        defense="3">
+        defense="4">
         <sprite gender="male">equipment/feet/boots-male.xml|#212121</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#212121</sprite>
     </item>
@@ -3216,7 +3216,7 @@
         description="Trousers made out of robust leather."
         effect="M. Attack -4, Accuracy +2"
         type="equip-legs"
-        defense="5"
+        defense="7"
         weight="25">
         <sprite gender="male">equipment/legs/pants-male.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
         <sprite gender="female">equipment/legs/pants-female.xml|#2a2117,2f2112,493219,61411e,724c22,a97e4f</sprite>
