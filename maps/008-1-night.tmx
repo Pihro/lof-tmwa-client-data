@@ -44,42 +44,42 @@
  <objectgroup name="Objects" width="0" height="0">
   <object name="Hurnscald West Entrance" type="warp" x="1728" y="1920" width="32" height="96">
    <properties>
-    <property name="dest_map" value="009-1"/>
+    <property name="dest_map" value="009-1-night"/>
     <property name="dest_x" value="800"/>
     <property name="dest_y" value="1152"/>
    </properties>
   </object>
   <object name="Hurnscald South Entrance" type="warp" x="2464" y="2560" width="128" height="32">
    <properties>
-    <property name="dest_map" value="009-1"/>
+    <property name="dest_map" value="009-1-night"/>
     <property name="dest_x" value="1536"/>
     <property name="dest_y" value="1728"/>
    </properties>
   </object>
   <object name="Hurnscald East Entrance" type="warp" x="4064" y="1920" width="32" height="64">
    <properties>
-    <property name="dest_map" value="009-1"/>
+    <property name="dest_map" value="009-1-night"/>
     <property name="dest_x" value="3072"/>
     <property name="dest_y" value="1152"/>
    </properties>
   </object>
   <object name="Hurnscald North Entrance" type="warp" x="2464" y="1568" width="128" height="32">
    <properties>
-    <property name="dest_map" value="009-1"/>
+    <property name="dest_map" value="009-1-night"/>
     <property name="dest_x" value="1536"/>
     <property name="dest_y" value="800"/>
    </properties>
   </object>
   <object name="To Woodland" type="warp" x="768" y="1920" width="32" height="128">
    <properties>
-    <property name="dest_map" value="011-1"/>
+    <property name="dest_map" value="011-1-night"/>
     <property name="dest_x" value="3936"/>
     <property name="dest_y" value="1952"/>
    </properties>
   </object>
   <object name="To Woodland Mining Camp" type="warp" x="2464" y="544" width="128" height="32">
    <properties>
-    <property name="dest_map" value="018-1"/>
+    <property name="dest_map" value="018-1-night"/>
     <property name="dest_x" value="2496"/>
     <property name="dest_y" value="3104"/>
    </properties>
@@ -93,7 +93,7 @@
   </object>
   <object name="To Woodland" type="warp" x="4192" y="3232" width="96" height="32">
    <properties>
-    <property name="dest_map" value="007-1"/>
+    <property name="dest_map" value="007-1-night"/>
     <property name="dest_x" value="3920"/>
     <property name="dest_y" value="752"/>
    </properties>

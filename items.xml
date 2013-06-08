@@ -8640,5 +8640,50 @@
         <sprite gender="female">equipment/hands/generic-female.xml|#4e2e18,c8752f</sprite>
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
     </item>
+	<item id="8049"
+        image="equipment/chest/warlordplate.png"
+        name="Black Mamba Armor"
+        description="Strong and fast armor."
+        type="equip-torso"
+        defense="30"
+        weight="260">
+        <sprite>equipment/chest/black-mamba-armor.xml</sprite>
+    </item>
+	<item id="8050"
+        image="equipment/feet/warlordboots.png"
+        name="Black Mamba Boots"
+        description="Dark and smooth boots."
+        type="equip-feet"
+        weight="20"
+        defense="8">
+        <sprite>equipment/feet/black-mamba-boots.xml</sprite>
+    </item>
+    <item id="8051"
+        image="equipment/hands/basicgloves.png"
+        name="Black Mamba Gloves"
+        description="A pair of dark, smooth gloves."
+        type="equip-arms"
+        defense="3"
+        weight="5">
+        <sprite>equipment/hands/black-mamba-gloves.xml</sprite>
+    </item>
+	<item id="8052"
+        image="equipment/head/gladiatorhelm.png"
+        name="Black Mamba Helm"
+        description="A sleek dark helmet"
+        defense="6"
+        type="equip-head"
+        weight="1">
+        <sprite>equipment/head/black-mamba-helm.xml</sprite>
+    </item>
+    <item id="8053"
+        image="equipment/legs/chaps.png"
+        name="Black Mamba Pants"
+        description="Dark sleek pants."
+        type="equip-legs"
+        defense="7"
+        weight="30">
+        <sprite>equipment/legs/black-mamba-pants.xml</sprite>
+    </item>
 
 </items>
