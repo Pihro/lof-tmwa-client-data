@@ -1,5 +1,10 @@
 ##1 Welcome to TMW-LoF V2!
 
+##0 The night world has
+##0 been added! Visit the
+##0 Teleporter in Hurns,
+##0 Have fun!
+
 ##0 We have finished and
 ##0 released TMW-LoF V2,
 ##0 This update includes
