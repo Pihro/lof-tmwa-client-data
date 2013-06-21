@@ -6,6 +6,7 @@
  *
  *  Usage: adler32 [file]...
  *  "cc adler32.c -lz -o adler32" to build it. Once you have the adler32 move it to /usr/bin.
+ *  For zlib.h install zlib1g-dev in debian derivatives.
  */
 
 #include <stdlib.h>

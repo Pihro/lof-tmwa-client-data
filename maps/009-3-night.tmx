@@ -100,7 +100,7 @@
    <properties>
     <property name="eA_death" value="0"/>
     <property name="eA_spawn" value="0"/>
-    <property name="max_beings" value="25"/>
+    <property name="max_beings" value="35"/>
     <property name="monster_id" value="106"/>
    </properties>
   </object>
