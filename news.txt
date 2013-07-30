@@ -1,29 +1,16 @@
 ##1 Welcome to TMW-LoF V2!
 
-##0 We have merged all of
-##0 TMW's new quests, mobs,
-##0 and maps, have fun!
+##0 We have merged all of TMW's
+##0 new quests, mobs, and maps, have fun!
 
-##0 Part 1 of Ozthokk's
-##0 An Episode has been completed!
-##0 Talk to The Doctor in Hurnscald
+##0 Part 1 of Ozthokk's An Episode
+##0 has been completed! Talk to
+##0 The Doctor in the Hurnscald House
 ##0 to start the multi part quest.
 
-##0 The night world has
-##0 been added! Visit the
-##0 Teleporter in Hurns,
-##0 Have fun!
-
-##0 We have finished and
-##0 released TMW-LoF V2,
-##0 This update includes
-##0 most new content from
-##0 TMW, as well as allows
-##0 us to use a newer tmwa
-##0 setup. New quests are in
-##0 progress, including 
-##0 Pyndragon's Heroes Hold
-##0 and Ozthokk's An Episode
-##0 for You. Have fun!
+##0 The night world has been added!
+##0 Visit the Teleporter in Hurns
+##0 if you think you can survive in
+##0 the dark.
 
 ##3 -LoF Dev Team
