@@ -8687,7 +8687,7 @@ an additional item property.
         image="equipment/weapon/axe-blacksmithsaxe.png"
         name="Blacksmith's axe"
         description="An axe usually used by blacksmiths."
-        effect="Damage 375"
+        effect="Damage 375 / Requires Level 55"
         type="equip-2hand"
         weapon-type="knife"
         attack-action="attack"
