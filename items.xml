@@ -8968,16 +8968,17 @@ an additional item property.
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
     </item>
 	<item id="8049"
-        image="equipment/chest/warlordplate.png"
+        image="equipment/chest/black-mamba-armor.png"
         name="Black Mamba Armor"
         description="Strong and fast armor."
         type="equip-torso"
         defense="30"
         weight="260">
-        <sprite>equipment/chest/black-mamba-armor.xml</sprite>
+        <sprite gender="male">equipment/chest/black-mamba-armor.xml</sprite>
+		<sprite gender="female">equipment/chest/black-mamba-armor-female.xml</sprite>
     </item>
 	<item id="8050"
-        image="equipment/feet/warlordboots.png"
+        image="equipment/feet/black-mamba-boots.png"
         name="Black Mamba Boots"
         description="Dark and smooth boots."
         type="equip-feet"
@@ -8986,7 +8987,7 @@ an additional item property.
         <sprite>equipment/feet/black-mamba-boots.xml</sprite>
     </item>
     <item id="8051"
-        image="equipment/hands/basicgloves.png"
+        image="equipment/hands/black-mamba-gloves.png"
         name="Black Mamba Gloves"
         description="A pair of dark, smooth gloves."
         type="equip-arms"
@@ -8995,7 +8996,7 @@ an additional item property.
         <sprite>equipment/hands/black-mamba-gloves.xml</sprite>
     </item>
 	<item id="8052"
-        image="equipment/head/gladiatorhelm.png"
+        image="equipment/head/black-mamba-helm.png"
         name="Black Mamba Helm"
         description="A sleek dark helmet"
         defense="6"
@@ -9004,13 +9005,14 @@ an additional item property.
         <sprite>equipment/head/black-mamba-helm.xml</sprite>
     </item>
     <item id="8053"
-        image="equipment/legs/chaps.png"
+        image="equipment/legs/black-mamba-pants.png"
         name="Black Mamba Pants"
         description="Dark sleek pants."
         type="equip-legs"
         defense="7"
         weight="30">
-        <sprite>equipment/legs/black-mamba-pants.xml</sprite>
+        <sprite gender="male">equipment/legs/black-mamba-pants-male.xml</sprite>
+        <sprite gender="female">equipment/legs/black-mamba-pants-female.xml</sprite>
     </item>
 
 </items>
