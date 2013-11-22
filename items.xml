@@ -677,7 +677,7 @@
         image="equipment/weapon/dagger-boneknife.png"
         name="Bone Knife"
         description="A knife masterly carved out of a bone."
-        effect="Damage +115"
+        effect="Damage +250"
         type="equip-1hand"
         weapon-type="knife"
         attack-action="attack"
@@ -688,7 +688,7 @@
         image="equipment/weapon/dagger-setzer.png"
         name="Setzer"
         description="A sharp knife, named after a famous gambler."
-        effect="Damage +110"
+        effect="Damage +400"
         type="equip-1hand"
         weapon-type="knife"
         attack-action="attack"
@@ -760,7 +760,7 @@
         image="equipment/weapon/dagger-rockknive.png"
         name="Rock Knife"
         description="A knife made of stone."
-        effect="Damage +110"
+        effect="Damage +380"
         type="equip-1hand"
         weapon-type="knife"
         attack-action="attack"
@@ -2419,15 +2419,17 @@
         image="equipment/head/paladin-helm.png"
         name="Paladin's Helmet"
         description="Worn only by paladins."
+        effect="M. Attack -12"
         type="equip-head"
         defense="19"
-        weight="43">
+        weight="40">
         <sprite>equipment/head/paladinhelm.xml</sprite>
     </item>
     <item id="760"
         image="equipment/head/overlord-helm.png"
         name="Overlord's Helmet"
         description="Worn by the greatest warriors."
+        effect="M. Attack -12"
         type="equip-head"
         defense="20"
         weight="45">
@@ -2437,8 +2439,9 @@
         image="equipment/head/desert-helmet.png"
         name="Desert Helmet"
         description="The perfect desert warriors' helmet."
+        effect="M. Attack -12"
         type="equip-head"
-        weight="48"
+        weight="50"
         defense="21">
         <sprite>equipment/head/desert-helmet.xml</sprite>
     </item>
@@ -3280,7 +3283,7 @@
         image="equipment/weapon/sword-ice.png"
         name="Ice Gladius"
         description="A sword with a shimmering blue blade."
-        effect="Damage +100"
+        effect="Damage +380"
         type="equip-1hand"
         weapon-type="sword"
         attack-action="attack"
@@ -8177,9 +8180,10 @@
         image="equipment/chest/savior-armor.png|W:#5b5b5b" 
         name="Black Savior Armor" 
         description="Savior Armor." 
-        effect="Defense: +40" 
+        effect="M. Attack -170" 
+        defense="40"
         type="equip-torso" 
-        weight="40">
+        weight="2600">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#5b5b5b</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#5b5b5b</sprite>
     </item>
@@ -8187,9 +8191,10 @@
         image="equipment/chest/savior-armor.png|W:#3996f5" 
         name="Blue Savior Armor" 
         description="Blue Savior Armor." 
-        effect="Defense: +40" 
+        effect="M. Attack -170" 
+        defense="40"
         type="equip-torso" 
-        weight="40">
+        weight="2600">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#3996f5</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#3996f5</sprite>
     </item>
@@ -8197,9 +8202,10 @@
         image="equipment/chest/savior-armor.png|W:#f72424" 
         name="Red Savior Armor" 
         description="Red Savior Armor." 
-        effect="Defense: +40" 
+        effect="M. Attack -170" 
+        defense="40" 
         type="equip-torso" 
-        weight="40">
+        weight="2600">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#f72424</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#f72424</sprite>
     </item>
@@ -8207,9 +8213,10 @@
         image="equipment/chest/savior-armor.png" 
         name="White Savior Armor" 
         description="Savior Armor." 
-        effect="Defense: +40" 
+        effect="M. Attack -170" 
+        defense="40"
         type="equip-torso" 
-        weight="40">
+        weight="2600">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#FFFFFF</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|FFFFFF</sprite>
     </item>
@@ -8217,9 +8224,10 @@
         image="equipment/legs/saviorpants.png" 
         name="Savior Pants" 
         description="A Pair of matching pants for your cape." 
-        effect="Defense: +15" 
+        effect="M. Attack -12" 
         type="equip-legs" 
-        weight="40">
+        defense="15"
+        weight="500">
         <sprite gender="male">equipment/legs/saviorpants-male.xml</sprite>
         <sprite gender="female">equipment/legs/saviorpants-male.xml</sprite>
     </item>
@@ -8227,9 +8235,10 @@
         image="equipment/shield/buckler.png"
         name="Buckler"
         description="A wooden shield that can be used effectively for defense."
-        effect="Defense: +5"
+        effect="M. Attack -200"
+        defense="5"
         type="equip-shield"
-        weight="500">
+        weight="2500">
         <sprite>equipment/armor/shield-buckler.xml</sprite>
     </item>
     <item id="8006"
@@ -8238,28 +8247,29 @@
         description="A Cursed arrow."
         effect="Damage: 50"
         type="equip-ammo"
-        weight="8"/>
+        weight="1"/>
     <item id="8007"
         image="equipment/ammo/poisonarrow.png"
         name="Poison Arrow"
         description="A Poisoned arrow."
         effect="Damage: 55"
         type="equip-ammo"
-        weight="8"/>
+        weight="1"/>
     <item id="8008"
         image="equipment/ammo/thornarrow.png"
         name="Thorn Arrow"
         description="A Thorned arrow."
         effect="Damage: 60"
         type="equip-ammo"
-        weight="8"/>
+        weight="1"/>
     <item id="8009"
         image="equipment/feet/boots.png|W:#4f2d29,c89078"
         name="Regular Boots"
         description="Some worn out boots."
-        effect="Defense: +1"
+        effect="M. Attack -2"
+        defense="1"
         type="equip-feet"
-        weight="15">
+        weight="80">
         <sprite gender="male">equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#623a34,f0c2b4</sprite>
     </item>
@@ -8267,7 +8277,7 @@
         image="equipment/head/mapcap.png|R:#4D6A4D"
         name="Mappers Cap"
         description="A cap which identifies you as a mapper."
-        effect="Defense: +30"
+        defense="30"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/mapcap.xml|#4D6A4D</sprite>
@@ -8276,7 +8286,7 @@
         image="equipment/head/artcap.png|R:#e68858"
         name="Artists Cap"
         description="A cap which identifies you as an artist."
-        effect="Defense: +30"
+        defense="30"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/artcap.xml|#e68858</sprite>
@@ -8285,63 +8295,70 @@
         image="equipment/head/centurionhelm.png"
         name="Centurion Helm"
         description="A Centurion Helmet."
-        effect="Defense: +30"
+        effect="M. Attack -36"
+        defense="30"
         type="equip-head"
-        weight="20">
+        weight="900">
         <sprite>equipment/head/centurionhelm.xml</sprite>
     </item>
     <item id="8013"
         image="equipment/head/gladiatorhelm.png"
         name="Gladiator Helm"
         description="A Gladiator's Helmet"
-        effect="Defense: +25"
+        effect="M. Attack -36"
+        defense="25"
         type="equip-head"
-        weight="1">
+        weight="900">
         <sprite>equipment/head/gladiator-helm.xml</sprite>
     </item>
     <item id="8014"
         image="equipment/head/majorhelm.png"
         name="Major Helmet"
         description="A Helmet worn by a major."
-        effect="Defense: +15"
+        effect="M. Attack -36"
+        defense="15"
         type="equip-head"
-        weight="20">
+        weight="900">
         <sprite>equipment/head/majorhelmet.xml</sprite>
     </item>
     <item id="8015"
         image="equipment/head/soldierhelm.png"
         name="Soldier Helmet"
-        description="A Helmet thats seen battle."
-        effect="Defense: +12"
+        description="A Helmet that has seen battle."
+        effect="M. Attack -36"
+        defense="12"
         type="equip-head"
-        weight="20">
+        weight="900">
         <sprite>equipment/head/soldiershelmet.xml</sprite>
     </item>
     <item id="8016"
         image="equipment/head/ninjamask.png"
         name="Ninja Mask"
         description="A Mask of the Ninja."
-        effect="Defense: +4"
+        effect="M. Attack -10"
+        defense="4"
         type="equip-head"
-        weight="20">
+        weight="100">
         <sprite>equipment/head/ninjamask.xml</sprite>
     </item>
     <item id="8017"
         image="equipment/head/unsilvered-crusadehelm.png"
         name="unsilvered Crusade Helmet"
         description="A crusade helmet that hasn't yet been infused with silver."
-        effect="Defense: +15"
+        effect="M. Attack -36"
+        defense="15"
         type="equip-head"
-        weight="40">
+        weight="900">
         <sprite>equipment/head/unsilvered-crusadehelm.xml</sprite>
     </item>
     <item id="8018"
         image="equipment/head/vikinghelm.png"
         name="Viking Helmet"
-        description="A Helmet thats seen battle long ago."
-        effect="Defense: +10"
+        description="A Helmet that saw battle long ago."
+        effect="M. Attack -36"
+        defense="10"
         type="equip-head"
-        weight="20">
+        weight="900">
         <sprite>equipment/head/vikinghelm.xml</sprite>
     </item>
     <item id="8019"
@@ -8435,28 +8452,29 @@
         description="An uncut emerald."
         effect=""
         type="generic"
-        weight="10"/>
+        weight="20"/>
     <item id="8027"
         image="generic/ore.png|W:#101010,303030,707070"
         name="Raw Coal"
         description="A lump of raw coal."
         effect=""
         type="generic"
-        weight="10"/>
+        weight="20"/>
     <item id="8028"
         image="generic/silverore.png"
         name="Silver Ore"
         description="Raw Siver Ore used to refine weapons."
         effect=""
         type="generic"
-        weight="300"/>
+        weight="20"/>
    <item id="8029" 
         image="equipment/chest/savior-armor.png|W:#8c339f" 
         name="Royal Savior Armor" 
         description="The King's Savior Armor." 
-        effect="Defense: +50" 
+        effect="M. Attack -170"
+        defense="50"
         type="equip-torso" 
-        weight="40">
+        weight="2600">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#8c339f</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#8c339f</sprite>
     </item>
@@ -8466,14 +8484,14 @@
         description="A lump of gold."
         effect=""
         type="generic"
-        weight="10"/>
+        weight="20"/>
     <item id="8032"
 	image="equipment/wings/angelwings.png"
 	name="Angel Wings"
 	description="Wings similar to those of an angel."
 	effect="+% Defense"
 	type="equip-ring"
-	weight="200"
+	weight="15"
 	defense=""
 	max-per-slot="1">
 	<sprite>equipment/wings/angelwings.xml</sprite>
@@ -8484,7 +8502,7 @@
 	description="Some scary looking wings."
 	effect="+% Attack"
 	type="equip-ring"
-	weight="200"
+	weight="15"
 	attack=""
 	max-per-slot="1">
 	<sprite>equipment/wings/daemonwings.xml</sprite>
@@ -8495,7 +8513,7 @@
 	description="Wings of a Dragonfly."
 	effect="+% Attack"
 	type="equip-ring"
-	weight="200"
+	weight="15"
 	attack=""
 	max-per-slot="1">
 	<sprite>equipment/wings/dragonflywings.xml</sprite>
@@ -8506,7 +8524,7 @@
 	description="Wings of A Butterfly."
 	effect="+% Attack"
 	type="equip-ring"
-	weight="200"
+	weight="15"
 	attack=""
 	max-per-slot="1">
 	<sprite>equipment/wings/butterflywings.xml</sprite>
@@ -8515,9 +8533,10 @@
 	image="pets/pet-dog-icon.png"
 	name="Hund"
 	description="Ich bin ein kleiner Hund, kümmer dich um mich. Wuff, Wuff."
-	effect="Str +50, HP +100"
+        effect="HP +100 / M. Attack -2"
+        str="50"
 	type="equip-ring"
-	weight="1"
+	weight="50"
 	max-per-slot="1">
 	<sprite>pets/pet-dog.xml</sprite>
     </item>
@@ -8525,9 +8544,10 @@
 	image="pets/fairy-blue.png"
 	name="Green Fairy"
 	description="A green Fairy."
-	effect="Str +50, HP +100"
+        effect="HP +100 / M. Attack -2"
+        luck="50"
 	type="equip-ring"
-	weight="1"
+	weight="5"
 	max-per-slot="1">
 	<sprite>pets/green-fairy.xml</sprite>
     </item>
@@ -8535,9 +8555,10 @@
 	image="pets/fairy-red.png"
 	name="Red Fairy"
 	description="A red Fairy."
-	effect="Str +50, HP +100"
+        effect="HP +100 / M. Attack -2"
+        luck="50"
 	type="equip-ring"
-	weight="1"
+	weight="5"
 	max-per-slot="1">
 	<sprite>pets/pet-fairy-red.xml</sprite>
     </item>	
@@ -8545,9 +8566,10 @@
 	image="pets/fairy-blue.png"
 	name="Blue Fairy"
 	description="A blue Fairy."
-	effect="Str +50, HP +100"
+        effect="HP +100 / M. Attack -2"
+        luck="50"
 	type="equip-ring"
-	weight="1"
+	weight="5"
 	max-per-slot="1">
 	<sprite>pets/pet-fairy-blue.xml</sprite>
     </item>
@@ -8555,6 +8577,8 @@
 	image="pets/cat-icon.png"
 	name="Cat"
 	description="A cat, purrrr..."
+        effect="HP +100 / M. Attack -2"
+        agi="50"
 	type="equip-ring"
 	weight="50">
 	<sprite>pets/pet-cat.xml</sprite>
@@ -8563,6 +8587,8 @@
 	image="pets/ratte.png"
 	name="Rat"
 	description="Eeeek, a rat!."
+        effect="HP +100 / M. Attack -2"
+        dex="50"
 	type="equip-ring"
 	weight="50">
 	<sprite>pets/pet-rat.xml</sprite>
@@ -8571,10 +8597,9 @@
         image="equipment/head/head-admincap.png|R:#BF0E08"
         name="Administrator Cap"
         description="Only for Admins."
-        effect="+5% Defense"
         type="equip-head"
         defense="5"
-        weight="10">
+        weight="20">
         <sprite>equipment/head/head-admincap.xml|#BF0E08</sprite>
     </item>
     <item id="8043"
@@ -8583,7 +8608,7 @@
         description="(Away from Keyboard)"
         type="equip-head"
         defense="5"
-        weight="10"
+        weight="20"
 	max-per-slot="1">
         <sprite>equipment/head/head-afkcap.xml</sprite>
     </item>
@@ -8592,7 +8617,7 @@
         name="Assassin Robe"
         description="Robe of the Assassin"
         type="equip-torso"
-        weight="10"
+        weight="50"
         defense="10"
         max-per-slot="1">
         <sprite gender="male">equipment/chest/chest-assassinrobe-male.xml</sprite>
@@ -8611,6 +8636,9 @@
         image="pets/cat-black.png"
         name="Black Cat"
         description="A magical cat, meooowww..."
+        effect="HP +100 / M. Attack -2"
+        agi="50"
+        int="25"
         type="equip-ring"
         weight="50">
         <sprite>pets/pet-black-cat.xml</sprite>
