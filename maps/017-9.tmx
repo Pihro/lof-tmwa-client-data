@@ -17,12 +17,12 @@
  </layer>
  <layer name="Over" width="53" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3S0QmAIBQFUOdojQZyppq4ggIRJRGKjHPgIl78eA8MAQAAALgTz6T3tL8yvTxXr3TmWl9782UxO9N+xH0OpdnzvzjaTi3+uBM8ZdmzNnRA2dwRAAAAgNFtlaiE3zwqAAA=
+   H4sIAAAAAAAAA+3WSwqAMAwFwF5ZLyB6AdETK6gbqfgpBoUZyKblQd4uKQEAAAA5zTx1Ztr1vz35/6Lq4L1Py+7dzdwXPN1Np1g6leci6FSei7DfbZhnvPD2p05v5yLoVJ6LsN1Ad+foZgIAAAD4iwlVo/rsPCoAAA==
   </data>
  </layer>
- <layer name="Collision" width="53" height="51" visible="0">
+ <layer name="Collision" width="53" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PMQoAIAwEwZD/P9pebNTCQyYwCEnjdlU1AAAAwAfq8p5kNT29q3uyk3n9Z02aUv3etLtLpUkTAAAAQKoBWyojCzwqAAA=
+   H4sIAAAAAAAAA+3PQQoAIAgAQfH/j+4eEVSHpEYYgry4GREJAAAA8IA43FfTT3bvaF/d6ty+V5Omyl5u2vmrStP9e39tAgAAAJhpBCEMvzwqAAA=
   </data>
  </layer>
  <objectgroup name="Objects" width="53" height="51" visible="0">

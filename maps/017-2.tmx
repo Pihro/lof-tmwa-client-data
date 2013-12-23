@@ -7,17 +7,17 @@
  <tileset firstgid="3" source="../tilesets/woodland_indoor.tsx"/>
  <layer name="Ground" width="53" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3TQRHCQBBE0a1CAhLAQTwACgAFSfwrYBUwtXuZqeQd3v33oZfW2gIAAACcxmVCdnPkOiG7OXKbkN0cuU/IbrbJpqqOuOnRPQe8CjRH3t1nwLdAc2TttgF7gebIEf/0b2t2AwAAAFDDD2viyHk8KgAA
+   H4sIAAAAAAAAA+3TsQ2DMBCGUUsZISNATcMOgQkIE5DsP0E8QNDJbmzBK15z1fcXN6eUZgAAAOA2HhVaN0eeFVo3R4YKrZsjY4XWzTbZ1KsrbnplS4G1g+bIlr0L7B00R47s88d0cv920By54j8BAAAARH7ZXmfPPCoAAA==
   </data>
  </layer>
  <layer name="Stage" width="53" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PwQ2CQBRF0WlHOqAEhVAIBYEViGX6SVjDBIwO5Jzkrv4s5qUEAAAAbLkdvJeozrhXv/jIF3TRI7pHzUrzvV3el66PhmjM6Lm8L51NNv3LVTe9oimjdzrHpmpHAAAAAMA+H3unRsY8KgAA
+   H4sIAAAAAAAAA+3P2w1AQBRFUe3QgRI86kMFKNNogDHEkKyV7K/7c25RAAAAAGfKm/cvqiPu1RtDHtKGmlB30H7vcw1MMITGiKZcAxP46R/89A9zaIlozTXwoiohAAAAACDNBr5+prg8KgAA
   </data>
  </layer>
  <layer name="Props" width="53" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3PSwrCUAwF0Az94BLcQHfW1bkjO+lYd1CN8AZFUCo+LdVz4BISMkgiAAAAgH+1LnWb2WU2pV/Nc051+7kPeMPhwbx/cZ/vaCfsNB+/oq77n9rR7JjpYpk/3W7uS21G/SlzjuX99MyQucRv/QQAAAAA1HEFoQVsFDwqAAA=
+   H4sIAAAAAAAAA+3Puw2AMAwFwJR8xAgskOVZikEIUoo0FAhQINxJlmUnxXMIAAAAwF/1uY+pplRDnrs6cW431w5wwXKwX0/+5z1i7QAP+OJNe+Y191jM5XtrWrwJAAAAALhmA/Erav48KgAA
   </data>
  </layer>
  <layer name="Fringe" width="53" height="51">
@@ -27,12 +27,12 @@
  </layer>
  <layer name="Over" width="53" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3SwQmAMBAEQOuwBL/aTzrWllRQCGJUfJhEZmCRXHzsQZoGAAAAuBO2xOd4vqf9uNdbcefUPPVPycLhG89r3Gd11v34Fmvb6Yk/7TQumXKXACCpT6S7uKvVkLsAAAAAUIwZZtASFTwqAAA=
+   H4sIAAAAAAAAA+3WsQ2AMBAEwW8ZGkDQAC2bAgiQH52TGcnhSn+ZqwAAAIA3x/P2iXeuOPajLdwl2NTvEmzqdwk29bsEm/pdgk39LuGuuf/eteJYAAAAgB8N99dV9DwqAAA=
   </data>
  </layer>
  <layer name="Collision" width="53" height="51">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3RQQ7AIAgAQcL/H90P9KCpBrFDMic5sDEjIgEAAAAuEB/fTzQy1TfO/s9oU4e2vza97Z/s5qZd+1VNs1N9syZN3XS+HQAAAFjrAYjt6yU8KgAA
+   H4sIAAAAAAAAA+3RMQrAIBBFwcX7Hzq9WCSorBtHmEqL/7BFRAMAAAD4gZi8P9Gbk71xV1Olttua+nfZW29u+tKevWH2j0Yne68mTdVU3g4AAACs9QBwPduTPCoAAA==
   </data>
  </layer>
  <objectgroup name="Objects" width="53" height="51" visible="0">
