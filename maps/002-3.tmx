@@ -2,8 +2,8 @@
 <map version="1.0" orientation="orthogonal" width="110" height="110" tilewidth="32" tileheight="32">
  <properties>
   <property name="minimap" value="graphics/minimaps/002-3.png"/>
-  <property name="name" value="Tulimshar Mining Camp"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
+  <property name="name" value="Tulimshar Mining Camp"/>
   <property name="overlay0image" value="graphics/images/ambient/spotlight.png"/>
   <property name="overlay0keepratio" value="true"/>
  </properties>
@@ -18,6 +18,7 @@
  <tileset firstgid="1331" source="../tilesets/barbarians-outdoor.tsx"/>
  <tileset firstgid="1334" source="../tilesets/cave2_bilevel.tsx"/>
  <tileset firstgid="1590" source="../tilesets/cave2_sewer_mine_x2.tsx"/>
+ <tileset firstgid="1670" source="../tilesets/Christmas.tsx"/>
  <layer name="Ground" width="110" height="110">
   <data encoding="base64" compression="gzip">
    H4sIAAAAAAAAA+3cyXLUMBDGcZ3YziHhASAhcIWE5QoJy/u/D1bNqKpRbKnblizJ9T/8Tsls/Um2pi3PlXPuCgAAAAAAAAAAAAAAAAAAAADgbicfEj528B7x1NfJt4TvBV8rN0YYM3q/J38S/hZ8rdwYqTlmjua5wl5jpOaYOZo9c3ujfL3gsoP69Gqv3F5P3pPbULn5zN5NvojnfKZ8T63r06ulGpWqXcjs8+QXuQ2Rm8zsZ/Sc15ObM9b7/eSWysy7m9yfsd63e+Hm1wBbcstl5j1MHs9Y77fPTZMZ68ZyufnzTe48o+lTWTNj/bEtN3++yZ1nNH2qVGavyKx4bv58kzvPaPpUzLN65PFO9jCuXfoY6P/3pTGXJanvb5gnj3eyh3Hn0sdA+b9b8yM3O3m8kz2MB5c+Bsr/Zb7tb6mW8bphaR1Bbn3lllIjw9Z1GE2tOSRdKl7L/127d4Ee5j75aXPT7l2gh3ka4zfOfh1zzXEw93ft3gV6mKcxfu/+X9fXmGu53Cxjhx7maYw/urLr+qUaL+0pCddxLGOndd1as+7PqTHfwnWceOyUvJ50NCG3mt/P1o6V+HsdudlrWCqzuP7auYr5GpbqEWvnxJbH4mkNLcfLVP21rz0331vXYyRbj1tr605eZS2d92qNmdaf9yhCbrXXBsy38XK7jXKjXzxGbr7HFnokmr1ISJP3y2zJLXddxvfYQo8k7EXiWs36Wsv7ZbbklrsuE/cj5Z4W5p691vJ+mTW5+fka5pNlj4rc08K1Ghtfa7nv0ZJbyMvP17n5ZEGPyyb+3ub3UV4Y8/LzdeueL3Lblps/57x1+fsAZF7Wfcr0KMvn5s85n1z+PoCSeZGb3Vz9friy9wGQWz1brsuVeA5yWyeuoeb6XLyWILd+8rPUmtz6EWqq6YWRW1/i345Zyo11ST/mfjuG78j9kj2R+L5tcuvPXA8r/r5GbvXqrnEx8zhtD6v15zyScC7S/qaq7ENaeo6tP+eRyPWD9jdVZR9S23Ns/TlHob0nc81v9cg+5Nzj4j2xrWsxEu09mWt+X4nvVfVo78mskVnrzz6ytb2j1HOSV5+5tX7PsOfW+v3ihEzGRG5jIjcAAAAAAAAAAAAAAAAAsPsHi2w29xC9AAA=
@@ -25,7 +26,7 @@
  </layer>
  <layer name="Ground2" width="110" height="110">
   <data encoding="base64" compression="gzip">
-   H4sIAAAAAAAAA+3cuW7UQBzHcWe83gSxXRIOiYo2ChS0FMADEA7RUSx5BVpSwBMAPeJ4Ag4J6CFAxSUEVEAQCrRQpeQ/8ljMzs7YXsder9H3I/1l78hRVvPTjMdHEkUAAAAAAAAAAAAAAAAAAAAAAAAAAJQzaPsLADW7pdLtbVWuHbNh1eRyVJVrx2wYxul2PS7XDgBo1iGpvjX3HoxY78+S/XFaecisHddlrXlD6qYK778PrEfJrD13JJO7UvdUeP871xEz575k8kDqoQrv27nNc01Rmy/Sr1+lvpUcFyfkuJNSp9To/mn175yma1FqTdr+MN5qY59/7L7XrniO37D2z8hxZ6XOqdF9fZ3OeGqWff6x+96W5dd376PIcZek1tXofhynhebY5x+774u8y1k36nnRzRjNWHPmyaJ1/VbOuvGAmSfJrnn6nrE9Txat67dy1o06N/s8yLVZs+x5smhd/9usG/fFaS1I7ZFalloKjLOBaXfXOwPG5a7oHHSfunOmbs9yybb6mFWT2+EkilZMTeMZHeN31NCck9w5c+gZD/oY3X4kGW8P2Vvv14WHPWde7qVlO2byWknGf9bG2JiO7Nxjz5NuZiGPnONCmdnjLm/NSeZhobkrdA2+4T88eiaZPZHaNNkV9XnenEle5fj6sOgaPOvb7Gcfm9ye9nbX72Q2GTe715LXG6m3JdeHLySvl1KvSs6p7u8lr+bQt0C3HTfbi61+C+D/d2Fu9PP5Of9xAIrp8XRNhQuz66oKl0/2vAHt4x2h6Qrdi2zKx14UfTL3Wz5PeN8FqbreDXneG//sa9O2ZfvT7P8it4nU/Wzzg/R/nERRTypJ0s++Nm3HymqH3KbKvYdZNbdtcqvEN+6qrC8Yb+2w8ytap/ieF1TJLYnJrW46x0me5/yQ/l+UbJaklpP0s69N01n1zXt85NaeSdc4fclw3tRCwftGAAA0jfdOuofMuofM2lHlfn92z4TM2lPlnj95dQt51avM/77ibyy6h37vHjIDAAAAAAAAAAAAAAAAAABAGX8B/7oRyhC9AAA=
+   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
   </data>
  </layer>
  <layer name="Ground3" width="110" height="110">
