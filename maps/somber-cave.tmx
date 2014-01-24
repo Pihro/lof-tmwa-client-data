@@ -78,7 +78,7 @@
    <properties>
     <property name="eA_spawn" value="20"/>
     <property name="max_beings" value="30"/>
-    <property name="monster_id" value="109"/>
+    <property name="monster_id" value="113"/>
    </properties>
   </object>
   <object name="FireGoblin" type="spawn" x="0" y="0">

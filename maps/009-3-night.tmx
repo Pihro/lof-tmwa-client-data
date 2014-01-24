@@ -93,7 +93,7 @@
     <property name="eA_death" value="0"/>
     <property name="eA_spawn" value="0"/>
     <property name="max_beings" value="20"/>
-    <property name="monster_id" value="109"/>
+    <property name="monster_id" value="113"/>
    </properties>
   </object>
   <object name="BlackSlime" type="spawn" x="0" y="0">
@@ -101,7 +101,7 @@
     <property name="eA_death" value="0"/>
     <property name="eA_spawn" value="0"/>
     <property name="max_beings" value="35"/>
-    <property name="monster_id" value="113"/>
+    <property name="monster_id" value="117"/>
    </properties>
   </object>
   <object name="SnowFlake" type="spawn" x="0" y="0">
@@ -109,7 +109,7 @@
     <property name="eA_death" value="0"/>
     <property name="eA_spawn" value="0"/>
     <property name="max_beings" value="35"/>
-    <property name="monster_id" value="110"/>
+    <property name="monster_id" value="114"/>
    </properties>
   </object>
  </objectgroup>
