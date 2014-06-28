@@ -9086,7 +9086,7 @@ an additional item property.
 	image="pets/fairy-blue.png"
 	name="Green Fairy"
 	description="A green Fairy."
-	effect="Str +50, HP +100"
+	effect="Luck +50, HP +100"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9096,7 +9096,7 @@ an additional item property.
 	image="pets/fairy-red.png"
 	name="Red Fairy"
 	description="A red Fairy."
-	effect="Str +50, HP +100"
+	effect="Luck +50, HP +100"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9106,7 +9106,7 @@ an additional item property.
 	image="pets/fairy-blue.png"
 	name="Blue Fairy"
 	description="A blue Fairy."
-	effect="Str +50, HP +100"
+	effect="Luck +50, HP +100"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
