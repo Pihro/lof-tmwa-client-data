@@ -9116,6 +9116,7 @@ an additional item property.
 	image="pets/cat-icon.png"
 	name="Cat"
 	description="A cat, purrrr..."
+	effect="Agi +50, HP +100"
 	type="equip-ring"
 	weight="50">
 	<sprite>pets/pet-cat.xml</sprite>
