@@ -9173,6 +9173,7 @@ an additional item property.
         image="pets/cat-black.png"
         name="Black Cat"
         description="A magical cat, meooowww..."
+        effect="Agi +50, Int +25, HP +100"
         type="equip-ring"
         weight="50">
         <sprite>pets/pet-black-cat.xml</sprite>
