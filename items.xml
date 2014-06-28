@@ -2507,6 +2507,7 @@ weight="10"/>
 		image="equipment/head/sailor_hat.png"
 		name="Sailor Hat"
 		description="A hat worn by brave sailors."
+		effect="M. Attack -12"
 		type="equip-head"
 		defense="5"
 		weight="5">
@@ -2516,6 +2517,7 @@ weight="10"/>
 		image="equipment/head/captain_hat.png"
 		name="Captain's Hat"
 		description="A hat worn by the bravest captains."
+		effect="M. Attack -12"
 		type="equip-head"
 		defense="15"
 		weight="8">
@@ -9086,7 +9088,7 @@ an additional item property.
 	image="pets/fairy-blue.png"
 	name="Green Fairy"
 	description="A green Fairy."
-	effect="Str +50, HP +100"
+	effect="Luck +50, HP +100"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9096,7 +9098,7 @@ an additional item property.
 	image="pets/fairy-red.png"
 	name="Red Fairy"
 	description="A red Fairy."
-	effect="Str +50, HP +100"
+	effect="Luck +50, HP +100"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9106,7 +9108,7 @@ an additional item property.
 	image="pets/fairy-blue.png"
 	name="Blue Fairy"
 	description="A blue Fairy."
-	effect="Str +50, HP +100"
+	effect="Luck +50, HP +100"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9116,6 +9118,7 @@ an additional item property.
 	image="pets/cat-icon.png"
 	name="Cat"
 	description="A cat, purrrr..."
+	effect="Agi +50, HP +100"
 	type="equip-ring"
 	weight="50">
 	<sprite>pets/pet-cat.xml</sprite>
@@ -9124,6 +9127,7 @@ an additional item property.
 	image="pets/ratte.png"
 	name="Rat"
 	description="Eeeek, a rat!."
+	effect="Dex +50, HP +100"
 	type="equip-ring"
 	weight="50">
 	<sprite>pets/pet-rat.xml</sprite>
@@ -9172,6 +9176,7 @@ an additional item property.
         image="pets/cat-black.png"
         name="Black Cat"
         description="A magical cat, meooowww..."
+        effect="Agi +50, Int +25, HP +100"
         type="equip-ring"
         weight="50">
         <sprite>pets/pet-black-cat.xml</sprite>
