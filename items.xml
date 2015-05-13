@@ -9021,6 +9021,7 @@ an additional item property.
         image="equipment/chest/savior-armor.png|W:#8c339f" 
         name="Royal Savior Armor" 
         description="The King's Savior Armor." 
+        effect="M. Attack -170"
         defense="50" 
         type="equip-torso" 
         weight="40">
@@ -9082,7 +9083,8 @@ an additional item property.
 	image="pets/pet-dog-icon.png"
 	name="Hund"
 	description="Ich bin ein kleiner Hund, kümmer dich um mich. Wuff, Wuff."
-	effect="Str +50, HP +100"
+	effect="HP +100"
+	str="50"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9092,7 +9094,8 @@ an additional item property.
 	image="pets/fairy-blue.png"
 	name="Green Fairy"
 	description="A green Fairy."
-	effect="Str +50, HP +100"
+	effect="HP +100"
+	luck="50"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9102,7 +9105,8 @@ an additional item property.
 	image="pets/fairy-red.png"
 	name="Red Fairy"
 	description="A red Fairy."
-	effect="Str +50, HP +100"
+	effect="HP +100"
+	luck="50"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9112,7 +9116,8 @@ an additional item property.
 	image="pets/fairy-blue.png"
 	name="Blue Fairy"
 	description="A blue Fairy."
-	effect="Str +50, HP +100"
+	effect="HP +100"
+	luck="50"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9122,6 +9127,8 @@ an additional item property.
 	image="pets/cat-icon.png"
 	name="Cat"
 	description="A cat, purrrr..."
+	effect="HP +100"
+	agi="50"
 	type="equip-ring"
 	weight="50">
 	<sprite>pets/pet-cat.xml</sprite>
@@ -9130,6 +9137,8 @@ an additional item property.
 	image="pets/ratte.png"
 	name="Rat"
 	description="Eeeek, a rat!."
+	effect="HP +100"
+	dex="50"
 	type="equip-ring"
 	weight="50">
 	<sprite>pets/pet-rat.xml</sprite>
@@ -9177,6 +9186,9 @@ an additional item property.
         image="pets/cat-black.png"
         name="Black Cat"
         description="A magical cat, meooowww..."
+        effect="HP +100"
+	agi="50"
+	int="25"
         type="equip-ring"
         weight="50">
         <sprite>pets/pet-black-cat.xml</sprite>
@@ -9214,7 +9226,7 @@ an additional item property.
         defense="30"
         weight="260">
         <sprite gender="male">equipment/chest/black-mamba-armor.xml</sprite>
-		<sprite gender="female">equipment/chest/black-mamba-armor-female.xml</sprite>
+	<sprite gender="female">equipment/chest/black-mamba-armor-female.xml</sprite>
     </item>
 	<item id="8050"
         image="equipment/feet/black-mamba-boots.png"
