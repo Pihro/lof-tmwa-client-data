@@ -1,5 +1,18 @@
 ##1 Welcome to TMW-LoF V2!
 
+##0 We have updated to latest TMW
+##0 content as of 1/24/14! Also, 
+##0 check out the Shannon Hat 
+##0 yearly quest in Diamond's Cove!
+##0 Have fun!
+
+##0 Happy New Year!
+
+##0 Merry Christmas! Welcome to LoF,
+##0 enjoy our new Chistmas/Winter
+##0 maps done by Lavender, KeeKeeKat,
+##0 and Billr!
+
 ##0 More items are now available
 ##0 from the Exotic Trader
 ##0 North-West of Hurns.
@@ -10,15 +23,5 @@
 ##0 We have merged all of TMW's
 ##0 new quests, mobs, and maps.
 
-##0 Part 1 of Ozthokk's An Episode
-##0 has been completed! Talk to
-##0 The Doctor in the Hurnscald House
-##0 upper floor to start the multi
-##0 part quest.
-
-##0 The night world has been added!
-##0 Visit the Teleporter in Hurns
-##0 if you think you can survive in
-##0 the dark.
 
 ##3 -LoF Dev Team

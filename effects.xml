@@ -43,6 +43,8 @@
   <effect id="6" particle="graphics/particles/magic.green.xml"/>
   <!-- astral -->
   <effect id="7" particle="graphics/particles/magic.blue.xml"/>
+  <!-- dark -->
+  <effect id="8" particle="graphics/particles/magic.darkred.xml"/>
   <effect id="10" particle="graphics/particles/magic.default.xml"/>
   <effect id="11" particle="graphics/particles/magic.shield.xml"/>
   <!--  <effect id="12" particle="graphics/particles/magic.haste.xml"/>-->
@@ -83,6 +85,7 @@
   <!-- <effect id="113" particle="graphics/particles/magic.barrier-ends.xml"/> -->
   <effect id="114" particle="graphics/particles/electricity.red.xml"/>
   <effect id="115" particle="graphics/particles/electricity.blue.xml"/>
+  <effect id="116" particle="graphics/particles/heat.xml"/>
   <!-- Interactive Object Animations -->
   <effect id="300" particle="graphics/particles/gate-opening.xml"/>
   <effect id="301" particle="graphics/particles/casket-lid.xml"/>

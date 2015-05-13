@@ -130,7 +130,7 @@
    <properties>
     <property name="eA_death" value="250"/>
     <property name="max_beings" value="2"/>
-    <property name="monster_id" value="112"/>
+    <property name="monster_id" value="116"/>
    </properties>
   </object>
   <object name="Moggun" type="spawn" x="2592" y="1568" width="512" height="160">

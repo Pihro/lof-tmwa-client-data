@@ -224,13 +224,13 @@ implement other playable races -->
         hp="10"
         weight="1"/>
     <item id="515"
-        image="generic/purplepresentbox.png"
+        image="generic/presentbox.png|R:#ff8eff;W:#ff0000"
         name="Purple Present Box"
         description="Something mysterious inside."
         type="generic"
         weight="10"/>
     <item id="516"
-        image="generic/bluepresentbox.png"
+        image="generic/presentbox.png|R:#6bc6ff;W:#00b900"
         name="Blue Present Box"
         description="Something mysterious inside."
         type="generic"
@@ -441,7 +441,7 @@ implement other playable races -->
         type="generic"
         weight="2"/>
     <item id="538"
-        image="generic/greenpresentbox.png"
+        image="generic/presentbox.png|R:#00b97a;W:#ffff00"
         name="Green Present Box"
         description="Something mysterious inside."
         type="generic"
@@ -1831,25 +1831,25 @@ weight="10"/>
         <sprite>equipment/head/demonmask.xml</sprite>
     </item>
     <item id="680"
-        image="generic/herb.png|W:#e0b0ff"
+        image="generic/herb-mauve.png|W:#e0b0ff"
         name="Mauve Herb"
         description="An ingredient for brewing healing potions."
         type="generic"
         weight="1"/>
     <item id="681"
-        image="generic/herb.png|W:#0047ab"
+        image="generic/herb-cobalt.png|W:#0047ab"
         name="Cobalt Herb"
         description="An ingredient for brewing healing potions."
         type="generic"
         weight="1"/>
     <item id="682"
-        image="generic/herb.png|W:#ef9b0f"
+        image="generic/herb-gamboge.png|W:#ef9b0f"
         name="Gamboge Herb"
         description="An ingredient for brewing healing potions."
         type="generic"
         weight="1"/>
     <item id="683"
-        image="generic/herb.png|W:#e32636"
+        image="generic/herb-alizarin.png|W:#e32636"
         name="Alizarin Herb"
         description="An ingredient for brewing healing potions."
         type="generic"
@@ -2467,6 +2467,7 @@ weight="10"/>
 		image="equipment/head/paladin-helm.png"
 		name="Paladin's Helmet"
 		description="Worn only by paladins."
+		effect="M. Attack -12"
 		type="equip-head"
 		defense="19"
 		weight="43">
@@ -3122,7 +3123,7 @@ weight="10"/>
         type="generic"
         weight="15"/>
     <item id="835"
-        image="generic/stinger-new.png|R:#1a160f,93774a"
+        image="generic/stinger.png|R:#1a160f,93774a"
         name="Hyvern Stinger"
         description="A stinger snapped off the end of a Hyvern's abdomen."
         type="generic"
@@ -3135,21 +3136,21 @@ weight="10"/>
         weight="2"/>
     <!-- ID 837 RESERVED - "Witch Root" -->
     <item id="838"
-        image="use/food/lollipop2.png|M:#c21439,e81844,ffffff"
+        image="use/food/lollipop2.png|W:#ff5a7d,ff92a9,ffffff;R:#ff0338"
         name="Cranberry Lollipop"
         description="A lollipop with cranberry flavor."
         type="usable"
         hp="750"
         weight="1"/>
     <item id="839"
-        image="use/food/lollipop2.png"
+        image="use/food/lollipop2.png|W:#a32de7,c18fde,ffffff;R:#a200ff"
         name="Grape Lollipop"
         description="A lollipop with grape flavor."
         type="usable"
         hp="750"
         weight="1"/>
     <item id="840"
-        image="use/food/lollipop2.png|M:#f4950d,f4be40,ffffff"
+        image="use/food/lollipop2.png|W:#f4950d,f4be40,ffffff;R:#ff9600"
         name="Orange Lollipop"
         description="A lollipop with orange flavor."
         type="usable"
@@ -3265,8 +3266,7 @@ weight="10"/>
     <item id="856"
         image="equipment/head/knit-cap.png"
         name="Knit Cap"
-        description="A knitted cap keeping your head warm in the crual cold."
-        effect="M. Attack 0"
+        description="A knitted cap keeping your head warm in the cruel cold."
         type="equip-head"
         defense="3"
         weight="50"
@@ -3363,7 +3363,7 @@ weight="10"/>
         image="equipment/weapon/sword-ice.png"
         name="Ice Gladius"
         description="A sword with a shimmering blue blade."
-        effect="Damage +100"
+        effect="Damage +110"
         type="equip-1hand"
         weapon-type="sword"
         attack-action="attack"
@@ -3643,9 +3643,243 @@ weight="10"/>
         description="A double-elbow silk sheet square."
         type="generic"
         weight="5"/>
+    <item id="892"
+        image="generic/transmutedflower.png|Y:#80280f,b04810,ef681f,ffb830;G:#1E800F,54984A,7FD481"
+        name="Orange Summon Flower"
+        description="A magical artifact resembling a flower."
+        type="generic"
+        weight="1"/>
+    <item id="893"
+        image="generic/transmutedflower.png|Y:#4f0a76,8010c0,d699f7;G:#1E800F,54984A,7FD481"
+        name="Purple Summon Flower"
+        description="A magical artifact resembling a flower."
+        type="generic"
+        weight="1"/>
+    <item id="894"
+        image="generic/transmutedflower.png|Y:#959595,aeaeae,ffffff;G:#1E800F,54984A,7FD481"
+        name="White Summon Flower"
+        description="A magical artifact resembling a flower."
+        type="generic"
+        weight="1"/>
+    <item id="895"
+        image="generic/transmutedflower.png|Y:#846211,dab333,fffb93;G:#1E800F,54984A,7FD481"
+        name="Yellow Summon Flower"
+        description="A magical artifact resembling a flower."
+        type="generic"
+        weight="1"/>
+    <item id="896"
+        image="generic/transmutedflower.png|Y:#580000,a40000,c02020,ff6060;G:#1E800F,54984A,7FD481"
+        name="Red Summon Flower"
+        description="A magical artifact resembling a flower."
+        type="generic"
+        weight="1"/>
+    <item id="897"
+        image="equipment/head/rosehat.png|R:#581313,a41c1c,c02a2a"
+        name="Red Rose Hat"
+        description="A beautiful flower that can be worn on the head."
+        effect="M. Attack +8"
+        type="equip-head"
+        defense="1"
+        weight="1">
+        <sprite>equipment/head/rosehat.xml|#581313,a41C1C,c02A2A</sprite>
+    </item>
+    <item id="898"
+        image="equipment/head/rosehat.png|R:#dddddd,ffffff"
+        name="White Rose Hat"
+        description="A beautiful flower that can be worn on the head."
+        effect="M. Attack +8"
+        type="equip-head"
+        defense="1"
+        weight="1">
+        <sprite>equipment/head/rosehat.xml|#dddddd,ffffff</sprite>
+    </item>
+    <item id="899"
+        image="equipment/head/rosehat.png|R:#dd88aa,ffdddd"
+        name="Pink Rose Hat"
+        description="A beautiful flower that can be worn on the head."
+        effect="M. Attack +8"
+        type="equip-head"
+        defense="1"
+        weight="1">
+        <sprite>equipment/head/rosehat.xml|#dd88aa,ffdddd</sprite>
+    </item>
+    <item id="900"
+        image="equipment/head/rosehat.png|R:#dddd00,ffff00"
+        name="Yellow Rose Hat"
+        description="A beautiful flower that can be worn on the head."
+        effect="M. Attack +8"
+        type="equip-head"
+        defense="1"
+        weight="1">
+        <sprite>equipment/head/rosehat.xml|#dddd00,ffff00</sprite>
+    </item>
+    <item id="901"
+        image="equipment/head/rosehat.png|R:#dd8800,ffdd00"
+        name="Orange Rose Hat"
+        description="A beautiful flower that can be worn on the head."
+        effect="M. Attack +8"
+        type="equip-head"
+        defense="1"
+        weight="1">
+        <sprite>equipment/head/rosehat.xml|#dd8800,ffdd00</sprite>
+    </item>
+    <item id="902"
+        image="equipment/head/rosehat.png|R:#6666aa,ccccff"
+        name="Blue Rose Hat"
+        description="A beautiful flower that can be worn on the head."
+        effect="M. Attack +8"
+        type="equip-head"
+        defense="1"
+        weight="1">
+        <sprite>equipment/head/rosehat.xml|#6666aa,ccccff</sprite>
+    </item>
+    <item id="903"
+        image="equipment/weapon/slingshot-icon.png"
+        name="Sling Shot"
+        description="In the right hands, everything is a weapon."
+        effect="Damage +5 / Range 3"
+        type="equip-2hand"
+        weapon-type="bow"
+        attack-action="attack_bow"
+        weight="10"
+        missile-particle="graphics/particles/stoneprojectile.particle.xml">
+        <sprite>weapon-slingshot.xml</sprite>
+    </item>
+    <item id="904"
+        image="equipment/ammo/stoneprojectile-icon.png"
+        name="Sling Bullet"
+        description="A smooth stone finished to fit neatly into a sling."
+        effect="Damage +5"
+        type="equip-ammo"
+        weight="1"/>
 
     <!-- HERE ARE SOME UNUSED ITEM IDS -->
-
+    <item id="1183"
+        image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#b0242f,e1c130;G:#35bc40;C:#8c7223,e1c130,ffdb63"
+        name="Amber Christmas Sweater"
+        description="An itchy woolen amber sweater with a pinetree motive."
+        effect="M. Attack -12"
+        type="equip-torso"
+        defense="6"
+        weight="35">
+            <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
+            <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
+    </item>
+    <item id="1184"
+        image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f,;G:#8ece91,ffffff;C:#578760,6daa78,92e5a2,9be8a9"
+        name="Funky Christmas Sweater"
+        description="An itchy woolen tan green sweater with holiday motive."
+        effect="M. Attack -12"
+        type="equip-torso"
+        defense="6"
+        weight="35">
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,ffffff;#578760,6daa78,92e5a2,9be8a9</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,ffffff;#578760,6daa78,92e5a2,9be8a9</sprite>
+    </item>
+    <item id="1185"
+        image="equipment/chest/ugly-sweater.png|W:#000000,333333;Y:#c44dff;G:#ff4df0;C:#a3a3a3,ffffff"
+        name="Pink Christmas Sweater"
+        description="A light and only slightly itchy pink christmas sweater."
+        type="equip-torso"
+        defense="5"
+        weight="30"
+        sellProtected="true">
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-male.xml|#000000,333333;#c44dff;#ff4df0;#a3a3a3,ffffff</sprite>
+    </item>
+    <item id="1186"
+        image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f;G:#8ece91,364c17;C:#49661f"
+        name="Dark Christmas Sweater"
+        description="A thick, warming, yet itchy christmas themed sweater"
+        effect="M. Attack -12"
+        type="equip-torso"
+        defense="6"
+        weight="35">
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#3f3f3f,ffffff;#af5a2f,af5a2f;#8ece91,364c17;#49661f</sprite>
+    </item>
+    <item id="1187"
+        image="equipment/chest/ugly-sweater.png|W:#ffffff;Y:#2958b5G:#ff4df0;G:#a7a7a7,d6d6d6,fffffe;C:#2958b5,789eea,c5d8ff"
+        name="Blue Christmas Sweater"
+        description="A light and warming sweater with holiday motive."
+        type="equip-torso"
+        defense="5"
+        weight="30"
+        sellProtected="true">
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#2958b5G:#ff4df0;#a7a7a7,d6d6d6,fffffe;#2958b5,789eea,c5d8ff</sprite>
+    </item>
+    <item id="1188"
+        image="equipment/feet/assassinboots.png|W:#b80f0f,580000,a40000,b80f0f,c02020,ff6060"
+        name="Red Stockings"
+        description="Someone thought of you at christmas eve."
+        effect="M. Attack +2"
+        type="equip-feet"
+        defense="1"
+        weight="10"
+        sellProtected="true">
+        <sprite gender="male">equipment/feet/assassin-boots-male.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+        <sprite gender="female">equipment/feet/assassin-boots-female.xml|#b80f0f,580000,a40000,b80f0f,c02020,ff6060</sprite>
+    </item>
+    <item id="1189"
+        image="use/food/snake-egg.png|W:#ffffff;R:#ffffff;G:#ffffff"
+        name="Pollett Egg"
+        description="Mmm.. A nice treat."
+        type="usable"
+        hp="75"
+        mp="10"
+        weight="1"/>
+    <item id="1190"
+        image="equipment/head/nutcrackerhat.png"
+        name="Nutcracker Hat"
+        description="Now you will look just like a Nutcracker!"
+        effect="M. Attack +2"
+        type="equip-head"
+        defense="5"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/nutcrackerhat.xml</sprite>
+    </item>
+    <item id="1191"
+        image="generic/wrapping-paper.png|W:#ffffff"
+        name="White Wrap"
+        description="A role of white wrapping paper."
+        type="generic"
+        weight="5"/>
+    <item id="1192"
+        image="generic/wrapping-paper.png|W:#effe6c"
+        name="Yellow Wrap"
+        description="A role of yellow wrapping paper."
+        type="generic"
+        weight="5"/>
+    <item id="1193"
+        image="generic/wrapping-paper.png|W:#6bc6ff"
+        name="Blue Wrap"
+        description="A role of blue wrapping paper."
+        type="generic"
+        weight="5"/>
+    <item id="1194"
+        image="generic/wrapping-paper.png|W:#ff8eff"
+        name="Purple Wrap"
+        description="A role of purple wrapping paper."
+        type="generic"
+        weight="5"/>
+    <item id="1195"
+        image="generic/wrapping-paper.png|W:#00b97a"
+        name="Green Wrap"
+        description="A role of green wrapping paper."
+        type="generic"
+        weight="5"/>
+    <item id="1197"
+        image="equipment/charms/skeletoncharm.png"
+        name="Jack's Skeleton Charm"
+        description="A mysterious charm said to only work at a special time of year"
+        type="equip-ring"
+        weight="10"
+        sellProtected="true"
+        drawBefore="boots">
+        <sprite>equipment/override/skeleton.xml</sprite>
+    </item>
     <item id="1198"
         image="generic/spectral-orb.png|R:#ff6600,ff9933,ffff33"
         name="Jack O Soul"
@@ -3745,37 +3979,37 @@ weight="10"/>
         weight="10"
         sellProtected="true"/>
     <item id="1208"
-        image="generic/easteregg-red.png"
+        image="generic/easteregg.png|W:#bf393c;R:#e6e5a2"
         name="Red Easter Egg"
         description="A red easter egg. In the past there was a game to find all six of them. Now they're just a nice souvenir."
         type="generic"
         weight="10"/>
     <item id="1209"
-        image="generic/easteregg-green.png"
+        image="generic/easteregg.png|W:#3fbf39;R:#8ee4e1"
         name="Green Easter Egg"
         description="A green easter egg. In the past there was a game to find all six of them. Now they're just a nice souvenir."
         type="generic"
         weight="10"/>
     <item id="1210"
-        image="generic/easteregg-blue.png"
+        image="generic/easteregg.png|W:#3939bf;R:#e48ee4"
         name="Blue Easter Egg"
         description="A blue easter egg. In the past there was a game to find all six of them. Now they're just a nice souvenir."
         type="generic"
         weight="10"/>
     <item id="1211"
-        image="generic/easteregg-yellow.png"
+        image="generic/easteregg.png|W:#bfba39;R:#90e48e"
         name="Yellow Easter Egg"
         description="A yellow easter egg. In the past there was a game to find all six of them. Now they're just a nice souvenir."
         type="generic"
         weight="10"/>
     <item id="1212"
-        image="generic/easteregg-pink.png"
+        image="generic/easteregg.png|W:#be39bf;R:#e48e8e"
         name="Pink Easter Egg"
         description="A pink easter egg. In the past there was a game to find all six of them. Now they're just a nice souvenir."
         type="generic"
         weight="10"/>
     <item id="1213"
-        image="generic/easteregg-teal.png"
+        image="generic/easteregg.png|W:#39bfb7;R:#8e92e4"
         name="Teal Easter Egg"
         description="A teal easter egg. In the past there was a game to find all six of them. Now they're just a nice souvenir."
         type="generic"
@@ -6891,13 +7125,13 @@ an additional item property.
         <sprite>equipment/head/candlehelmet.xml</sprite>
     </item>
     <item id="4021"
-        image="generic/yellowpresentbox.png"
+        image="generic/presentbox.png|R:#effe6c;W:#00dc00"
         name="Yellow Present Box"
         description="Something mysterious inside."
         type="generic"
         weight="10"/>
     <item id="4022"
-        image="generic/whitepresentbox.png"
+        image="generic/presentbox.png|R:#ffffff;W:#cc01ff"
         name="White Present Box"
         description="Something very mysterious inside."
         type="generic"
@@ -8499,13 +8733,15 @@ an additional item property.
         <sprite gender="male">equipment/chest/sorcerer-robe-male.xml|#ffffff;#EFEFEF</sprite>
         <sprite gender="female">equipment/chest/sorcerer-robe-female.xml|#ffffff;#EFEFEF</sprite>
     </item>
+
 <!-- Land of Fire items -->
    <item id="8000" 
         image="equipment/chest/savior-armor.png|W:#5b5b5b" 
         name="Black Savior Armor" 
         description="Savior Armor." 
-        effect="Defense: +40" 
+        effect="M. Attack -170"
         type="equip-torso" 
+        defense="40" 
         weight="40">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#5b5b5b</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#5b5b5b</sprite>
@@ -8514,8 +8750,9 @@ an additional item property.
         image="equipment/chest/savior-armor.png|W:#3996f5" 
         name="Blue Savior Armor" 
         description="Blue Savior Armor." 
-        effect="Defense: +40" 
+        effect="M. Attack -170"
         type="equip-torso" 
+        defense="40" 
         weight="40">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#3996f5</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#3996f5</sprite>
@@ -8524,8 +8761,9 @@ an additional item property.
         image="equipment/chest/savior-armor.png|W:#f72424" 
         name="Red Savior Armor" 
         description="Red Savior Armor." 
-        effect="Defense: +40" 
+        effect="M. Attack -170"
         type="equip-torso" 
+        defense="40"
         weight="40">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#f72424</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#f72424</sprite>
@@ -8534,8 +8772,9 @@ an additional item property.
         image="equipment/chest/savior-armor.png" 
         name="White Savior Armor" 
         description="Savior Armor." 
-        effect="Defense: +40" 
+        effect="M. Attack -170"
         type="equip-torso" 
+        defense="40"
         weight="40">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#FFFFFF</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|FFFFFF</sprite>
@@ -8544,8 +8783,9 @@ an additional item property.
         image="equipment/legs/saviorpants.png" 
         name="Savior Pants" 
         description="A Pair of matching pants for your cape." 
-        effect="Defense: +15" 
+        effect="M. Attack -12"
         type="equip-legs" 
+        defense="15"
         weight="40">
         <sprite gender="male">equipment/legs/saviorpants-male.xml</sprite>
         <sprite gender="female">equipment/legs/saviorpants-male.xml</sprite>
@@ -8554,7 +8794,7 @@ an additional item property.
         image="equipment/shield/buckler.png"
         name="Buckler"
         description="A wooden shield that can be used effectively for defense."
-        effect="Defense: +5"
+        defense="5"
         type="equip-shield"
         weight="500">
         <sprite>equipment/armor/shield-buckler.xml</sprite>
@@ -8584,7 +8824,7 @@ an additional item property.
         image="equipment/feet/boots.png|W:#4f2d29,c89078"
         name="Regular Boots"
         description="Some worn out boots."
-        effect="Defense: +1"
+        defense="1"
         type="equip-feet"
         weight="15">
         <sprite gender="male">equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
@@ -8594,7 +8834,7 @@ an additional item property.
         image="equipment/head/mapcap.png|R:#4D6A4D"
         name="Mappers Cap"
         description="A cap which identifies you as a mapper."
-        effect="Defense: +30"
+        defense="30"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/mapcap.xml|#4D6A4D</sprite>
@@ -8603,7 +8843,7 @@ an additional item property.
         image="equipment/head/artcap.png|R:#e68858"
         name="Artists Cap"
         description="A cap which identifies you as an artist."
-        effect="Defense: +30"
+        defense="30"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/artcap.xml|#e68858</sprite>
@@ -8611,8 +8851,8 @@ an additional item property.
     <item id="8012"
         image="equipment/head/centurionhelm.png"
         name="Centurion Helm"
-        description="A Centurion Helmet."
-        effect="Defense: +30"
+        description="A Centurion's Helmet."
+        defense="30"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/centurionhelm.xml</sprite>
@@ -8621,7 +8861,7 @@ an additional item property.
         image="equipment/head/gladiatorhelm.png"
         name="Gladiator Helm"
         description="A Gladiator's Helmet"
-        effect="Defense: +25"
+        defense="25"
         type="equip-head"
         weight="1">
         <sprite>equipment/head/gladiator-helm.xml</sprite>
@@ -8630,7 +8870,7 @@ an additional item property.
         image="equipment/head/majorhelm.png"
         name="Major Helmet"
         description="A Helmet worn by a major."
-        effect="Defense: +15"
+        defense="15"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/majorhelmet.xml</sprite>
@@ -8638,8 +8878,8 @@ an additional item property.
     <item id="8015"
         image="equipment/head/soldierhelm.png"
         name="Soldier Helmet"
-        description="A Helmet thats seen battle."
-        effect="Defense: +12"
+        description="A Helmet that has seen battle."
+        defense="12"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/soldiershelmet.xml</sprite>
@@ -8648,7 +8888,7 @@ an additional item property.
         image="equipment/head/ninjamask.png"
         name="Ninja Mask"
         description="A Mask of the Ninja."
-        effect="Defense: +4"
+        defense="4"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/ninjamask.xml</sprite>
@@ -8657,7 +8897,7 @@ an additional item property.
         image="equipment/head/unsilvered-crusadehelm.png"
         name="unsilvered Crusade Helmet"
         description="A crusade helmet that hasn't yet been infused with silver."
-        effect="Defense: +15"
+        defense="15"
         type="equip-head"
         weight="40">
         <sprite>equipment/head/unsilvered-crusadehelm.xml</sprite>
@@ -8666,7 +8906,7 @@ an additional item property.
         image="equipment/head/vikinghelm.png"
         name="Viking Helmet"
         description="A Helmet thats seen battle long ago."
-        effect="Defense: +10"
+        defense="10"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/vikinghelm.xml</sprite>
@@ -8781,7 +9021,8 @@ an additional item property.
         image="equipment/chest/savior-armor.png|W:#8c339f" 
         name="Royal Savior Armor" 
         description="The King's Savior Armor." 
-        effect="Defense: +50" 
+        effect="M. Attack -170"
+        defense="50" 
         type="equip-torso" 
         weight="40">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#8c339f</sprite>
@@ -8842,7 +9083,8 @@ an additional item property.
 	image="pets/pet-dog-icon.png"
 	name="Hund"
 	description="Ich bin ein kleiner Hund, kümmer dich um mich. Wuff, Wuff."
-	effect="Str +50, HP +100"
+	effect="HP +100"
+	str="50"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -8852,7 +9094,8 @@ an additional item property.
 	image="pets/fairy-blue.png"
 	name="Green Fairy"
 	description="A green Fairy."
-	effect="Str +50, HP +100"
+	effect="HP +100"
+	luck="50"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -8862,7 +9105,8 @@ an additional item property.
 	image="pets/fairy-red.png"
 	name="Red Fairy"
 	description="A red Fairy."
-	effect="Str +50, HP +100"
+	effect="HP +100"
+	luck="50"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -8872,7 +9116,8 @@ an additional item property.
 	image="pets/fairy-blue.png"
 	name="Blue Fairy"
 	description="A blue Fairy."
-	effect="Str +50, HP +100"
+	effect="HP +100"
+	luck="50"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -8882,6 +9127,8 @@ an additional item property.
 	image="pets/cat-icon.png"
 	name="Cat"
 	description="A cat, purrrr..."
+	effect="HP +100"
+	agi="50"
 	type="equip-ring"
 	weight="50">
 	<sprite>pets/pet-cat.xml</sprite>
@@ -8890,6 +9137,8 @@ an additional item property.
 	image="pets/ratte.png"
 	name="Rat"
 	description="Eeeek, a rat!."
+	effect="HP +100"
+	dex="50"
 	type="equip-ring"
 	weight="50">
 	<sprite>pets/pet-rat.xml</sprite>
@@ -8898,7 +9147,6 @@ an additional item property.
         image="equipment/head/head-admincap.png|R:#BF0E08"
         name="Administrator Cap"
         description="Only for Admins."
-        effect="+5% Defense"
         type="equip-head"
         defense="5"
         weight="10">
@@ -8938,6 +9186,9 @@ an additional item property.
         image="pets/cat-black.png"
         name="Black Cat"
         description="A magical cat, meooowww..."
+        effect="HP +100"
+	agi="50"
+	int="25"
         type="equip-ring"
         weight="50">
         <sprite>pets/pet-black-cat.xml</sprite>
@@ -8975,7 +9226,7 @@ an additional item property.
         defense="30"
         weight="260">
         <sprite gender="male">equipment/chest/black-mamba-armor.xml</sprite>
-		<sprite gender="female">equipment/chest/black-mamba-armor-female.xml</sprite>
+	<sprite gender="female">equipment/chest/black-mamba-armor-female.xml</sprite>
     </item>
 	<item id="8050"
         image="equipment/feet/black-mamba-boots.png"
@@ -9013,6 +9264,16 @@ an additional item property.
         weight="30">
         <sprite gender="male">equipment/legs/black-mamba-pants-male.xml</sprite>
         <sprite gender="female">equipment/legs/black-mamba-pants-female.xml</sprite>
+    </item>
+    <item id="8054"
+	image="equipment/head/sp_tophat.png"
+        name="Steampunk Top Hat"
+        description="A fancy Steampunk Top Hat for the distinguished ones..."
+        type="equip-head"
+        defense="5"
+        weight="20"
+	max-per-slot="1">
+        <sprite>equipment/head/sp_tophat.xml</sprite>
     </item>
 
 </items>
