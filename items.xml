@@ -2467,6 +2467,7 @@ weight="10"/>
 		image="equipment/head/paladin-helm.png"
 		name="Paladin's Helmet"
 		description="Worn only by paladins."
+		effect="M. Attack -12"
 		type="equip-head"
 		defense="19"
 		weight="43">
@@ -8738,8 +8739,9 @@ an additional item property.
         image="equipment/chest/savior-armor.png|W:#5b5b5b" 
         name="Black Savior Armor" 
         description="Savior Armor." 
-        effect="Defense: +40" 
+        effect="M. Attack -170"
         type="equip-torso" 
+        defense="40" 
         weight="40">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#5b5b5b</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#5b5b5b</sprite>
@@ -8748,8 +8750,9 @@ an additional item property.
         image="equipment/chest/savior-armor.png|W:#3996f5" 
         name="Blue Savior Armor" 
         description="Blue Savior Armor." 
-        effect="Defense: +40" 
+        effect="M. Attack -170"
         type="equip-torso" 
+        defense="40" 
         weight="40">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#3996f5</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#3996f5</sprite>
@@ -8758,8 +8761,9 @@ an additional item property.
         image="equipment/chest/savior-armor.png|W:#f72424" 
         name="Red Savior Armor" 
         description="Red Savior Armor." 
-        effect="Defense: +40" 
+        effect="M. Attack -170"
         type="equip-torso" 
+        defense="40"
         weight="40">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#f72424</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#f72424</sprite>
@@ -8768,8 +8772,9 @@ an additional item property.
         image="equipment/chest/savior-armor.png" 
         name="White Savior Armor" 
         description="Savior Armor." 
-        effect="Defense: +40" 
+        effect="M. Attack -170"
         type="equip-torso" 
+        defense="40"
         weight="40">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#FFFFFF</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|FFFFFF</sprite>
@@ -8778,8 +8783,9 @@ an additional item property.
         image="equipment/legs/saviorpants.png" 
         name="Savior Pants" 
         description="A Pair of matching pants for your cape." 
-        effect="Defense: +15" 
+        effect="M. Attack -12"
         type="equip-legs" 
+        defense="15"
         weight="40">
         <sprite gender="male">equipment/legs/saviorpants-male.xml</sprite>
         <sprite gender="female">equipment/legs/saviorpants-male.xml</sprite>
@@ -8788,7 +8794,7 @@ an additional item property.
         image="equipment/shield/buckler.png"
         name="Buckler"
         description="A wooden shield that can be used effectively for defense."
-        effect="Defense: +5"
+        defense="5"
         type="equip-shield"
         weight="500">
         <sprite>equipment/armor/shield-buckler.xml</sprite>
@@ -8818,7 +8824,7 @@ an additional item property.
         image="equipment/feet/boots.png|W:#4f2d29,c89078"
         name="Regular Boots"
         description="Some worn out boots."
-        effect="Defense: +1"
+        defense="1"
         type="equip-feet"
         weight="15">
         <sprite gender="male">equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
@@ -8828,7 +8834,7 @@ an additional item property.
         image="equipment/head/mapcap.png|R:#4D6A4D"
         name="Mappers Cap"
         description="A cap which identifies you as a mapper."
-        effect="Defense: +30"
+        defense="30"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/mapcap.xml|#4D6A4D</sprite>
@@ -8837,7 +8843,7 @@ an additional item property.
         image="equipment/head/artcap.png|R:#e68858"
         name="Artists Cap"
         description="A cap which identifies you as an artist."
-        effect="Defense: +30"
+        defense="30"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/artcap.xml|#e68858</sprite>
@@ -8845,8 +8851,8 @@ an additional item property.
     <item id="8012"
         image="equipment/head/centurionhelm.png"
         name="Centurion Helm"
-        description="A Centurion Helmet."
-        effect="Defense: +30"
+        description="A Centurion's Helmet."
+        defense="30"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/centurionhelm.xml</sprite>
@@ -8855,7 +8861,7 @@ an additional item property.
         image="equipment/head/gladiatorhelm.png"
         name="Gladiator Helm"
         description="A Gladiator's Helmet"
-        effect="Defense: +25"
+        defense="25"
         type="equip-head"
         weight="1">
         <sprite>equipment/head/gladiator-helm.xml</sprite>
@@ -8864,7 +8870,7 @@ an additional item property.
         image="equipment/head/majorhelm.png"
         name="Major Helmet"
         description="A Helmet worn by a major."
-        effect="Defense: +15"
+        defense="15"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/majorhelmet.xml</sprite>
@@ -8872,8 +8878,8 @@ an additional item property.
     <item id="8015"
         image="equipment/head/soldierhelm.png"
         name="Soldier Helmet"
-        description="A Helmet thats seen battle."
-        effect="Defense: +12"
+        description="A Helmet that has seen battle."
+        defense="12"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/soldiershelmet.xml</sprite>
@@ -8882,7 +8888,7 @@ an additional item property.
         image="equipment/head/ninjamask.png"
         name="Ninja Mask"
         description="A Mask of the Ninja."
-        effect="Defense: +4"
+        defense="4"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/ninjamask.xml</sprite>
@@ -8891,7 +8897,7 @@ an additional item property.
         image="equipment/head/unsilvered-crusadehelm.png"
         name="unsilvered Crusade Helmet"
         description="A crusade helmet that hasn't yet been infused with silver."
-        effect="Defense: +15"
+        defense="15"
         type="equip-head"
         weight="40">
         <sprite>equipment/head/unsilvered-crusadehelm.xml</sprite>
@@ -8900,7 +8906,7 @@ an additional item property.
         image="equipment/head/vikinghelm.png"
         name="Viking Helmet"
         description="A Helmet thats seen battle long ago."
-        effect="Defense: +10"
+        defense="10"
         type="equip-head"
         weight="20">
         <sprite>equipment/head/vikinghelm.xml</sprite>
@@ -9015,7 +9021,8 @@ an additional item property.
         image="equipment/chest/savior-armor.png|W:#8c339f" 
         name="Royal Savior Armor" 
         description="The King's Savior Armor." 
-        effect="Defense: +50" 
+        effect="M. Attack -170"
+        defense="50" 
         type="equip-torso" 
         weight="40">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#8c339f</sprite>
@@ -9076,7 +9083,8 @@ an additional item property.
 	image="pets/pet-dog-icon.png"
 	name="Hund"
 	description="Ich bin ein kleiner Hund, kümmer dich um mich. Wuff, Wuff."
-	effect="Str +50, HP +100"
+	effect="HP +100"
+	str="50"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9086,7 +9094,8 @@ an additional item property.
 	image="pets/fairy-blue.png"
 	name="Green Fairy"
 	description="A green Fairy."
-	effect="Str +50, HP +100"
+	effect="HP +100"
+	luck="50"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9096,7 +9105,8 @@ an additional item property.
 	image="pets/fairy-red.png"
 	name="Red Fairy"
 	description="A red Fairy."
-	effect="Str +50, HP +100"
+	effect="HP +100"
+	luck="50"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9106,7 +9116,8 @@ an additional item property.
 	image="pets/fairy-blue.png"
 	name="Blue Fairy"
 	description="A blue Fairy."
-	effect="Str +50, HP +100"
+	effect="HP +100"
+	luck="50"
 	type="equip-ring"
 	weight="1"
 	max-per-slot="1">
@@ -9116,6 +9127,8 @@ an additional item property.
 	image="pets/cat-icon.png"
 	name="Cat"
 	description="A cat, purrrr..."
+	effect="HP +100"
+	agi="50"
 	type="equip-ring"
 	weight="50">
 	<sprite>pets/pet-cat.xml</sprite>
@@ -9124,6 +9137,8 @@ an additional item property.
 	image="pets/ratte.png"
 	name="Rat"
 	description="Eeeek, a rat!."
+	effect="HP +100"
+	dex="50"
 	type="equip-ring"
 	weight="50">
 	<sprite>pets/pet-rat.xml</sprite>
@@ -9132,7 +9147,6 @@ an additional item property.
         image="equipment/head/head-admincap.png|R:#BF0E08"
         name="Administrator Cap"
         description="Only for Admins."
-        effect="+5% Defense"
         type="equip-head"
         defense="5"
         weight="10">
@@ -9172,6 +9186,9 @@ an additional item property.
         image="pets/cat-black.png"
         name="Black Cat"
         description="A magical cat, meooowww..."
+        effect="HP +100"
+	agi="50"
+	int="25"
         type="equip-ring"
         weight="50">
         <sprite>pets/pet-black-cat.xml</sprite>
@@ -9209,7 +9226,7 @@ an additional item property.
         defense="30"
         weight="260">
         <sprite gender="male">equipment/chest/black-mamba-armor.xml</sprite>
-		<sprite gender="female">equipment/chest/black-mamba-armor-female.xml</sprite>
+	<sprite gender="female">equipment/chest/black-mamba-armor-female.xml</sprite>
     </item>
 	<item id="8050"
         image="equipment/feet/black-mamba-boots.png"
