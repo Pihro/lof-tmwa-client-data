@@ -36,7 +36,7 @@
   <npc id="104">
     <sprite variant="4">npcs/npc.xml</sprite>
   </npc>
-  <!-- Santa Clause -->
+  <!-- Santa Claus -->
   <npc id="105">
     <sprite variant="5">npcs/npc.xml</sprite>
   </npc>
@@ -139,7 +139,7 @@
   <npc id="129">
     <sprite variant="29">npcs/npc.xml</sprite>
   </npc>
-  <!-- Paperboy (wtf? how does this one fit in a fantasy game?) -->
+  <!-- Paperboy -->
   <npc id="130">
     <sprite variant="30">npcs/npc.xml</sprite>
   </npc>
@@ -176,7 +176,7 @@
   <npc id="138">
     <sprite variant="38">npcs/npc.xml</sprite>
   </npc>
-  <!-- Girl in playboy bunny costume -->
+  <!-- Waitress -->
   <npc id="139">
     <sprite variant="39">npcs/npc.xml</sprite>
   </npc>
@@ -994,7 +994,29 @@
   <npc id="400">
     <sprite variant="27">npcs/npc.xml</sprite>
   </npc>
-
-  <!-- Put new unique sprites above here.  For huge npcs, see range 216-250. For poses/outfits npcs, see 251-299 -->
+  
+  <!-- 600-700: LoF NPCs -->
+  <!-- Young Male Archer -->
+  <npc id="600">
+    <sprite variant="0">npcs/npc-hh.xml</sprite>
+  </npc>
+  <!-- Older Soldier -->
+  <npc id="601">
+    <sprite variant="1">npcs/npc-hh.xml</sprite>
+  </npc>
+  <!-- Older Soldier with paper -->
+  <npc id="602">
+    <sprite variant="2">npcs/npc-hh.xml</sprite>
+  </npc>
+  <!-- Stashed sprite for Girl in playboy bunny costume (old 139) -->
+  <npc id="610">
+    <sprite variant="0">npcs/npc-bunny-girl.xml</sprite>
+  </npc>
+  <!-- Pinch (Steampunk Guy) -->
+  <npc id="620">
+    <sprite variant="0">npcs/npc-lof.xml</sprite>
+  </npc>
+  
+  <!-- Put new unique sprites above here.  For huge npcs, see range 216-250. For poses/outfits npcs, see 251-299. For new TMW npcs, see 400-599. To save replaced npcs, see 610-619. -->
   <!-- note: don't go above 999, because the 1000's are reserved for mob id -->
 </npcs>
