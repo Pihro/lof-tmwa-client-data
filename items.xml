@@ -9083,8 +9083,8 @@ an additional item property.
     </item>
     <item id="8036"
 	image="pets/pet-dog-icon.png"
-	name="Hund"
-	description="Ich bin ein kleiner Hund, kümmer dich um mich. Wuff, Wuff."
+	name="Dog"
+	description="Nothing like having a sturdy dog by your side."
 	effect="HP +100"
 	str="50"
 	type="equip-ring"
@@ -9251,7 +9251,7 @@ an additional item property.
 	<item id="8052"
         image="equipment/head/black-mamba-helm.png"
         name="Black Mamba Helm"
-        description="A sleek dark helmet"
+        description="A sleek dark helmet."
         defense="6"
         type="equip-head"
         weight="1">
