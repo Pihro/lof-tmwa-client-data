@@ -8744,7 +8744,7 @@ an additional item property.
         effect="M. Attack -170"
         type="equip-torso" 
         defense="40" 
-        weight="40">
+        weight="2600">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#5b5b5b</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#5b5b5b</sprite>
     </item>
@@ -8755,7 +8755,7 @@ an additional item property.
         effect="M. Attack -170"
         type="equip-torso" 
         defense="40" 
-        weight="40">
+        weight="2600">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#3996f5</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#3996f5</sprite>
     </item>
@@ -8766,7 +8766,7 @@ an additional item property.
         effect="M. Attack -170"
         type="equip-torso" 
         defense="40"
-        weight="40">
+        weight="2600">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#f72424</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#f72424</sprite>
     </item>
@@ -8777,7 +8777,7 @@ an additional item property.
         effect="M. Attack -170"
         type="equip-torso" 
         defense="40"
-        weight="40">
+        weight="2600">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#FFFFFF</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|FFFFFF</sprite>
     </item>
@@ -8788,7 +8788,7 @@ an additional item property.
         effect="M. Attack -12"
         type="equip-legs" 
         defense="15"
-        weight="40">
+        weight="60">
         <sprite gender="male">equipment/legs/saviorpants-male.xml</sprite>
         <sprite gender="female">equipment/legs/saviorpants-male.xml</sprite>
     </item>
@@ -8798,7 +8798,7 @@ an additional item property.
         description="A wooden shield that can be used effectively for defense."
         defense="5"
         type="equip-shield"
-        weight="500">
+        weight="2500">
         <sprite>equipment/armor/shield-buckler.xml</sprite>
     </item>
     <item id="8006"
@@ -8807,28 +8807,28 @@ an additional item property.
         description="A Cursed arrow."
         effect="Damage: 50"
         type="equip-ammo"
-        weight="8"/>
+        weight="1"/>
     <item id="8007"
         image="equipment/ammo/poisonarrow.png"
         name="Poison Arrow"
         description="A Poisoned arrow."
         effect="Damage: 55"
         type="equip-ammo"
-        weight="8"/>
+        weight="1"/>
     <item id="8008"
         image="equipment/ammo/thornarrow.png"
         name="Thorn Arrow"
         description="A Thorned arrow."
         effect="Damage: 60"
         type="equip-ammo"
-        weight="8"/>
+        weight="1"/>
     <item id="8009"
         image="equipment/feet/boots.png|W:#4f2d29,c89078"
         name="Regular Boots"
         description="Some worn out boots."
         defense="1"
         type="equip-feet"
-        weight="15">
+        weight="80">
         <sprite gender="male">equipment/feet/boots-male.xml|#623a34,f0c2b4</sprite>
         <sprite gender="female">equipment/feet/boots-female.xml|#623a34,f0c2b4</sprite>
     </item>
@@ -8856,7 +8856,7 @@ an additional item property.
         description="A Centurion's Helmet."
         defense="30"
         type="equip-head"
-        weight="20">
+        weight="900">
         <sprite>equipment/head/centurionhelm.xml</sprite>
     </item>
     <item id="8013"
@@ -8865,7 +8865,7 @@ an additional item property.
         description="A Gladiator's Helmet"
         defense="25"
         type="equip-head"
-        weight="1">
+        weight="900">
         <sprite>equipment/head/gladiator-helm.xml</sprite>
     </item>
     <item id="8014"
@@ -8874,7 +8874,7 @@ an additional item property.
         description="A Helmet worn by a major."
         defense="15"
         type="equip-head"
-        weight="20">
+        weight="900">
         <sprite>equipment/head/majorhelmet.xml</sprite>
     </item>
     <item id="8015"
@@ -8883,7 +8883,7 @@ an additional item property.
         description="A Helmet that has seen battle."
         defense="12"
         type="equip-head"
-        weight="20">
+        weight="900">
         <sprite>equipment/head/soldiershelmet.xml</sprite>
     </item>
     <item id="8016"
@@ -8892,7 +8892,7 @@ an additional item property.
         description="A Mask of the Ninja."
         defense="4"
         type="equip-head"
-        weight="20">
+        weight="900">
         <sprite>equipment/head/ninjamask.xml</sprite>
     </item>
     <item id="8017"
@@ -8901,7 +8901,7 @@ an additional item property.
         description="A crusade helmet that hasn't yet been infused with silver."
         defense="15"
         type="equip-head"
-        weight="40">
+        weight="900">
         <sprite>equipment/head/unsilvered-crusadehelm.xml</sprite>
     </item>
     <item id="8018"
@@ -8910,7 +8910,7 @@ an additional item property.
         description="A Helmet thats seen battle long ago."
         defense="10"
         type="equip-head"
-        weight="20">
+        weight="900">
         <sprite>equipment/head/vikinghelm.xml</sprite>
     </item>
     <item id="8019"
@@ -8921,6 +8921,7 @@ an additional item property.
         type="equip-2hand"
         weapon_type="bow"
         attack-action="attack_bow"
+        weight="1200"
         missile-particle="graphics/particles/arrow.particle.xml">>
         <sprite>bow-halo.xml</sprite>
         <sound event="swing">weapons/bows/bow_shoot_1.ogg</sound>
@@ -8929,22 +8930,22 @@ an additional item property.
         image="equipment/weapon/axe-blacksmithsaxe.png"
         name="Blacksmith's axe"
         description="An axe usually used by blacksmiths."
-        effect="Damage 375 / Requires Level 55"
+        effect="Damage +375 / Requires Level 55"
         type="equip-2hand"
         weapon-type="knife"
         attack-action="attack"
-        weight="10">
+        weight="500">
         <sprite>smith-axe.xml</sprite>
     </item>
     <item id="8021"
         image="equipment/weapon/mace-kanabo.png"
         name="Kanabo"
         description="A kanabo."
-        effect="Damage 95"
+        effect="Damage +95"
         type="equip-2hand"
         weapon-type="knife"
         attack-action="attack"
-        weight="10">
+        weight="500">
         <sprite>kanabo.xml</sprite>
     </item>
     <item id="8022"
@@ -8955,7 +8956,7 @@ an additional item property.
         type="equip-1hand"
         weapon-type="knife"
         attack-action="attack"
-        weight="1025">
+        weight="2000">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
@@ -8968,7 +8969,7 @@ an additional item property.
         type="equip-1hand"
         weapon-type="knife"
         attack-action="attack"
-        weight="1025">
+        weight="2000">
         <sprite>weapon-dagger.xml</sprite>
         <sound event="strike">weapons/swords/short-sword-miss1.ogg</sound>
         <sound event="hit">weapons/swords/short-sword-hit1.ogg</sound>
@@ -8990,35 +8991,35 @@ an additional item property.
         description="An Old Pirate Treasure Map"
         effect=""
         type="generic"
-        weight="50"/>
-	   <item id="8025"
+        weight="1"/>
+    <item id="8025"
         image="generic/clothespack.png"
         name="Clothes Pack"
         description="A starter kit"
         effect=""
         type="generic"
-        weight="50"/>
+        weight="1"/>
     <item id="8026"
         image="generic/emerald.png"
         name="Emerald"
         description="An uncut emerald."
         effect=""
         type="generic"
-        weight="10"/>
+        weight="20"/>
     <item id="8027"
         image="generic/ore.png|W:#101010,303030,707070"
         name="Raw Coal"
         description="A lump of raw coal."
         effect=""
         type="generic"
-        weight="10"/>
+        weight="20"/>
     <item id="8028"
         image="generic/silverore.png"
         name="Silver Ore"
         description="Raw Siver Ore used to refine weapons."
         effect=""
         type="generic"
-        weight="300"/>
+        weight="20"/>
    <item id="8029" 
         image="equipment/chest/savior-armor.png|W:#8c339f" 
         name="Royal Savior Armor" 
@@ -9026,7 +9027,7 @@ an additional item property.
         effect="M. Attack -170"
         defense="50" 
         type="equip-torso" 
-        weight="40">
+        weight="2600">
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#8c339f</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#8c339f</sprite>
     </item>
@@ -9036,14 +9037,14 @@ an additional item property.
         description="A lump of gold."
         effect=""
         type="generic"
-        weight="10"/>
+        weight="20"/>
     <item id="8032"
 	image="equipment/wings/angelwings.png"
 	name="Angel Wings"
 	description="Wings similar to those of an angel."
 	effect="+% Defense"
 	type="equip-ring"
-	weight="200"
+	weight="13"
 	defense=""
 	max-per-slot="1">
 	<sprite>equipment/wings/angelwings.xml</sprite>
@@ -9054,7 +9055,7 @@ an additional item property.
 	description="Some scary looking wings."
 	effect="+% Attack"
 	type="equip-ring"
-	weight="200"
+	weight="13"
 	attack=""
 	max-per-slot="1">
 	<sprite>equipment/wings/daemonwings.xml</sprite>
@@ -9065,7 +9066,7 @@ an additional item property.
 	description="Wings of a Dragonfly."
 	effect="+% Attack"
 	type="equip-ring"
-	weight="200"
+	weight="13"
 	attack=""
 	max-per-slot="1">
 	<sprite>equipment/wings/dragonflywings.xml</sprite>
@@ -9076,7 +9077,7 @@ an additional item property.
 	description="Wings of A Butterfly."
 	effect="+% Attack"
 	type="equip-ring"
-	weight="200"
+	weight="13"
 	attack=""
 	max-per-slot="1">
 	<sprite>equipment/wings/butterflywings.xml</sprite>
@@ -9084,11 +9085,11 @@ an additional item property.
     <item id="8036"
 	image="pets/pet-dog-icon.png"
 	name="Dog"
-	description="Nothing like having a sturdy dog by your side."
+	description="There's nothing like having a sturdy dog at your side."
 	effect="HP +100"
 	str="50"
 	type="equip-ring"
-	weight="1"
+	weight="13"
 	max-per-slot="1">
 	<sprite>pets/pet-dog.xml</sprite>
     </item>
@@ -9099,7 +9100,7 @@ an additional item property.
 	effect="HP +100"
 	luck="50"
 	type="equip-ring"
-	weight="1"
+	weight="13"
 	max-per-slot="1">
 	<sprite>pets/green-fairy.xml</sprite>
     </item>
@@ -9110,7 +9111,7 @@ an additional item property.
 	effect="HP +100"
 	luck="50"
 	type="equip-ring"
-	weight="1"
+	weight="13"
 	max-per-slot="1">
 	<sprite>pets/pet-fairy-red.xml</sprite>
     </item>	
@@ -9121,7 +9122,7 @@ an additional item property.
 	effect="HP +100"
 	luck="50"
 	type="equip-ring"
-	weight="1"
+	weight="13"
 	max-per-slot="1">
 	<sprite>pets/pet-fairy-blue.xml</sprite>
     </item>
@@ -9132,7 +9133,7 @@ an additional item property.
 	effect="HP +100"
 	agi="50"
 	type="equip-ring"
-	weight="50">
+	weight="13">
 	<sprite>pets/pet-cat.xml</sprite>
     </item>
     <item id="8041"
@@ -9142,7 +9143,7 @@ an additional item property.
 	effect="HP +100"
 	dex="50"
 	type="equip-ring"
-	weight="50">
+	weight="13">
 	<sprite>pets/pet-rat.xml</sprite>
     </item>
     <item id="8042"
@@ -9151,7 +9152,7 @@ an additional item property.
         description="Only for Admins."
         type="equip-head"
         defense="5"
-        weight="10">
+        weight="20">
         <sprite>equipment/head/head-admincap.xml|#BF0E08</sprite>
     </item>
     <item id="8043"
@@ -9160,7 +9161,7 @@ an additional item property.
         description="(Away from Keyboard)"
         type="equip-head"
         defense="5"
-        weight="10"
+        weight="20"
 	max-per-slot="1">
         <sprite>equipment/head/head-afkcap.xml</sprite>
     </item>
@@ -9169,7 +9170,7 @@ an additional item property.
         name="Assassin Robe"
         description="Robe of the Assassin"
         type="equip-torso"
-        weight="10"
+        weight="13"
         defense="10"
         max-per-slot="1">
         <sprite gender="male">equipment/chest/chest-assassinrobe-male.xml</sprite>
@@ -9192,7 +9193,7 @@ an additional item property.
 	agi="50"
 	int="25"
         type="equip-ring"
-        weight="50">
+        weight="13">
         <sprite>pets/pet-black-cat.xml</sprite>
     </item>
     <item id="8047"
@@ -9223,7 +9224,7 @@ an additional item property.
 	<item id="8049"
         image="equipment/chest/black-mamba-armor.png"
         name="Black Mamba Armor"
-        description="Strong and fast armor."
+        description="Strong and nimble armor."
         type="equip-torso"
         defense="30"
         weight="260">
@@ -9235,7 +9236,7 @@ an additional item property.
         name="Black Mamba Boots"
         description="Dark and smooth boots."
         type="equip-feet"
-        weight="20"
+        weight="80"
         defense="8">
         <sprite>equipment/feet/black-mamba-boots.xml</sprite>
     </item>
@@ -9245,7 +9246,7 @@ an additional item property.
         description="A pair of dark, smooth gloves."
         type="equip-arms"
         defense="3"
-        weight="5">
+        weight="20">
         <sprite>equipment/hands/black-mamba-gloves.xml</sprite>
     </item>
 	<item id="8052"
@@ -9254,7 +9255,7 @@ an additional item property.
         description="A sleek dark helmet."
         defense="6"
         type="equip-head"
-        weight="1">
+        weight="60">
         <sprite>equipment/head/black-mamba-helm.xml</sprite>
     </item>
     <item id="8053"
@@ -9263,7 +9264,7 @@ an additional item property.
         description="Dark sleek pants."
         type="equip-legs"
         defense="7"
-        weight="30">
+        weight="60">
         <sprite gender="male">equipment/legs/black-mamba-pants-male.xml</sprite>
         <sprite gender="female">equipment/legs/black-mamba-pants-female.xml</sprite>
     </item>
