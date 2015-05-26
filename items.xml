@@ -2463,34 +2463,34 @@ weight="10"/>
         weight="1000">
         <sprite>weapon-staff.xml</sprite>
     </item>
-	<item id="759"
-		image="equipment/head/paladin-helm.png"
-		name="Paladin's Helmet"
-		description="Worn only by paladins."
-		effect="M. Attack -12"
-		type="equip-head"
-		defense="19"
-		weight="43">
-		<sprite>equipment/head/paladinhelm.xml</sprite>
-	</item>
-	<item id="760"
-		image="equipment/head/overlord-helm.png"
-		name="Overlord's Helmet"
-		description="Worn by the greatest warriors."
-		type="equip-head"
-		defense="20"
-		weight="45">
-		<sprite>equipment/head/overlordhelm.xml</sprite>
-	</item>
-	<item id="761"
-		image="equipment/head/desert-helmet.png"
-		name="Desert Helmet"
-		description="The perfect desert warriors' helmet."
-		type="equip-head"
-		weight="48"
-		defense="21">
-		<sprite>equipment/head/desert-helmet.xml</sprite>
-	</item>
+    <item id="759"
+        image="equipment/head/paladin-helm.png"
+        name="Paladin's Helmet"
+        description="Worn only by paladins."
+        effect="M. Attack -12"
+        type="equip-head"
+        defense="19"
+        weight="43">
+        <sprite>equipment/head/paladinhelm.xml</sprite>
+    </item>
+    <item id="760"
+        image="equipment/head/overlord-helm.png"
+        name="Overlord's Helmet"
+        description="Worn by the greatest warriors."
+        type="equip-head"
+        defense="20"
+        weight="45">
+        <sprite>equipment/head/overlordhelm.xml</sprite>
+    </item>
+    <item id="761"
+        image="equipment/head/desert-helmet.png"
+        name="Desert Helmet"
+        description="The perfect desert warriors' helmet."
+        type="equip-head"
+        weight="48"
+        defense="21">
+        <sprite>equipment/head/desert-helmet.xml</sprite>
+    </item>
     <item id="762"
         image="equipment/ammo/arrow.png|W:#8B4513"
         name="Terranite Arrow"
@@ -2504,26 +2504,26 @@ weight="10"/>
         description="Some ore collected out of terranite."
         type="generic"
         weight="40"/>
-	<item id="764"
-		image="equipment/head/sailor_hat.png"
-		name="Sailor Hat"
-		description="A hat worn by brave sailors."
-		effect="M. Attack -12"
-		type="equip-head"
-		defense="5"
-		weight="5">
-		<sprite>equipment/head/sailor-hat.xml</sprite>
-	</item>
-	<item id="765"
-		image="equipment/head/captain_hat.png"
-		name="Captain's Hat"
-		description="A hat worn by the bravest captains."
-		effect="M. Attack -12"
-		type="equip-head"
-		defense="15"
-		weight="8">
-		<sprite>equipment/head/captain-hat.xml</sprite>
-	</item>
+    <item id="764"
+        image="equipment/head/sailor_hat.png"
+        name="Sailor Hat"
+        description="A hat worn by brave sailors."
+        effect="M. Attack -12"
+        type="equip-head"
+        defense="5"
+        weight="5">
+        <sprite>equipment/head/sailor-hat.xml</sprite>
+    </item>
+    <item id="765"
+        image="equipment/head/captain_hat.png"
+        name="Captain's Hat"
+        description="A hat worn by the bravest captains."
+        effect="M. Attack -12"
+        type="equip-head"
+        defense="15"
+        weight="8">
+        <sprite>equipment/head/captain-hat.xml</sprite>
+    </item>
     <item id="766"
         image="equipment/head/terranitehelm.png"
         name="Terranite Helmet"
@@ -2660,16 +2660,16 @@ weight="10"/>
         description="An eye from a zombie."
         type="generic"
         weight="3"/>
-	<item id="781"
-		image="equipment/head/witch-doctor-mask.png"
-		name="Witch Doctor's Mask"
-		description="A crazy mask from the Voodoo doctor."
-		type="equip-head"
-		defense="3"
-		weight="20"
-		sellProtected="true">
-		<sprite>equipment/head/witch-doctor-mask.xml</sprite>
-	</item>
+    <item id="781"
+        image="equipment/head/witch-doctor-mask.png"
+        name="Witch Doctor's Mask"
+        description="A crazy mask from the Voodoo doctor."
+        type="equip-head"
+        defense="3"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/witch-doctor-mask.xml</sprite>
+    </item>
     <item id="782"
         image="equipment/chest/forest-armor.png"
         name="Forest Armor"
@@ -3764,8 +3764,8 @@ weight="10"/>
         type="equip-torso"
         defense="6"
         weight="35">
-            <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
-            <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
+        <sprite gender="male">equipment/chest/ugly-sweater-male.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
+        <sprite gender="female">equipment/chest/ugly-sweater-female.xml|#ffffff;#b0242f,e1c130;#35bc40;#8c7223,e1c130,ffdb63</sprite>
     </item>
     <item id="1184"
         image="equipment/chest/ugly-sweater.png|W:#3f3f3f,ffffff;Y:#af5a2f,af5a2f,;G:#8ece91,ffffff;C:#578760,6daa78,92e5a2,9be8a9"
@@ -4124,44 +4124,44 @@ weight="10"/>
         sellProtected="true">
         <sprite>equipment/head/skullmask.xml</sprite>
     </item>
-	<item id="1222"
-		image="generic/claylump_small.png"
-		name="Small Piece of Clay"
-		description="A small piece of clay, used to make different shapes."
-		type="generic"
-		weight="5"
-		sellProtected="true"/>
-	<item id="1223"
-		image="generic/claylump_big.png"
-		name="Big Piece of White Clay"
-		description="A big piece of white clay, used to make bigger shapes."
-		type="generic"
-		weight="10"
-		sellProtected="true"/>
-	<item id="1224"
-		image="generic/scroll.png"
-		name="Scroll of Paper"
-		description="A scroll made of fine paper."
-		type="generic"
-		weight="1"/>
-	<item id="1225"
-		image="use/scrolls/firescroll.png"
-		name="Fire Scroll"
-		description="A scroll on which is written an ancient formula giving birth to fire."
-		type="generic"
-		weight="1"/>
-	<item id="1226"
-		image="generic/silverbell.png"
-		name="Silver Bell"
-		description="A tiny bell made of silver."
-		type="generic"
-		weight="25"/>
-	<item id="1227"
-		image="equipment/charms/enchanter.png"
-		name="Enchanter's Amulet"
-		description="An amulet made for true enchanters."
-		type="equip-charm"
-		weight="1"/>
+    <item id="1222"
+        image="generic/claylump_small.png"
+        name="Small Piece of Clay"
+        description="A small piece of clay, used to make different shapes."
+        type="generic"
+        weight="5"
+        sellProtected="true"/>
+    <item id="1223"
+        image="generic/claylump_big.png"
+        name="Big Piece of White Clay"
+        description="A big piece of white clay, used to make bigger shapes."
+        type="generic"
+        weight="10"
+        sellProtected="true"/>
+    <item id="1224"
+        image="generic/scroll.png"
+        name="Scroll of Paper"
+        description="A scroll made of fine paper."
+        type="generic"
+        weight="1"/>
+    <item id="1225"
+        image="use/scrolls/firescroll.png"
+        name="Fire Scroll"
+        description="A scroll on which is written an ancient formula giving birth to fire."
+        type="generic"
+        weight="1"/>
+    <item id="1226"
+        image="generic/silverbell.png"
+        name="Silver Bell"
+        description="A tiny bell made of silver."
+        type="generic"
+        weight="25"/>
+    <item id="1227"
+        image="equipment/charms/enchanter.png"
+        name="Enchanter's Amulet"
+        description="An amulet made for true enchanters."
+        type="equip-charm"
+        weight="1"/>
     <item id="1228"
         image="generic/crystal.png|W:#ba58ff,d496ff,ffffff"
         name="Light Crystal"
@@ -9039,112 +9039,112 @@ an additional item property.
         type="generic"
         weight="20"/>
     <item id="8032"
-	image="equipment/wings/angelwings.png"
-	name="Angel Wings"
-	description="Wings similar to those of an angel."
-	effect="+% Defense"
-	type="equip-ring"
-	weight="13"
-	defense=""
-	max-per-slot="1">
-	<sprite>equipment/wings/angelwings.xml</sprite>
+        image="equipment/wings/angelwings.png"
+        name="Angel Wings"
+        description="Wings similar to those of an angel."
+        effect="+% Defense"
+        type="equip-ring"
+        weight="13"
+        defense=""
+        max-per-slot="1">
+        <sprite>equipment/wings/angelwings.xml</sprite>
     </item>
     <item id="8033"
-	image="equipment/wings/daemonwings.png"
-	name="Daemon Wings"
-	description="Some scary looking wings."
-	effect="+% Attack"
-	type="equip-ring"
-	weight="13"
-	attack=""
-	max-per-slot="1">
-	<sprite>equipment/wings/daemonwings.xml</sprite>
+        image="equipment/wings/daemonwings.png"
+        name="Daemon Wings"
+        description="Some scary looking wings."
+        effect="+% Attack"
+        type="equip-ring"
+        weight="13"
+        attack=""
+        max-per-slot="1">
+        <sprite>equipment/wings/daemonwings.xml</sprite>
     </item>
     <item id="8034"
-	image="equipment/wings/dragonflywings.png"
-	name="Dragonfly Wings"
-	description="Wings of a Dragonfly."
-	effect="+% Attack"
-	type="equip-ring"
-	weight="13"
-	attack=""
-	max-per-slot="1">
-	<sprite>equipment/wings/dragonflywings.xml</sprite>
+        image="equipment/wings/dragonflywings.png"
+        name="Dragonfly Wings"
+        description="Wings of a Dragonfly."
+        effect="+% Attack"
+        type="equip-ring"
+        weight="13"
+        attack=""
+        max-per-slot="1">
+        <sprite>equipment/wings/dragonflywings.xml</sprite>
     </item>
     <item id="8035"
-	image="equipment/wings/butterflywings.png"
-	name="Butterfly Wings"
-	description="Wings of A Butterfly."
-	effect="+% Attack"
-	type="equip-ring"
-	weight="13"
-	attack=""
-	max-per-slot="1">
-	<sprite>equipment/wings/butterflywings.xml</sprite>
+        image="equipment/wings/butterflywings.png"
+        name="Butterfly Wings"
+        description="Wings of A Butterfly."
+        effect="+% Attack"
+        type="equip-ring"
+        weight="13"
+        attack=""
+        max-per-slot="1">
+        <sprite>equipment/wings/butterflywings.xml</sprite>
     </item>
     <item id="8036"
-	image="pets/pet-dog-icon.png"
-	name="Dog"
-	description="There's nothing like having a sturdy dog at your side."
-	effect="HP +100"
-	str="50"
-	type="equip-ring"
-	weight="13"
-	max-per-slot="1">
-	<sprite>pets/pet-dog.xml</sprite>
+        image="pets/pet-dog-icon.png"
+        name="Dog"
+        description="There's nothing like having a sturdy dog at your side."
+        effect="HP +100"
+        str="50"
+        type="equip-ring"
+        weight="13"
+        max-per-slot="1">
+        <sprite>pets/pet-dog.xml</sprite>
     </item>
     <item id="8037"
-	image="pets/fairy-blue.png"
-	name="Green Fairy"
-	description="A green Fairy."
-	effect="HP +100"
-	luck="50"
-	type="equip-ring"
-	weight="13"
-	max-per-slot="1">
-	<sprite>pets/green-fairy.xml</sprite>
+        image="pets/fairy-blue.png"
+        name="Green Fairy"
+        description="A green Fairy."
+        effect="HP +100"
+        luck="50"
+        type="equip-ring"
+        weight="13"
+        max-per-slot="1">
+        <sprite>pets/green-fairy.xml</sprite>
     </item>
     <item id="8038"
-	image="pets/fairy-red.png"
-	name="Red Fairy"
-	description="A red Fairy."
-	effect="HP +100"
-	luck="50"
-	type="equip-ring"
-	weight="13"
-	max-per-slot="1">
-	<sprite>pets/pet-fairy-red.xml</sprite>
-    </item>	
+        image="pets/fairy-red.png"
+        name="Red Fairy"
+        description="A red Fairy."
+        effect="HP +100"
+        luck="50"
+        type="equip-ring"
+        weight="13"
+        max-per-slot="1">
+        <sprite>pets/pet-fairy-red.xml</sprite>
+    </item>
     <item id="8039"
-	image="pets/fairy-blue.png"
-	name="Blue Fairy"
-	description="A blue Fairy."
-	effect="HP +100"
-	luck="50"
-	type="equip-ring"
-	weight="13"
-	max-per-slot="1">
-	<sprite>pets/pet-fairy-blue.xml</sprite>
+        image="pets/fairy-blue.png"
+        name="Blue Fairy"
+        description="A blue Fairy."
+        effect="HP +100"
+        luck="50"
+        type="equip-ring"
+        weight="13"
+        max-per-slot="1">
+        <sprite>pets/pet-fairy-blue.xml</sprite>
     </item>
     <item id="8040"
-	image="pets/cat-icon.png"
-	name="Cat"
-	description="A cat, purrrr..."
-	effect="HP +100"
-	agi="50"
-	type="equip-ring"
-	weight="13">
-	<sprite>pets/pet-cat.xml</sprite>
+        image="pets/cat-icon.png"
+        name="Cat"
+        description="A cat, purrrr..."
+        effect="HP +100"
+        agi="50"
+        type="equip-ring"
+        weight="13">
+        <sprite>pets/pet-cat.xml</sprite>
     </item>
     <item id="8041"
-	image="pets/ratte.png"
-	name="Rat"
-	description="Eeeek, a rat!."
-	effect="HP +100"
-	dex="50"
-	type="equip-ring"
-	weight="13">
-	<sprite>pets/pet-rat.xml</sprite>
+        image="pets/ratte.png"
+        name="Rat"
+        description="Eeeek, a rat!."
+        effect="HP +100"
+        dex="50"
+        type="equip-ring"
+        weight="13">
+        <sprite>pets/pet-rat.xml</sprite>
     </item>
     <item id="8042"
         image="equipment/head/head-admincap.png|R:#BF0E08"
@@ -9156,13 +9156,13 @@ an additional item property.
         <sprite>equipment/head/head-admincap.xml|#BF0E08</sprite>
     </item>
     <item id="8043"
-	image="equipment/head/armor-head-afkcap.png|#BF0E08"
+        image="equipment/head/armor-head-afkcap.png|#BF0E08"
         name="AFK Cap"
         description="(Away from Keyboard)"
         type="equip-head"
         defense="5"
         weight="20"
-	max-per-slot="1">
+        max-per-slot="1">
         <sprite>equipment/head/head-afkcap.xml</sprite>
     </item>
     <item id="8044"
@@ -9190,8 +9190,8 @@ an additional item property.
         name="Black Cat"
         description="A magical cat, meooowww..."
         effect="HP +100"
-	agi="50"
-	int="25"
+        agi="50"
+        int="25"
         type="equip-ring"
         weight="13">
         <sprite>pets/pet-black-cat.xml</sprite>
@@ -9203,7 +9203,7 @@ an additional item property.
         effect="M. Attack -200"
         type="equip-head"
         defense="25"
-	dex="5"
+        dex="5"
         weight="400">
         <sprite>equipment/head/codershelmet.xml</sprite>
     </item>
@@ -9221,7 +9221,7 @@ an additional item property.
         <sprite gender="female">equipment/hands/generic-female.xml|#4e2e18,c8752f</sprite>
         <!-- <sound event="strike">weapons/bows/bow_shoot_1.ogg</sound> -->
     </item>
-	<item id="8049"
+    <item id="8049"
         image="equipment/chest/black-mamba-armor.png"
         name="Black Mamba Armor"
         description="Strong and nimble armor."
@@ -9229,9 +9229,9 @@ an additional item property.
         defense="30"
         weight="260">
         <sprite gender="male">equipment/chest/black-mamba-armor.xml</sprite>
-	<sprite gender="female">equipment/chest/black-mamba-armor-female.xml</sprite>
+    <sprite gender="female">equipment/chest/black-mamba-armor-female.xml</sprite>
     </item>
-	<item id="8050"
+    <item id="8050"
         image="equipment/feet/black-mamba-boots.png"
         name="Black Mamba Boots"
         description="Dark and smooth boots."
@@ -9249,7 +9249,7 @@ an additional item property.
         weight="20">
         <sprite>equipment/hands/black-mamba-gloves.xml</sprite>
     </item>
-	<item id="8052"
+    <item id="8052"
         image="equipment/head/black-mamba-helm.png"
         name="Black Mamba Helm"
         description="A sleek dark helmet."
@@ -9269,14 +9269,13 @@ an additional item property.
         <sprite gender="female">equipment/legs/black-mamba-pants-female.xml</sprite>
     </item>
     <item id="8054"
-	image="equipment/head/sp_tophat.png"
+    image="equipment/head/sp_tophat.png"
         name="Steampunk Top Hat"
         description="A fancy Steampunk Top Hat for the distinguished ones..."
         type="equip-head"
         defense="5"
         weight="20"
-	max-per-slot="1">
+        max-per-slot="1">
         <sprite>equipment/head/sp_tophat.xml</sprite>
     </item>
-
 </items>
