@@ -9197,15 +9197,25 @@ an additional item property.
         <sprite>pets/pet-black-cat.xml</sprite>
     </item>
     <item id="8047"
-        image="equipment/head/bromenalhelmet.png"
+        image="equipment/head/codershelmet.png"
         name="Coder's Helmet"
         description="A strong helmet for coders."
         effect="M. Attack -200"
         type="equip-head"
         defense="25"
         dex="5"
-        weight="400">
+        weight="400"
+        sellProtected="true">
         <sprite>equipment/head/codershelmet.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+            <item from="-6"/>
+            <item from="-14" to="-7"/>
+            <item from="-15" to="-7"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
     </item>
     <item id="8048"
         image="equipment/hands/leathergloves.png"
