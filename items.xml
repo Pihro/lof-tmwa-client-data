@@ -9082,7 +9082,7 @@ an additional item property.
     </item>
     <item id="8036"
         image="pets/pet-dog-icon.png"
-        name="Dog"
+        name="Hound"
         description="There's nothing like having a sturdy dog at your side."
         effect="HP +100"
         str="50"
