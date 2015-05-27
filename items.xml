@@ -9245,7 +9245,7 @@ an additional item property.
         description="Dark and smooth boots."
         type="equip-feet"
         weight="80"
-        defense="8">
+        defense="4">
         <sprite>equipment/feet/black-mamba-boots.xml</sprite>
     </item>
     <item id="8051"
@@ -9261,7 +9261,7 @@ an additional item property.
         image="equipment/head/black-mamba-helm.png"
         name="Black Mamba Helm"
         description="A sleek dark helmet."
-        defense="6"
+        defense="15"
         type="equip-head"
         weight="60">
         <sprite>equipment/head/black-mamba-helm.xml</sprite>
@@ -9271,7 +9271,7 @@ an additional item property.
         name="Black Mamba Pants"
         description="Dark sleek pants."
         type="equip-legs"
-        defense="7"
+        defense="8"
         weight="60">
         <sprite gender="male">equipment/legs/black-mamba-pants-male.xml</sprite>
         <sprite gender="female">equipment/legs/black-mamba-pants-female.xml</sprite>
