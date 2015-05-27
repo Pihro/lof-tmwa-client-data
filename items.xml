@@ -825,7 +825,7 @@ implement other playable races -->
         name="Scarab Armlet"
         description="A scarab armlet."
         effect="M. Attack +5"
-        type="equip-arms"
+        type="equip-shield"
         weight="200"
         sellProtected="true"/>
     <item id="586"
@@ -839,8 +839,6 @@ implement other playable races -->
         <sprite gender="male">equipment/legs/shorts-male.xml|#a4b2b2,ffffff</sprite>
         <sprite gender="female">equipment/legs/shorts-female.xml|#a4b2b2,ffffff</sprite>
     </item>
-
-
     <item id="587"
         image="equipment/weapon/sword-sword.png"
         name="Sword"
@@ -9016,7 +9014,7 @@ an additional item property.
     <item id="8028"
         image="generic/silverore.png"
         name="Silver Ore"
-        description="Raw Siver Ore used to refine weapons."
+        description="Raw Silver Ore used to refine weapons."
         effect=""
         type="generic"
         weight="20"/>
@@ -9063,7 +9061,7 @@ an additional item property.
     <item id="8034"
         image="equipment/wings/dragonflywings.png"
         name="Dragonfly Wings"
-        description="Wings of a Dragonfly."
+        description="Wings of a dragonfly."
         effect="+% Attack"
         type="equip-ring"
         weight="13"
@@ -9074,7 +9072,7 @@ an additional item property.
     <item id="8035"
         image="equipment/wings/butterflywings.png"
         name="Butterfly Wings"
-        description="Wings of A Butterfly."
+        description="Wings of A butterfly."
         effect="+% Attack"
         type="equip-ring"
         weight="13"
@@ -9094,9 +9092,9 @@ an additional item property.
         <sprite>pets/pet-dog.xml</sprite>
     </item>
     <item id="8037"
-        image="pets/fairy-blue.png"
+        image="pets/fairy-green.png"
         name="Green Fairy"
-        description="A green Fairy."
+        description="A green fairy."
         effect="HP +100"
         luck="50"
         type="equip-ring"
@@ -9107,7 +9105,7 @@ an additional item property.
     <item id="8038"
         image="pets/fairy-red.png"
         name="Red Fairy"
-        description="A red Fairy."
+        description="A red fairy."
         effect="HP +100"
         luck="50"
         type="equip-ring"
@@ -9118,7 +9116,7 @@ an additional item property.
     <item id="8039"
         image="pets/fairy-blue.png"
         name="Blue Fairy"
-        description="A blue Fairy."
+        description="A blue fairy."
         effect="HP +100"
         luck="50"
         type="equip-ring"
