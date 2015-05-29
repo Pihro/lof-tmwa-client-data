@@ -9352,4 +9352,31 @@ an additional item property.
         <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
         <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
+    <item id="8061"
+        image="equipment/shield/savior.png"
+        name="Savior Shield"
+        description="A shield for the greatest of warriors."
+        effect="M. Attack -200"
+        type="equip-shield"
+        defense="25"
+        weight="2000">
+    </item>
+    <item id="8062"
+        image="equipment/charms/mecha-medallion.png"
+        name="Mecha Medallion"
+        description="This medallion indicates an official LOF bot."
+        type="equip-charm"
+        vit="50"
+        agi="50"
+        weight="50">
+    </item>
+    <item id="8063"
+        image="equipment/charms/theta-book.png"
+        name="Theta Book"
+        description='"Advanced Geometry and Applied Ballistics."'
+        effect="Accuracy +10"
+        type="equip-charm"
+        int="10"
+        weight="100">
+    </item>
 </items>
