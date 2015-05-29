@@ -8738,7 +8738,7 @@ an additional item property.
    <item id="8000" 
         image="equipment/chest/savior-armor.png|W:#5b5b5b" 
         name="Black Savior Armor" 
-        description="Savior Armor." 
+        description="Black Savior Armor." 
         effect="M. Attack -170"
         type="equip-torso" 
         defense="40" 
@@ -9285,5 +9285,71 @@ an additional item property.
         weight="20"
         max-per-slot="1">
         <sprite>equipment/head/sp_tophat.xml</sprite>
+    </item>
+    <item id="8055" 
+        image="equipment/chest/savior-armor.png|W:#181848,5050e5" 
+        name="Dark Blue Savior Armor"
+        description="Dark Blue Savior Armor." 
+        effect="M. Attack -170"
+        type="equip-torso" 
+        defense="40" 
+        weight="2600">
+        <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#181848,5050e5</sprite>
+        <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#181848,5050e5</sprite>
+    </item>
+    <item id="8056" 
+        image="equipment/chest/savior-armor.png|W:#808020,f0f055" 
+        name="Yellow Savior Armor"
+        description="Yellow Savior Armor." 
+        effect="M. Attack -170"
+        type="equip-torso" 
+        defense="40" 
+        weight="2600">
+        <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#907020,f5f565</sprite>
+        <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#808020,f0f055</sprite>
+    </item>
+    <item id="8057" 
+        image="equipment/chest/savior-armor.png|W:#225522,55ee55" 
+        name="Green Savior Armor"
+        description="Green Savior Armor." 
+        effect="M. Attack -170"
+        type="equip-torso" 
+        defense="40" 
+        weight="2600">
+        <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#115511,22aa22,99dd99</sprite>
+        <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#225522,55ee55</sprite>
+    </item>
+    <item id="8058" 
+        image="equipment/chest/savior-armor.png|W:#104010,208020,30c030" 
+        name="Dark Green Savior Armor"
+        description="Dark Green Savior Armor." 
+        effect="M. Attack -170"
+        type="equip-torso" 
+        defense="40" 
+        weight="2600">
+        <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#104010,208020,30c030</sprite>
+        <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#104010,208020,30c030</sprite>
+    </item>
+    <item id="8059" 
+        image="equipment/chest/savior-armor.png|W:#a06010,ff9030" 
+        name="Orange Savior Armor"
+        description="Orange Savior Armor." 
+        effect="M. Attack -170"
+        type="equip-torso" 
+        defense="40" 
+        weight="2600">
+        <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#80280f,b04810,ef681f,ffb830</sprite>
+        <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#a06010,ff9030</sprite>
+    </item>
+    <item id="8060" 
+        image="equipment/chest/savior-armor.png|W:#603030,ffa0a0" 
+        name="Pink Savior Armor"
+        description="Pink Savior Armor." 
+        effect="M. Attack -170"
+        type="equip-torso" 
+        defense="40" 
+        weight="2600">
+        <sprite gender="male">equipment/chest/saviorarmor-white-male.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
+        <sprite gender="female">equipment/chest/saviorarmor-white-female.xml|#56002f,930050,fe70bd,feb7de,ffffff</sprite>
     </item>
 </items>
