@@ -8822,7 +8822,7 @@ an additional item property.
         weight="1"/>
     <item id="8009"
         image="equipment/feet/boots.png|W:#4f2d29,c89078"
-        name="Regular Boots"
+        name="Worn Boots"
         description="Some worn out boots."
         defense="1"
         type="equip-feet"
