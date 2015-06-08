@@ -822,8 +822,8 @@
   <object id="29" name="To Terra Cave" type="warp" x="1248" y="2560" width="32" height="32">
    <properties>
     <property name="dest_map" value="012-4"/>
-    <property name="dest_tile_x" value="196"/>
-    <property name="dest_tile_y" value="47"/>
+    <property name="dest_tile_x" value="1"/>
+    <property name="dest_tile_y" value="1"/>
    </properties>
   </object>
   <object id="30" name="To Night World" type="warp" x="608" y="2560" width="32" height="32">
