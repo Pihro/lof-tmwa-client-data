@@ -142,8 +142,8 @@
   <object name="To Bandit Cave" type="warp" x="1216" y="1152" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-6-night"/>
-    <property name="dest_tile_x" value="1568"/>
-    <property name="dest_tile_y" value="3200"/>
+    <property name="dest_tile_x" value="49"/>
+    <property name="dest_tile_y" value="100"/>
    </properties>
   </object>
  </objectgroup>
