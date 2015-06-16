@@ -1,5 +1,9 @@
 ##1 Welcome to TMW-LoF V2!
 
+##0 We've fixed all the bugs from the 
+##0 TMW content refresh and added a
+##0 couple new features. Enjoy!
+
 ##0 We have updated to latest TMW
 ##0 content as of 1/24/14! Also, 
 ##0 check out the Shannon Hat 
@@ -9,7 +13,7 @@
 ##0 Happy New Year!
 
 ##0 Merry Christmas! Welcome to LoF,
-##0 enjoy our new Chistmas/Winter
+##0 enjoy our new Christmas/Winter
 ##0 maps done by Lavender, KeeKeeKat,
 ##0 and Billr!
 
