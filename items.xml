@@ -9379,4 +9379,176 @@ an additional item property.
         int="10"
         weight="100">
     </item>
+    <item id="8064"
+        image="equipment/head/level-10-cap.png"
+        name="Level 10 Cap"
+        description="A sky-blue cap to show off your level-up achievement."
+        type="equip-head"
+        defense="5"
+        luck="1"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/level-10-cap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="8065"
+        image="equipment/head/level-20-cap.png"
+        name="Level 20 Cap"
+        description="A pinkie-colored cap to show off your level-up achievement."
+        type="equip-head"
+        defense="5"
+        dex="1"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/level-20-cap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="8066"
+        image="equipment/head/level-30-cap.png"
+        name="Level 30 Cap"
+        description="A bi-colored cap to show off your level-up achievement."
+        type="equip-head"
+        defense="5"
+        str="1"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/level-30-cap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="8067"
+        image="equipment/head/level-40-cap.png"
+        name="Level 40 Cap"
+        description="A ghostly gray cap to show off your level-up achievement."
+        type="equip-head"
+        defense="5"
+        agi="1"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/level-40-cap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="8068"
+        image="equipment/head/level-50-cap.png"
+        name="Level 50 Cap"
+        description="A crazy cap to show off your level-up achievement."
+        type="equip-head"
+        defense="10"
+        luck="2"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/level-50-cap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="8069"
+        image="equipment/head/level-60-cap.png"
+        name="Level 60 Cap"
+        description="A deep magenta cap to show off your level-up achievement."
+        type="equip-head"
+        defense="10"
+        str="2"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/level-60-cap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="8070"
+        image="equipment/head/level-70-cap.png"
+        name="Level 70 Cap"
+        description="A bright green cap to show off your level-up achievement."
+        type="equip-head"
+        defense="10"
+        dex="2"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/level-70-cap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="8071"
+        image="equipment/head/level-80-cap.png"
+        name="Level 80 Cap"
+        description="A storm gray cap to show off your level-up achievement."
+        type="equip-head"
+        defense="10"
+        int="2"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/level-80-cap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="8072"
+        image="equipment/head/level-90-cap.png"
+        name="Level 90 Cap"
+        description="An autumn orange cap to show off your level-up achievement."
+        type="equip-head"
+        defense="10"
+        agi="2"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/level-90-cap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
+    <item id="8073"
+        image="equipment/head/level-99-cap.png"
+        name="Level 99 Cap"
+        description="An olive green cap to show that you've reached the pinnacle of leveling achievement."
+        type="equip-head"
+        defense="15"
+        vit="2"
+        int="2"
+        luck="2"
+        weight="20"
+        sellProtected="true">
+        <sprite>equipment/head/level-99-cap.xml</sprite>
+        <replace sprite="hair">
+            <item from="-5"/>
+        </replace>
+        <replace direction="upall" sprite="hair">
+            <item from="-5" to="-5"/>
+        </replace>
+    </item>
 </items>
