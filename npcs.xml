@@ -994,7 +994,7 @@
   <npc id="400">
     <sprite variant="27">npcs/npc.xml</sprite>
   </npc>
-  
+
   <!-- 600-700: LoF NPCs -->
   <!-- Young Male Archer -->
   <npc id="600">
@@ -1016,7 +1016,23 @@
   <npc id="620">
     <sprite variant="0">npcs/npc-lof.xml</sprite>
   </npc>
-  
+  <!-- Deep Miner -->
+  <npc id="621">
+    <sprite variant="1">npcs/npc-lof.xml</sprite>
+  </npc>
+  <!-- Shelly the Clock Maker -->
+  <npc id="622">
+    <sprite variant="2">npcs/npc-lof.xml</sprite>
+  </npc>
+  <!-- Kenton -->
+  <npc id="623">
+    <sprite variant="3">npcs/npc-lof.xml</sprite>
+  </npc>
+  <!-- Distorted Man -->
+  <npc id="624">
+    <sprite variant="4">npcs/npc-lof.xml</sprite>
+  </npc>
+
   <!-- Put new unique sprites above here.  For huge npcs, see range 216-250. For poses/outfits npcs, see 251-299. For new TMW npcs, see 400-599. To save replaced npcs, see 610-619. -->
   <!-- note: don't go above 999, because the 1000's are reserved for mob id -->
 </npcs>
