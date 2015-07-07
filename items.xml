@@ -9564,7 +9564,7 @@ an additional item property.
         type="generic"
         weight="1"/>
     <item id="8076"
-        image="use/food/snake-egg.png|W:#373737;G:#1A1A1A;R:#901010;"
+        image="use/food/snake-egg.png|W:#373737;R:#901010;G:#1a1a1a"
         name="Black Mamba Egg"
         description="An edible black mamba egg."
         type="usable"
