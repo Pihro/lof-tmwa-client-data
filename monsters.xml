@@ -54,7 +54,7 @@
     <sound event="miss">monsters/scorpion/scorpion-miss1.ogg</sound>
   </monster>
   <monster id="8" name="Snake">
-    <sprite>monsters/snake.xml|#664d28,a6673a,dbbc86,ffffff</sprite>
+    <sprite>monsters/snake.xml|#664d28,a6673a,dbbc86,ffffff;#ffffff;#ffffff</sprite>
   </monster>
   <monster id="9" name="Fire Goblin">
     <sprite>monsters/goblin-fire.xml</sprite>
@@ -65,7 +65,7 @@
     <attack id="1" effect-id="400" particle-effect="graphics/particles/monster-goblin-firebreath.particle.xml"/>
   </monster>
   <monster id="10" name="Spider">
-    <sprite>monsters/spider.xml|#1a160f,4A7A93,AAC5D2,ffffff;#FF6666</sprite>
+    <sprite>monsters/spider.xml|#1a160f,4a7a93,aac5d2,ffffff;#ff6666</sprite>
     <sound event="hit">monsters/scorpion/scorpion-hit1.ogg</sound>
     <sound event="hit">monsters/scorpion/scorpion-hit2.ogg</sound>
     <sound event="hit">monsters/scorpion/scorpion-hit3.ogg</sound>
@@ -83,11 +83,11 @@
     <sound event="miss">monsters/flower/flower-miss1.ogg</sound>
   </monster>
   <monster id="13" name="Santa Slime">
-    <sprite>monsters/slime.xml|#545166,66A9CD,C2F7FA</sprite>
+    <sprite>monsters/slime.xml|#545166,66A9cd,c2f7fa</sprite>
     <sprite>monsters/accessories/slime-santa.xml</sprite>
   </monster>
   <monster id="14" name="Rudolph Slime">
-    <sprite>monsters/slime.xml|#9092B9,9DB4D4,F8F9FA</sprite>
+    <sprite>monsters/slime.xml|#9092b9,9db4d4,f8f9fa</sprite>
     <sprite>monsters/accessories/slime-rudolph.xml</sprite>
   </monster>
   <monster id="15" name="Bat">
@@ -136,7 +136,7 @@
     <sound event="die">monsters/loghead/loghead-die1.ogg</sound>
   </monster>
   <monster id="24" name="Mountain Snake">
-    <sprite>monsters/snake.xml|#585b39,a67c5d,dbc9a9,ffffff</sprite>
+    <sprite>monsters/snake.xml|#585b39,a67c5d,dbc9a9,ffffff;#ffffff;#ffffff</sprite>
   </monster>
   <monster id="25" name="Easter Fluffy">
     <sprite>monsters/fluffy.xml</sprite>
@@ -163,11 +163,11 @@
   </monster>
   <monster id="31" name="Sea Slime">
     <sprite>monsters/slime.xml|#4ca1a0,ffffff</sprite>
-    <sprite>monsters/accessories/slime-seajelly.xml|#4Ca16e,ffffff</sprite>
+    <sprite>monsters/accessories/slime-seajelly.xml|#4ca16e,ffffff</sprite>
     <sound event="hit">monsters/slime/slime-hit1.ogg</sound>
   </monster>
   <monster id="32" name="Grass Snake">
-    <sprite>monsters/snake.xml|#205839,60a65d,80dba9,ffffff</sprite>
+    <sprite>monsters/snake.xml|#205839,60a65d,80dba9,ffffff;#ffffff;#ffffff</sprite>
   </monster>
   <monster id="33" name="Silkworm">
     <sprite>monsters/silkworm.xml|#807d20,e0dac0;#c0a830</sprite>
@@ -192,7 +192,7 @@
     <sound event="die">monsters/squirrel/squirrel-die2.ogg</sound>
   </monster>
   <monster id="37" name="Fire Lizard">
-    <sprite>monsters/lizard.xml|#673132,923F42,CD5961,E163A4,ffffff</sprite>
+    <sprite>monsters/lizard.xml|#673132,923f42,cd5961,e163a4,ffffff</sprite>
     <sound event="hit">monsters/fire-goblin/fire-goblin-hit1.ogg</sound>
     <sound event="hit">monsters/fire-goblin/fire-goblin-hit2.ogg</sound>
     <sound event="miss">monsters/fire-goblin/fire-goblin-miss1.ogg</sound>
@@ -242,11 +242,11 @@
   <!--50 Hivespa-->
   <!--51 Froad-->
   <monster id="52" name="Troll">
-    <sprite>monsters/troll.xml|#FFDEC2;#FF4D4D;#FF99FF;#FFC88A</sprite>
+    <sprite>monsters/troll.xml|#ffdec2;#ff4d4d;#ff99ff;#ffc88a</sprite>
     <attack id="1" missile-particle="graphics/particles/monster-troll-foefire.particle.xml" action="attack"/>
   </monster>
   <monster id="53" name="Butterfly" targetCursor="small">
-    <sprite>monsters/butterfly.xml|#33cccc,000066,33cccc,FFFFFF</sprite>
+    <sprite>monsters/butterfly.xml|#33cccc,000066,33cccc,ffffff</sprite>
     <sprite>monsters/accessories/generic-shadow-small-circle.xml</sprite>
   </monster>
   <monster id="54" name="Cave Maggot" targetCursor="small">
@@ -447,7 +447,7 @@
     <sprite>monsters/snowflower.xml</sprite>
   </monster>
   <monster id="94" name="Soul Snake">
-    <sprite>monsters/snake.xml|#664d28,a6673a,86D6DB,ffffff</sprite>
+    <sprite>monsters/snake.xml|#664d28,a6673a,86d6db,ffffff;#ffffff;#ffffff</sprite>
     <particlefx>graphics/particles/monster-soulsnake.particle.xml</particlefx>
   </monster>
   <monster id="95" name="Punk Skeleton">
