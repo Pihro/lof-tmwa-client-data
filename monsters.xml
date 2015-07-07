@@ -574,4 +574,7 @@
   <monster id="118" name="Fafi Dragon" targetCursor="big">
     <sprite>monsters/monster-fafidragon.xml</sprite>
   </monster>
+  <monster id="119" name="Black Mamba">
+    <sprite>monsters/snake.xml|#151515,505050,e02020;#a01010;#ffffff</sprite>
+  </monster>
 </monsters>
