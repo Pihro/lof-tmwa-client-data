@@ -1,31 +1,38 @@
 ##1 Welcome to TMW-LoF V2!
 
-##0 We've fixed all the bugs from the 
-##0 TMW content refresh and added a
-##0 couple new features. Enjoy!
+##9 9 July 2015
+##0 * Addressed debug NPC issue
+##0 * Made Blacksmith axe two-handed
+##0 * Fixed ugly map scarring from 2014 update
+##0 * Fixed Riskim dialog hang
+##0 * Fixed Blue Savior Armor bug
+##0 * Fixed Somber Cave spawns
+##0 * Fixed hound purchase
+##0 * Rewrote the Well quest
+##0 * Added level cap items
+##0 * Added level caps to Sorfina
+##0 * Improved Ian's dialog
+##0 * Added more NPC art
+##0 * Finished fixing debug NPC issue
+##0 * Added Black Mamba drops
+##0 * Added Black Mamba mob
+##0 * Prelimary XP/EXP fixes
+##0 * Made Heroes Hold @warp accessible
+
+##9 11 June 2015
+##0 * Magic configs are fixed
+
+##9 1 June 2015
+##0 * Made Savior Armor fully dyable
+##0 * Added some new items
+##0 * Brought back our custom Hurnscald look
+##0 * Fixed item description issues and stats
+##0 * Added Ozthokk's emotes
 
 ##0 We have updated to latest TMW
 ##0 content as of 1/24/14! Also, 
 ##0 check out the Shannon Hat 
 ##0 yearly quest in Diamond's Cove!
 ##0 Have fun!
-
-##0 Happy New Year!
-
-##0 Merry Christmas! Welcome to LoF,
-##0 enjoy our new Christmas/Winter
-##0 maps done by Lavender, KeeKeeKat,
-##0 and Billr!
-
-##0 More items are now available
-##0 from the Exotic Trader
-##0 North-West of Hurns.
-##0 Also Cerhan in the Hurns
-##0 smithy has some more items
-##0 available to craft. Have fun!
-
-##0 We have merged all of TMW's
-##0 new quests, mobs, and maps.
-
 
 ##3 -LoF Dev Team
