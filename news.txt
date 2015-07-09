@@ -6,7 +6,7 @@
 ##0 * Fixed ugly map scarring from 2014 update
 ##0 * Fixed Riskim dialog hang
 ##0 * Fixed Blue Savior Armor bug
-##0 * Fixed Somber Cave spawns
+##0 * Improved Somber Cave spawns
 ##0 * Fixed hound purchase
 ##0 * Rewrote the Well quest
 ##0 * Added level cap items
@@ -16,11 +16,11 @@
 ##0 * Finished fixing debug NPC issue
 ##0 * Added Black Mamba drops
 ##0 * Added Black Mamba mob
-##0 * Prelimary XP/EXP fixes
+##0 * Prelimary EXP/JEXP fixes
 ##0 * Made Heroes Hold @warp accessible
 
 ##9 11 June 2015
-##0 * Magic configs are fixed
+##0 * Finished fixing magic
 
 ##9 1 June 2015
 ##0 * Made Savior Armor fully dyable
@@ -28,11 +28,6 @@
 ##0 * Brought back our custom Hurnscald look
 ##0 * Fixed item description issues and stats
 ##0 * Added Ozthokk's emotes
-
-##0 We have updated to latest TMW
-##0 content as of 1/24/14! Also, 
-##0 check out the Shannon Hat 
-##0 yearly quest in Diamond's Cove!
-##0 Have fun!
+##0 * Fixed quests broken by tmwA upgrade
 
 ##3 -LoF Dev Team
