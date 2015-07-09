@@ -808,29 +808,29 @@
   <object id="27" name="To Somber Cave" type="warp" x="1248" y="2080" width="32" height="32">
    <properties>
     <property name="dest_map" value="somber-cave"/>
-    <property name="dest_tile_x" value="1"/>
-    <property name="dest_tile_y" value="1"/>
+    <property name="dest_tile_x" value="0"/>
+    <property name="dest_tile_y" value="0"/>
    </properties>
   </object>
   <object id="28" name="To Yetis" type="warp" x="1568" y="2560" width="32" height="32">
    <properties>
     <property name="dest_map" value="031-3"/>
-    <property name="dest_tile_x" value="1"/>
-    <property name="dest_tile_y" value="1"/>
+    <property name="dest_tile_x" value="0"/>
+    <property name="dest_tile_y" value="0"/>
    </properties>
   </object>
   <object id="29" name="To Terra Cave" type="warp" x="1248" y="2560" width="32" height="32">
    <properties>
     <property name="dest_map" value="012-4"/>
-    <property name="dest_tile_x" value="1"/>
-    <property name="dest_tile_y" value="1"/>
+    <property name="dest_tile_x" value="0"/>
+    <property name="dest_tile_y" value="0"/>
    </properties>
   </object>
   <object id="30" name="To Night World" type="warp" x="608" y="2560" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-1-night"/>
-    <property name="dest_tile_x" value="1"/>
-    <property name="dest_tile_y" value="1"/>
+    <property name="dest_tile_x" value="0"/>
+    <property name="dest_tile_y" value="0"/>
    </properties>
   </object>
   <object id="31" name="Duck" type="spawn" x="1536" y="2208" width="32" height="32">
