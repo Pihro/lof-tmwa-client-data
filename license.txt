@@ -554,7 +554,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/skills/magic/dark.png (Alige, wushin, enchilado)                                                 (GPLv2), (CC BY-SA 3.0)
 
 # Sprites
-    graphics/sprites/emote.png (Alige, Arikel, DerLoisl, Modanung, Reid)                                      (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/emote.png (Alige, Arikel, DerLoisl, Modanung, Reid, Ozthokk)                             (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/error.png (Crush)                                                                        (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/icon-feather.png (????)                                                                  (GPLv2)
     graphics/sprites/icon-green-barrier.png (????)                                                            (GPLv2)
@@ -809,7 +809,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/sprites/monsters/slime.png (????, Neoriceisgood)                                                 (GPLv2)
     graphics/sprites/monsters/snail.png (FotherJ)                                                             (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/monsters/snake-cave.png (????, Neoriceisgood)                                            (GPLv2)
-    graphics/sprites/monsters/snake.png (????, Neoriceisgood)                                                 (GPLv2)
+    graphics/sprites/monsters/snake.png (????, Neoriceisgood, pydsigner)                                      (GPLv2)
     graphics/sprites/monsters/snowflower.png (Salmondine)                                                     (GPLv2)
     graphics/sprites/monsters/spider.png (FotherJ)                                                            (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/monsters/spinning-scythe.png (Nmaligec, Skipy)                                           (GPLv2)
