@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="120" tilewidth="32" tileheight="32" nextobjectid="23">
  <properties>
-  <property name="minimap" value="graphics/minimaps/heroes-hold-overworld.png"/>
+  <property name="minimap" value="graphics/minimaps/hh-outside.png"/>
   <property name="music" value="Richard_Wagner_-_Ride_of_the_Valkyries.ogg"/>
-  <property name="name" value="Heroes' Hold - Overworld"/>
+  <property name="name" value="Heroes' Hold - Outside"/>
   <property name="overlay0image" value="graphics/images/ambient/fog.png"/>
   <property name="overlay0parallax" value="1.0"/>
   <property name="overlay0scrollX" value="0.307"/>
   <property name="overlay0scrollY" value="0.211"/>
-  <property name="overlay1image" value="graphics/images/ambient/fog.png"/>
-  <property name="overlay1parallax" value="1.0"/>
-  <property name="overlay1scrollX" value="0.227"/>
-  <property name="overlay1scrollY" value="0.341"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../tilesets/Woodland_ground.tsx"/>
@@ -846,7 +842,7 @@
     <property name="eA_death" value="40000"/>
     <property name="eA_spawn" value="120000"/>
     <property name="max_beings" value="2"/>
-    <property name="monster_id" value="38"/>
+    <property name="monster_id" value="119"/>
    </properties>
    <polygon points="0,0 601,3 1056,461 1061,1007 7,1008"/>
   </object>
@@ -881,7 +877,7 @@
    <properties>
     <property name="eA_death" value="40000"/>
     <property name="eA_spawn" value="120000"/>
-    <property name="max_beings" value="2"/>
+    <property name="max_beings" value="1"/>
     <property name="monster_id" value="38"/>
    </properties>
   </object>
@@ -889,8 +885,8 @@
    <properties>
     <property name="eA_death" value="40000"/>
     <property name="eA_spawn" value="120000"/>
-    <property name="max_beings" value="2"/>
-    <property name="monster_id" value="40"/>
+    <property name="max_beings" value="1"/>
+    <property name="monster_id" value="119"/>
    </properties>
   </object>
   <object id="16" name="Spawn Area 4" type="spawn" x="3081" y="1711" width="833" height="737">
@@ -914,7 +910,7 @@
     <property name="eA_death" value="40000"/>
     <property name="eA_spawn" value="120000"/>
     <property name="max_beings" value="2"/>
-    <property name="monster_id" value="38"/>
+    <property name="monster_id" value="119"/>
    </properties>
   </object>
   <object id="19" name="Spawn Area 5" type="spawn" x="1795" y="2515" width="2345" height="831">
@@ -938,7 +934,7 @@
     <property name="eA_death" value="40000"/>
     <property name="eA_spawn" value="120000"/>
     <property name="max_beings" value="2"/>
-    <property name="monster_id" value="45"/>
+    <property name="monster_id" value="43"/>
    </properties>
   </object>
   <object id="22" name="To Heroes' Hold - Castle" type="warp" x="2240" y="2016" width="128" height="32">
