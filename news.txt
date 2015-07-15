@@ -1,5 +1,9 @@
 ##1 Welcome to TMW-LoF V2!
 
+##9 14 July 2015
+##0 * Added Black Mamba spawns
+##0 * Tweaked Sorfina dialog
+
 ##9 9 July 2015
 ##0 * Addressed debug NPC issue
 ##0 * Made Blacksmith axe two-handed
