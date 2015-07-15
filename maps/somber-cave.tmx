@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="150" tilewidth="32" tileheight="32" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="150" tilewidth="32" tileheight="32" nextobjectid="2">
  <properties>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Somber Cave"/>
@@ -940,8 +940,8 @@
   <object id="1" name="Somber Cave Exit" type="warp" x="3648" y="736" width="32" height="32">
    <properties>
     <property name="dest_map" value="009-1"/>
-    <property name="dest_tile_x" value="0"/>
-    <property name="dest_tile_y" value="0"/>
+    <property name="dest_tile_x" value="1"/>
+    <property name="dest_tile_y" value="1"/>
    </properties>
   </object>
   <object id="2" name="FireLizard" type="spawn" x="2560" y="2880" width="128" height="128">
@@ -1033,6 +1033,13 @@
     <property name="eA_spawn" value="10000"/>
     <property name="max_beings" value="15"/>
     <property name="monster_id" value="113"/>
+   </properties>
+  </object>
+  <object id="1" name="BlackMamba" type="spawn" x="576" y="608" width="3616" height="3456">
+   <properties>
+    <property name="eA_spawn" value="15000"/>
+    <property name="max_beings" value="9"/>
+    <property name="monster_id" value="119"/>
    </properties>
   </object>
  </objectgroup>
