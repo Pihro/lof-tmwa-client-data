@@ -9001,8 +9001,8 @@ an additional item property.
         weight="1"/>
     <item id="8026"
         image="generic/emerald.png"
-        name="Emerald"
-        description="An uncut emerald."
+        name="Massive Emerald"
+        description="A massive uncut emerald."
         effect=""
         type="generic"
         weight="20"/>
