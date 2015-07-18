@@ -2,6 +2,8 @@
 
 ##9 Unreleased
 ##0 * Rebalanced melee weapons
+##0 * Reduced gp cost of Terranite armor
+##0 * Added Miere Axe
 
 ##9 14 July 2015
 ##0 * Added Black Mamba spawns

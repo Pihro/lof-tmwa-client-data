@@ -9572,4 +9572,15 @@ an additional item property.
         type="usable"
         hp="100"
         weight="4"/>
+    <item id="8077"
+        image="equipment/weapon/axe-singleblade.png"
+        name="Miere Axe"
+        description="A two-handed battleaxe."
+        effect="Damage +250"
+        type="equip-2hand"
+        weapon-type="knife"
+        attack-action="attack_2hand"
+        weight="500">
+        <sprite>weapon-singleblade-axe.xml</sprite>
+    </item>
 </items>
