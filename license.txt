@@ -782,6 +782,7 @@ UBP: All rights reserved, used by permission.
     graphics/sprites/monsters/plant.png (Crush, Seradest)                                                     (GPLv2)
     graphics/sprites/monsters/pumpkin.png (????)                                                              (GPLv2)
     graphics/sprites/monsters/reaper.png (Alige, Len, Reid, Skipy)                                            (GPLv2)
+    graphics/sprites/monsters/red-dragon.png (Lunovox [base], pydsigner [recolor])                            (GPLv2)
     graphics/sprites/monsters/scorpion.png (????)                                                             (GPLv2)
     graphics/sprites/monsters/serqet.png (ChefChelios)                                                        (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/monsters/silkworm.png (Fate)                                                             (GPLv2), (CC BY-SA 3.0)
