@@ -1,7 +1,10 @@
 The information in this file might be incomplete or incorrect,
 since the artists weren't tracked during the first years of the project.
 If you have knowledge about some information that's missing or that
-needs a correction, please contact the tmw development team.
+needs a correction, please contact the Land of Fire development team or make a 
+pull request on Github.
+
+All indices are 0-based.
 
 GPLv2: Licensed under GNU General Public License version2.
 http://www.gnu.org/licenses/gpl-2.0.html
@@ -9,51 +12,9 @@ http://www.gnu.org/licenses/gpl-2.0.html
 CC BY-SA 3.0: Licensed under Creative Commons Attribution-ShareAlike 3.0 Unported.
 http://creativecommons.org/licenses/by-sa/3.0/
 
-(????): Unknown contributors.
+UBP: All rights reserved, used by permission.
 
-# Emotes
-    graphics/emotes/afraid.png (Reid, Modanung)                                                               (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/alien.png (DerLoisl, Modanung)                                                            (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/angel.png (Modanung)                                                                      (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/angry.png (Reid, Modanung)                                                                (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/blah.png (Modanung)                                                                       (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/blush.png (Modanung)                                                                      (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/bored.png (Reid, Modanung)                                                                (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/bothered.png (Reid, Modanung)                                                             (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/cheerful.png (Reid, Modanung)                                                             (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/clever.png (Reid, Modanung)                                                               (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/curious.png (Alige, Modanung)                                                             (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/dead.png (Reid, Modanung)                                                                 (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/disgust.png (Modanung)                                                                    (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/empty.png (Modanung)                                                                      (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/evil.png (Modanung)                                                                       (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/facepalm.png (Reid, Modanung)                                                             (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/grin.png (Modanung)                                                                       (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/halloween.png (Reid)                                                                      (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/happy.png (Modanung)                                                                      (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/headache.png (Reid, Modanung)                                                             (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/heart.png (Arikel)                                                                        (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/joyful.png (Reid, Modanung)                                                               (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/laugh.png (Reid, Modanung)                                                                (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/love.png (Reid, Modanung)                                                                 (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/melancholy.png (Reid, Modanung)                                                           (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/meow.png (Reid, Modanung)                                                                 (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/money.png (Reid, Modanung)                                                                (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/pain.png (Reid, Modanung)                                                                 (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/perturbed.png (Modanung)                                                                  (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/rest.png (Reid, Modanung)                                                                 (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/sad.png (Modanung)                                                                        (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/shy.png (Reid, Modanung)                                                                  (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/sleep.png (Reid, Modanung)                                                                (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/speech.png (Modanung)                                                                     (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/surprise.png (Modanung)                                                                   (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/suspicious.png (Reid, Modanung)                                                           (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/swear.png (Reid, Modanung)                                                                (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/tears.png (Reid, Modanung)                                                                (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/tongue.png (Modanung)                                                                     (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/upset.png (Modanung)                                                                      (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/vicious.png (Reid)                                                                        (GPLv2), (CC BY-SA 3.0)
-    graphics/emotes/wink.png (Modanung)                                                                       (GPLv2), (CC BY-SA 3.0)
+(????): Unknown contributors.
 
 # Images
     graphics/images/axe.png (????)                                                                    (GPLv2)
@@ -554,7 +515,8 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/skills/magic/dark.png (Alige, wushin, enchilado)                                                 (GPLv2), (CC BY-SA 3.0)
 
 # Sprites
-    graphics/sprites/emote.png (Alige, Arikel, DerLoisl, Modanung, Reid, Ozthokk)                             (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/emote.png (Alige, Arikel, DerLoisl, Modanung, Reid, Ozthokk                              (GPLv2), (CC BY-SA 3.0)
+        * 17-19
     graphics/sprites/error.png (Crush)                                                                        (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/icon-feather.png (????)                                                                  (GPLv2)
     graphics/sprites/icon-green-barrier.png (????)                                                            (GPLv2)
@@ -584,6 +546,8 @@ http://creativecommons.org/licenses/by-sa/3.0/
 ### Chest
     graphics/sprites/equipment/chest/assassin-female.png (Black Don)                                          (GPLv2)
     graphics/sprites/equipment/chest/assassin-male.png (Black Don)                                            (GPLv2)
+    graphics/sprites/equipment/chest/black-mamba-armor.png (Ozthokk)                                          (UBP)
+    graphics/sprites/equipment/chest/black-mamba-armor-female.png (Ozthokk)                                   (UBP)
     graphics/sprites/equipment/chest/bromenalchest-female.png (Skipy)                                         (GPLv2)
     graphics/sprites/equipment/chest/bromenalchest-male.png (Skipy)                                           (GPLv2)
     graphics/sprites/equipment/chest/chainmail-female.png (Modanung)                                          (GPLv2), (CC BY-SA 3.0)
@@ -621,6 +585,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
 ### Feet
     graphics/sprites/equipment/feet/assassin-boots-female.png (Black Don)                                     (GPLv2)
     graphics/sprites/equipment/feet/assassin-boots-male.png (Black Don)                                       (GPLv2)
+    graphics/sprites/equipment/feet/black-mamba-boots.png (Ozthokk, pydsigner [cleanup])                      (UBP)
     graphics/sprites/equipment/feet/boots-female.png (????)                                                   (GPLv2)
     graphics/sprites/equipment/feet/boots-male.png (????)                                                     (GPLv2)
     graphics/sprites/equipment/feet/bromenalboots-female.png (Skipy)                                          (GPLv2)
@@ -632,6 +597,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
 ### Hands
     graphics/sprites/equipment/hands/assassin-female.png (Black Don)                                          (GPLv2)
     graphics/sprites/equipment/hands/assassin-male.png (Black Don)                                            (GPLv2)
+    graphics/sprites/equipment/hands/black-mamba-gloves.png (Ozthokk)                                         (UBP)
     graphics/sprites/equipment/hands/generic-female.png (????)                                                (GPLv2)
     graphics/sprites/equipment/hands/generic-male.png (????)                                                  (GPLv2)
     graphics/sprites/equipment/hands/bromenalgloves-female.png (Skipy)                                        (GPLv2)
@@ -641,6 +607,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/sprites/equipment/head/axehat.png (????)                                                         (GPLv2)
     graphics/sprites/equipment/head/bandana.png (Modanung)                                                    (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/equipment/head/beaniecopter.png (Alige, Black Don, Milla, Veryape)                       (GPLv2)
+    graphics/sprites/equipment/head/black-mamba-helm.png (Ozthokk)                                            (UBP)
     graphics/sprites/equipment/head/bowler-hat-brown.png (ChefChelios)                                        (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/equipment/head/bowler-hat.png (ChefChelios)                                              (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/equipment/head/bromenalhelmet.png (Skipy)                                                (GPLv2)
@@ -680,6 +647,16 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/sprites/equipment/head/jestermask.png (Spit23)                                                   (GPLv2)
     graphics/sprites/equipment/head/knighthelm.png (Black Don)                                                (GPLv2)
     graphics/sprites/equipment/head/knit-cap.png (Salmondine)                                                 (GPLv2)
+    graphics/sprites/equipment/head/level-10-cap.png (Black Don, Ozthokk)                                     (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/equipment/head/level-20-cap.png (Black Don, Ozthokk)                                     (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/equipment/head/level-30-cap.png (Black Don, Ozthokk)                                     (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/equipment/head/level-40-cap.png (Black Don, Ozthokk)                                     (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/equipment/head/level-50-cap.png (Black Don, Ozthokk)                                     (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/equipment/head/level-60-cap.png (Black Don, Ozthokk)                                     (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/equipment/head/level-70-cap.png (Black Don, Ozthokk)                                     (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/equipment/head/level-80-cap.png (Black Don, Ozthokk)                                     (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/equipment/head/level-90-cap.png (Black Don, Ozthokk)                                     (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/equipment/head/level-99-cap.png (Black Don, Ozthokk)                                     (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/equipment/head/magicgmtophat.png (QOAL, V0id)                                            (GPLv2)
     graphics/sprites/equipment/head/mask.png (QOAL)                                                           (GPLv2)
     graphics/sprites/equipment/head/minershat.png (Crush)                                                     (GPLv2), (CC BY-SA 3.0)
@@ -726,6 +703,9 @@ http://creativecommons.org/licenses/by-sa/3.0/
 ### Legs
     graphics/sprites/equipment/legs/assassin-female.png (Black Don)                                           (GPLv2)
     graphics/sprites/equipment/legs/assassin-male.png (Black Don)                                             (GPLv2)
+    graphics/sprites/equipment/legs/black-mamba-pants.png (Ozthokk)                                           (UBP)
+    graphics/sprites/equipment/legs/black-mamba-pants-male.png (Ozthokk)                                      (UBP)
+    graphics/sprites/equipment/legs/black-mamba-pants-female.png (Ozthokk)                                    (UBP)
     graphics/sprites/equipment/legs/bromenallegs-female.png (Skipy)                                           (GPLv2)
     graphics/sprites/equipment/legs/bromenallegs-male.png (Skipy)                                             (GPLv2)
     graphics/sprites/equipment/legs/chaps-female.png (????)                                                   (GPLv2)
@@ -809,7 +789,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/sprites/monsters/slime.png (????, Neoriceisgood)                                                 (GPLv2)
     graphics/sprites/monsters/snail.png (FotherJ)                                                             (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/monsters/snake-cave.png (????, Neoriceisgood)                                            (GPLv2)
-    graphics/sprites/monsters/snake.png (????, Neoriceisgood, pydsigner)                                      (GPLv2)
+    graphics/sprites/monsters/snake.png (????, Neoriceisgood, pydsigner [multidye conversion])                (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/monsters/snowflower.png (Salmondine)                                                     (GPLv2)
     graphics/sprites/monsters/spider.png (FotherJ)                                                            (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/monsters/spinning-scythe.png (Nmaligec, Skipy)                                           (GPLv2)
@@ -850,6 +830,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/sprites/npcs/hugenpcs.png (ChefChelios, Nami)                                                     (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/npcs/npc-annualeaster.png (????)                                                          (GPLv2)
     graphics/sprites/npcs/npc-beerguyghost.png (Reid, Skipy)                                                   (GPLv2)
+    graphics/sprites/npcs/npc-bunny-girl.png (Crush, talaroc)                                                  (GPLv2)
     graphics/sprites/npcs/npc-chronos.png (Lien)                                                               (GPLv2)
     graphics/sprites/npcs/npc-cindycage.png (Skipy)                                                            (GPLv2)
     graphics/sprites/npcs/npc-creepysurgeon.png (Modanung)                                                     (GPLv2), (CC BY-SA 3.0)
@@ -868,12 +849,20 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/sprites/npcs/npc-savannahman.png (Modanung)                                                       (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/npcs/npc-test.png (Modanung)                                                              (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/npcs/npc-treasurebox.png (????)                                                           (GPLv2)
-    graphics/sprites/npcs/npc-supply-crate.png (????,wushin)                                                   (GPLv2)
+    graphics/sprites/npcs/npc-supply-crate.png (????, wushin)                                                   (GPLv2)
     graphics/sprites/npcs/npc-undeadbanker.png (Reid)                                                          (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/npcs/npc-weaver.png (ChefChelios)                                                         (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/npcs/npc-woodenpump.png (Varuna)                                                          (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/npcs/npcs.png (????, Crush, Fate, Haay, Lien, Qwerty Dragon, Salmondine, Skipy, Wombat)   (GPLv2)
     graphics/sprites/npcs/npcs2.png (Reid, Salmondine, Skipy)                                                  (GPLv2)
+    graphics/sprites/npcs/npcs-hh.png                                                                          (GPLv2), (CC BY-SA 3.0)
+        * 0: Fate [base], pydsigner [sleeve color, hair]
+        * 1: ???? [base], pydsigner [hair]
+        * 2: ???? [base], Salmondine [page] + pydsigner [composite, hair]
+    graphics/sprites/npcs/npcs-lof.png                                                                         (UBP)
+        * 0:        Ozthokk + Axzell [base], vanmier [tweaks]
+        * 1,2,4:    Ozthokk
+        * 3:        Axzell
     graphics/sprites/npcs/outfits.png (Wombat)                                                                 (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/npcs/poses.png (Lien, Meemixes, Salmondine, Wombat)                                       (GPLv2)
     graphics/sprites/npcs/saboteur.png (Wombat)                                                                (GPLv2), (CC BY-SA 3.0)
@@ -959,7 +948,7 @@ http://creativecommons.org/licenses/by-sa/3.0/
     graphics/tiles/Woodland_graveyard_x3.png (????, Black Don, Crush)                                             (GPLv2)
     graphics/tiles/Woodland_graveyard_x4.png (????, Crush, Spit23)                                                (GPLv2)
     graphics/tiles/Woodland_ground.png (????, Crush, Wombat, enchilado)                                           (GPLv2)
-    graphics/tiles/woodland_indoor_x2.png (????, Crush, tux9th)                                                           (GPLv2)
+    graphics/tiles/woodland_indoor_x2.png (????, Crush, tux9th)                                                   (GPLv2)
     graphics/tiles/woodland_indoor_x3.png (????, Crush)                                                           (GPLv2)
     graphics/tiles/woodland_indoor.png (????, Crush, Yosuhara)                                                    (GPLv2)
     graphics/tiles/Woodland_swamp.png (Len)                                                                       (GPLv2), (CC BY-SA 3.0)
