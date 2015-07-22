@@ -1,9 +1,19 @@
 ##1 Welcome to TMW-LoF V2!
 
-##9 Unreleased
+##0 If you haven't yet, check out the Sorfina's Caps 
+##0 quest by heading back through Tulimshar to her 
+##0 house. Make sure you've at least reached level 10!
+
+##9 22 July 2015
 ##0 * Rebalanced melee weapons
 ##0 * Reduced gp cost of Terranite armor
 ##0 * Added Miere Axe
+##0 * Fixed Emerald item conflict
+##0 * Rewrote Malek and renamed him Kelan
+##0 * Tweaked Somber Cave spawns
+##0 * Added some missing minimaps
+##0 * Improved license.txt
+##0 * Added two recolored dragon sprites
 
 ##9 14 July 2015
 ##0 * Added Black Mamba spawns
