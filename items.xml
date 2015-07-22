@@ -9237,6 +9237,7 @@ an additional item property.
         description="Strong and nimble armor."
         type="equip-torso"
         defense="30"
+        dex="1"
         weight="260">
         <sprite gender="male">equipment/chest/black-mamba-armor.xml</sprite>
     <sprite gender="female">equipment/chest/black-mamba-armor-female.xml</sprite>
@@ -9245,9 +9246,10 @@ an additional item property.
         image="equipment/feet/black-mamba-boots.png"
         name="Black Mamba Boots"
         description="Dark and smooth boots."
+        defense="4"
+        agi="1"
         type="equip-feet"
-        weight="80"
-        defense="4">
+        weight="80">
         <sprite>equipment/feet/black-mamba-boots.xml</sprite>
     </item>
     <item id="8051"
@@ -9256,6 +9258,7 @@ an additional item property.
         description="A pair of dark, smooth gloves."
         type="equip-arms"
         defense="3"
+        dex="1"
         weight="20">
         <sprite>equipment/hands/black-mamba-gloves.xml</sprite>
     </item>
@@ -9264,6 +9267,7 @@ an additional item property.
         name="Black Mamba Helm"
         description="A sleek dark helmet."
         defense="15"
+        luck="1"
         type="equip-head"
         weight="60">
         <sprite>equipment/head/black-mamba-helm.xml</sprite>
