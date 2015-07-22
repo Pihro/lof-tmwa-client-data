@@ -577,4 +577,10 @@
   <monster id="119" name="Black Mamba">
     <sprite>monsters/snake.xml|#151515,505050,e02020;#a01010;#ffffff</sprite>
   </monster>
+  <monster id="120" name="Red Dragon" targetCursor="big">
+    <sprite>monsters/red-dragon.xml</sprite>
+  </monster>
+  <monster id="121" name="Smoke Dragon" targetCursor="big">
+    <sprite>monsters/smoke-dragon.xml</sprite>
+  </monster>
 </monsters>
