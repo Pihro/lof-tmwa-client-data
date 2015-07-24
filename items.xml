@@ -8786,7 +8786,7 @@ an additional item property.
         description="A Pair of matching pants for your cape."
         effect="M. Attack -12"
         type="equip-legs"
-        defense="15"
+        defense="10"
         weight="60">
         <sprite gender="male">equipment/legs/saviorpants-male.xml</sprite>
         <sprite gender="female">equipment/legs/saviorpants-male.xml</sprite>
