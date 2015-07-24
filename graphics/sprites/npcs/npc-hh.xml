@@ -1,5 +1,5 @@
-<!-- These NPCs are Pyndragon's mods of standard NPCs, specifically for Land of Fire's Heroes' Hold area. -->
 <?xml version="1.0"?>
+<!-- These NPCs are Pyndragon's mods of standard NPCs, specifically for Land of Fire's Heroes' Hold area. -->
 <!-- This `variants="100"` seems inaccurate, but it's used everywhere else, so, eh. -->
 <sprite variants="100" variant_offset="1">
   <imageset name="base" src="graphics/sprites/npcs/npcs-hh.png" width="50" height="80"/>

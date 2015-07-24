@@ -1,5 +1,5 @@
-<!-- Land of Fire's custom NPCs -->
 <?xml version="1.0"?>
+<!-- Land of Fire's custom NPCs -->
 <!-- This `variants="100"` seems inaccurate, but it's used everywhere else, so, eh. -->
 <sprite variants="100" variant_offset="1">
   <imageset name="base" src="graphics/sprites/npcs/npcs-lof.png" width="60" height="80"/>
