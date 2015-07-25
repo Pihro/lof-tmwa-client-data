@@ -5,11 +5,15 @@
 ##0 house. Make sure you've at least reached level 10!
 
 ##9 Unreleased
+##0 * Added some WIP maps
+
+##9 24 July 2015
 ##0 * Rebalanced melee weapons
 ##0 * Reduced gp cost of Terranite armor
 ##0 * Added Miere Axe
 ##0 * Fixed Emerald item conflict
 ##0 * Rewrote Malek and renamed him Kelan
+##0 * Fixed Blacksmith's Axe name in item_db
 ##0 * Tweaked Somber Cave spawns
 ##0 * Added some missing minimaps
 ##0 * Improved license.txt
