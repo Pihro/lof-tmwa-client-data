@@ -978,6 +978,9 @@ UBP: All rights reserved, used by permission.
         * Original: ????, Crush, Yosuhara
         * Reskin: Billr, lavender
         * Pixel edits: pydsigner
+    graphics/tiles/woodland_indoor_extra.png (lavender)                                                           (GPLv2)
+        * Window frames and base beds: ????, Crush, Yosuhara
+        * Everything else: lavender
     graphics/tiles/Woodland_swamp.png (Len)                                                                       (GPLv2), (CC BY-SA 3.0)
     graphics/tiles/Woodland_village_x2.png (????, Crush)                                                          (GPLv2)
     graphics/tiles/Woodland_village.png (????, Crush)                                                             (GPLv2)
