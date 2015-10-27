@@ -9267,7 +9267,8 @@ an additional item property.
         name="Black Mamba Helm"
         description="A sleek dark helmet."
         defense="15"
-        luck="1"
+        dex="1"
+        agi="1"
         type="equip-head"
         weight="60">
         <sprite>equipment/head/black-mamba-helm.xml</sprite>
@@ -9278,6 +9279,7 @@ an additional item property.
         description="Dark sleek pants."
         type="equip-legs"
         defense="8"
+        agi="1"
         weight="60">
         <sprite gender="male">equipment/legs/black-mamba-pants-male.xml</sprite>
         <sprite gender="female">equipment/legs/black-mamba-pants-female.xml</sprite>
