@@ -4,13 +4,14 @@
 ##0 the Land of Fire. Grind some Black Mambas, collect their drops, and
 ##0 head out to the desert to get some new gear by Ozthokk!
 
-##9 Unreleased
+##9 28 October 2015
 ##0 * Added Black Mamba quest
 ##0 * Fixed new minimaps
 ##0 * Added some WIP maps
 ##0 * Fixed Monocle crit bonus
 ##0 * Added lavender's map tweaks
 ##0 * Added admin control panel
+##0 * Unlocked Unsilvered Crusade Helmet
 
 ##9 24 July 2015
 ##0 * Rebalanced melee weapons
