@@ -8896,7 +8896,7 @@ an additional item property.
     </item>
     <item id="8017"
         image="equipment/head/unsilvered-crusadehelm.png"
-        name="unsilvered Crusade Helmet"
+        name="Unsilvered Crusade Helmet"
         description="A crusade helmet that hasn't yet been infused with silver."
         defense="15"
         type="equip-head"
