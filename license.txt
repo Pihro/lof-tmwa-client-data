@@ -1,7 +1,7 @@
 The information in this file might be incomplete or incorrect,
 since the artists weren't tracked during the first years of the project.
 If you have knowledge about some information that's missing or that
-needs a correction, please contact the Land of Fire development team or make a 
+needs a correction, please contact the Land of Fire development team or make a
 pull request on Github.
 
 All indices are 0-based.
@@ -440,9 +440,9 @@ UBP: All rights reserved, used by permission.
 # Minimaps
     graphics/minimaps/*.png (The Mana World Development Team, pydsigner)                                      (GPLv2)
         * TMW maps: The Mana World Development Team
-        * LOF maps: pydsigner; GPLv2/CC BY-SA 3.0.
+        * LOF maps: pydsigner                                                                                 (GPLv2/CC BY-SA 3.0.)
             - hh-outside.png
-            - somber-cave.png 
+            - somber-cave.png
 
 # Particles
     graphics/particles/aniblaze-large.png (Crush)                                                             (GPLv2), (CC BY-SA 3.0)
@@ -961,6 +961,9 @@ UBP: All rights reserved, used by permission.
     graphics/tiles/trans_woodland-desert.png (????)                                                               (GPLv2)
     graphics/tiles/Tulimshar_Docks.png (????)                                                                     (GPLv2)
     graphics/tiles/tulimshar1.png (Modanung)                                                                      (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/warp-gates.png                                                                                 (GPLv2)
+        * Based on Crypt-Blockwall.png: Irukard
+        * Trimmed and recolored: Ozthokk
     graphics/tiles/Witch_sisters_picture_x3.png (????)                                                            (GPLv2)
     graphics/tiles/Woodland_graveyard_crypt.png (????, Spit23)                                                    (GPLv2)
     graphics/tiles/Woodland_graveyard_ground.png (????, Crush)                                                    (GPLv2)
