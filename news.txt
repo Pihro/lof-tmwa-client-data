@@ -1,14 +1,16 @@
 ##1 Welcome to TMW-LoF V2!
 
-##0 Tulimshar finally approved Carston's plans to move his inn towards the
-##0 residential district and the planned trade route. The one condition was
-##0 that he clean up the mess that would be left behind. He reciprocated by
-##0 setting a new outdoor hangout for adventurers nestled in with the warp
-##0 gates. You may have find a new place to sit....
+##0 Tulimshar finally approved Carston's plans to move his inn
+##0 towards the residential district and the planned trade route.
+##0 The one condition was that he clean up the mess that would be
+##0 left behind. He reciprocated by setting a new outdoor hangout
+##0 for adventurers nestled in with the warp gates. You may have
+##0 find a new place to sit....
 
-##0 Pachua has found out about the snake that has started prowling around
-##0 the Land of Fire. Grind some Black Mambas, collect their drops, and
-##0 head out to the desert to get some new gear by Ozthokk!
+##0 Pachua has found out about the snake that has started prowling
+##0 around the Land of Fire. Grind some Black Mambas, collect
+##0 their drops, and head out to the desert to get some new gear
+##0 by Ozthokk!
 
 ##9 5 November 2015
 ##0 * Add Coal Refiner NPC
