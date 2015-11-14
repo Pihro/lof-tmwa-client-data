@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <include name="quests/tulimshar/tutorial.xml"/>
+  <include name="quests/tulimshar/hasan.xml"/>
+  <include name="quests/tulimshar/vincent.xml"/>
+  <include name="quests/tulimshar/hide-n-seek.xml"/>
+</quests>

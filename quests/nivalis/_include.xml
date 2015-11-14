@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <include name="quests/tulimshar/well.xml"/>
+  <include name="quests/tulimshar/cindy.xml"/>
+  <include name="quests/tulimshar/baktar.xml"/>
+  <include name="quests/tulimshar/blue_sage.xml"/>
+</quests>

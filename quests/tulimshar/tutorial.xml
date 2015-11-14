@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quests>
+  <its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0">
+    <its:translateRule selector="//var/quest/@name" translate="yes"/>
+    <its:translateRule selector="//var/quest/name" translate="yes"/>
+    <its:translateRule selector="//var/quest/text" translate="yes"/>
+    <its:translateRule selector="//*" translate="no"/>
+  </its:rules>
+  <var id="1">
+    <!-- SORFINA -->
+    <effect map="042-2.tmx" npc="154" value="0" effect="45"/>
+    <effect map="042-2.tmx" npc="154" value="1,2,3" effect="46"/>
+    <quest name="Tutorial" group="Tulimshar Suburbs" incomplete="1">
+      <name>Introduction</name>
+      <text>Sorfina wants to ensure that you still possess basic motor skills. Walk over to the carpet to put her worries to rest.</text>
+      <text>The carpet is located at (33,27) in Tulimshar Suburbs Indoor.</text>
+    </quest>
+    <quest name="Tutorial" group="Tulimshar Suburbs" incomplete="2">
+      <name>Introduction</name>
+      <text>Sorfina remains skeptical and has instructed you to grab some clothes out of a nearby chest.</text>
+      <text>The chest is located at (27, 23) in Tulimshar Suburbs Indoor.</text>
+    </quest>
+    <quest name="Tutorial" group="Tulimshar Suburbs" incomplete="3">
+      <name>Introduction</name>
+      <text>Sorfina wants to make sure that you can dress yourself. Open up your inventory and equip the clothes you took from the dresser.</text>
+      <text>You can equip items irregardless of your location, but you may prefer to change in the privacy of the corner at (21,31) in Tulimshar Suburbs Indoor.</text>
+    </quest>
+    <quest name="Tutorial" group="Tulimshar Suburbs" complete="4">
+      <name>Introduction</name>
+      <text>To repay your debt, Sorfina has requested that you assist her niece, Tanisha.</text>
+      <text>Tanisha is located at (37,90) in Tulimshar Suburbs Indoor.</text>
+    </quest>
+  </var>
+  <var id="2">
+    <!-- TANISHA -->
+    <effect map="042-2.tmx" npc="114" value="1,2,3" effect="46"/>
+    <quest name="Tutorial" group="Tulimshar Suburbs" incomplete="1">
+      <name>Introduction</name>
+      <text>Tanisha, despite her job, is disgusted by maggots and wants you to squash them for her.</text>
+      <text>The maggots seem to be infesting near (33,87) in Tulimshar Suburbs Indoor.</text>
+    </quest>
+    <quest name="Tutorial" group="Tulimshar Suburbs" incomplete="2">
+      <name>Introduction</name>
+      <text>Tanisha has given you some useful equipment for squashing maggots. You'd better get to work!</text>
+      <text>The maggots seem to be infesting near (33,87) in Tulimshar Suburbs Indoor.</text>
+    </quest>
+    <quest name="Tutorial" group="Tulimshar Suburbs" incomplete="3">
+      <name>Introduction</name>
+      <text>You killed the maggots for Tanisha, so you should report back to her and see what she has to say.</text>
+      <text>Tanisha is located at (37,90) in Tulimshar Suburbs Indoor.</text>
+    </quest>
+    <quest name="Tutorial" group="Tulimshar Suburbs" complete="4">
+      <name>Introduction</name>
+      <text>You finished all the work that Sorfina and Tanisha had for you. They still seem happy to talk to you though.</text>
+      <text>Sorfina is located at (28,26) and Tanisha is located at (37,90) – both are in Tulimshar Suburbs Indoor.</text>
+    </quest>
+  </var>
+</quests>
