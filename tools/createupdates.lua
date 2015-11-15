@@ -22,7 +22,7 @@ local function checkenv(varname)
     return value
 end
 
-local WORLD_DATA_REPOSITORY = checkenv('WORLD_DATA_REPOSITORY')
+-- local WORLD_DATA_REPOSITORY = checkenv('WORLD_DATA_REPOSITORY')
 local CLIENT_UPDATES_DIR = checkenv('CLIENT_UPDATES_DIR')
 
 
@@ -49,7 +49,7 @@ local function execute(command)
 end
 
 local function git(subcommand)
-    return 'git --git-dir=' .. WORLD_DATA_REPOSITORY .. ' ' .. subcommand
+    return 'git' .. ' ' .. subcommand
 end
 
 local function adler32(file)
