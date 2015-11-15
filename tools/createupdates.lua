@@ -57,8 +57,8 @@ local function adler32(file)
 end
 
 local function last_revision(paths)
-    local output = capture(git('log -1 --pretty=format:%h --' .. paths))
-    return assert(string.match(output, '(%w+) '))
+    local output = capture(git('log -1 --pretty=format:%h -- ' .. paths))
+    return output
 end
 
 local function exists(filename)
