@@ -1,9 +1,14 @@
 ##1 Welcome to TMW-LoF V2!
 
 ##0 We have updated our content to the latest version of
-##0 TMWA. This gives us features like quest logs and 
+##0 TMWA. This gives us features like quest logs and
 ##0 exact mob health reporting, but the massive changes
-##0 needed
+##0 needed have caused some bugs, some of which have
+##0 probably not been found. If you find one, please 
+##0 mention it in-game and post the details in the bugs
+##0 thread on the forum!
+
+##3 -- The LoF Dev Team
 
 ##0 Tulimshar finally approved Carston's plans to move his
 ##0 inn towards the residential district and the planned
@@ -86,5 +91,3 @@
 ##0 * Fixed item description issues and stats
 ##0 * Added Ozthokk's emotes
 ##0 * Fixed quests broken by tmwA upgrade
-
-##3 -LoF Dev Team
