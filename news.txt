@@ -26,6 +26,7 @@
 ##0 * Fixed Pachua (crash)
 ##0 * Fixed Miriam
 ##0 * Fixed docks
+##0 * Fixed Illia reward stat checks
 
 ##9 5 November 2015
 ##0 * Add Coal Refiner NPC
