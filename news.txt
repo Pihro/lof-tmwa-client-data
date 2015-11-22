@@ -1,5 +1,10 @@
 ##1 Welcome to TMW-LoF V2!
 
+##0 We have updated our content to the latest version of
+##0 TMWA. This gives us features like quest logs and 
+##0 exact mob health reporting, but the massive changes
+##0 needed
+
 ##0 Tulimshar finally approved Carston's plans to move his
 ##0 inn towards the residential district and the planned
 ##0 trade route. The one condition was that he clean up the
@@ -8,10 +13,13 @@
 ##0 in with the warp gates. You may have find a new place
 ##0 to sit....
 
-##0 Pachua has found out about the snake that has started
-##0 prowling around the Land of Fire. Grind some Black
-##0 Mambas, collect their drops, and head out to the desert
-##0 to get some new gear by Ozthokk!
+##9 Current Hotfixable Release
+##0 * Upgraded TMWA from v14.4.20 to v15.10.01
+##0 * Added a few quest logs
+##0 * Fixed Elanore
+##0 * Fixed barbers (crash)
+##0 * Fixed Pachua (crash)
+##0 * Fixed Miriam
 
 ##9 5 November 2015
 ##0 * Add Coal Refiner NPC
