@@ -25,6 +25,7 @@
 ##0 * Fixed barbers (crash)
 ##0 * Fixed Pachua (crash)
 ##0 * Fixed Miriam
+##0 * Fixed docks
 
 ##9 5 November 2015
 ##0 * Add Coal Refiner NPC
