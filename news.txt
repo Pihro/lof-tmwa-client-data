@@ -29,6 +29,7 @@
 ##0 * Fixed Illia reward stat checks
 ##0 * Fixed Well quest
 ##0 * Fixed #confringo
+##0 * Fixed disabled spells: #flarfol, #anju, kalzumin
 
 ##9 5 November 2015
 ##0 * Add Coal Refiner NPC
