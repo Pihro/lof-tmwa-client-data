@@ -56,9 +56,12 @@ local function adler32(file)
     return string.sub(capture('adler32 ' .. file), -8)
 end
 
-local function last_revision(paths)
-    local output = capture(git('log -1 --pretty=format:%h -- ' .. paths))
-    return output
+local function last_revision(paths, cd)
+    if cd then
+        return capture('cd ' .. paths .. ';' .. git('log -1 --pretty=format:%h'))
+    else
+        return capture(git('log -1 --pretty=format:%h -- ' .. paths))
+    end
 end
 
 local function exists(filename)
@@ -89,7 +92,7 @@ local packages = {
             "status-effects.xml",
         },
     },
-    { name = "music", type = "music", required = "no", paths = { "music" }, },
+    { name = "music", type = "music", required = "no", paths = { "music" }, cd = true, },
     { name = "sound", paths = { "sfx" }, },
     { name = "maps", paths = { "maps" }, },
     {
@@ -115,15 +118,19 @@ local resources_lines = {
 for i=1,#packages do
     local package = packages[i]
     local paths = table.concat(package.paths, ' ')
-    local revision = last_revision(paths)
+    local revision = last_revision(paths, package.cd)
     local filename = package.name .. "-" .. revision .. ".zip"
-    local fullname = CLIENT_UPDATES_DIR .. '/' .. filename
+    local fullname = capture('readlink -f ' .. CLIENT_UPDATES_DIR .. '/' .. filename)
 
     if exists(fullname) then
         print("Skipping " .. filename .. " (already exists)")
     else
         print("Creating " .. filename)
-        execute(git('archive HEAD --output=' .. fullname .. ' ' .. paths))
+        if package.cd then
+            execute('cd ' .. paths .. ';' .. git('archive HEAD --output=' .. fullname))
+        else
+            execute(git('archive HEAD --output=' .. fullname .. ' ' .. paths))
+        end
     end
 
     local type = package.type or "data"
