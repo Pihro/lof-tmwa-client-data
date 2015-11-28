@@ -2,13 +2,14 @@
 --[[
 
  This tool generates update archives and a matching resources.xml file
- based on the world data repository.
+ based on the git client-data repository.
+
+ This script must be run from the client-data repository.
 
  It expects 'git' and 'adler32' to be available in the path.
 
  Configuration happens through the following environment variables:
 
- WORLD_DATA_REPOSITORY (example: /home/user/world/.git)
  CLIENT_UPDATES_DIR    (example: /home/user/public_html/updates)
 
 --]]
@@ -22,7 +23,6 @@ local function checkenv(varname)
     return value
 end
 
--- local WORLD_DATA_REPOSITORY = checkenv('WORLD_DATA_REPOSITORY')
 local CLIENT_UPDATES_DIR = checkenv('CLIENT_UPDATES_DIR')
 
 
@@ -127,7 +127,7 @@ for i=1,#packages do
     else
         print("Creating " .. filename)
         if package.cd then
-            execute('cd ' .. paths .. ';' .. git('archive HEAD --output=' .. fullname))
+            execute('cd ' .. paths .. ';' .. git('archive HEAD --prefix=' .. paths .. '/ --output=' .. fullname))
         else
             execute(git('archive HEAD --output=' .. fullname .. ' ' .. paths))
         end

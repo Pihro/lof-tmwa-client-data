@@ -31,6 +31,7 @@
 ##0 * Fixed #confringo
 ##0 * Fixed disabled spells: #flarfol, #anju, kalzumin
 ##0 * Fixed missing alpha in the female Black Mamba Armor
+##0 * Fixed music updates
 
 ##9 5 November 2015
 ##0 * Add Coal Refiner NPC
