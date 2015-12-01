@@ -8854,7 +8854,7 @@ an additional item property.
         image="equipment/head/centurionhelm.png"
         name="Centurion Helm"
         description="A Centurion's Helmet."
-        defense="30"
+        defense="25"
         type="equip-head"
         weight="900">
         <sprite>equipment/head/centurionhelm.xml</sprite>
@@ -8863,7 +8863,7 @@ an additional item property.
         image="equipment/head/gladiatorhelm.png"
         name="Gladiator Helm"
         description="A Gladiator's Helmet"
-        defense="25"
+        defense="20"
         type="equip-head"
         weight="900">
         <sprite>equipment/head/gladiator-helm.xml</sprite>
