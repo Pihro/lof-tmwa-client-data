@@ -8795,6 +8795,7 @@ an additional item property.
         image="equipment/shield/buckler.png"
         name="Buckler"
         description="A wooden shield that can be used effectively for defense."
+        effect="M. Attack -70"
         defense="5"
         type="equip-shield"
         weight="2500">
