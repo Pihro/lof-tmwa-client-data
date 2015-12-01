@@ -9592,4 +9592,10 @@ an additional item property.
         weight="500">
         <sprite>weapon-singleblade-axe.xml</sprite>
     </item>
+    <item id="8078"
+        image="generic/sewing-needle.png"
+        name="Sewing Needle"
+        description="A sewing needle sturdy enough to work with leather."
+        type="generic"
+        weight="3"/>
 </items>
