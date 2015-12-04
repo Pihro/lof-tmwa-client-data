@@ -9090,7 +9090,7 @@ an additional item property.
         effect="HP +100"
         str="50"
         type="equip-ring"
-        weight="13"
+        weight="1"
         max-per-slot="1">
         <sprite>pets/pet-dog.xml</sprite>
     </item>
@@ -9098,10 +9098,10 @@ an additional item property.
         image="pets/fairy-green.png"
         name="Green Fairy"
         description="A green fairy."
-        effect="HP +100"
-        luck="50"
+        effect="HP +125"
+        luck="30"
         type="equip-ring"
-        weight="13"
+        weight="1"
         max-per-slot="1">
         <sprite>pets/green-fairy.xml</sprite>
     </item>
@@ -9109,10 +9109,10 @@ an additional item property.
         image="pets/fairy-red.png"
         name="Red Fairy"
         description="A red fairy."
-        effect="HP +100"
-        luck="50"
+        effect="HP +125"
+        luck="30"
         type="equip-ring"
-        weight="13"
+        weight="1"
         max-per-slot="1">
         <sprite>pets/pet-fairy-red.xml</sprite>
     </item>
@@ -9120,10 +9120,10 @@ an additional item property.
         image="pets/fairy-blue.png"
         name="Blue Fairy"
         description="A blue fairy."
-        effect="HP +100"
-        luck="50"
+        effect="HP +125"
+        luck="30"
         type="equip-ring"
-        weight="13"
+        weight="1"
         max-per-slot="1">
         <sprite>pets/pet-fairy-blue.xml</sprite>
     </item>
@@ -9134,7 +9134,7 @@ an additional item property.
         effect="HP +100"
         agi="50"
         type="equip-ring"
-        weight="13">
+        weight="1">
         <sprite>pets/pet-cat.xml</sprite>
     </item>
     <item id="8041"
@@ -9144,7 +9144,7 @@ an additional item property.
         effect="HP +100"
         dex="50"
         type="equip-ring"
-        weight="13">
+        weight="1">
         <sprite>pets/pet-rat.xml</sprite>
     </item>
     <item id="8042"
@@ -9194,7 +9194,7 @@ an additional item property.
         agi="50"
         int="25"
         type="equip-ring"
-        weight="13">
+        weight="1">
         <sprite>pets/pet-black-cat.xml</sprite>
     </item>
     <item id="8047"
