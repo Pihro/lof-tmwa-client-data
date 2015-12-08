@@ -831,7 +831,7 @@
 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 </data>
  </layer>
- <objectgroup draworder="topdown" name="Objects" width="160" height="160" visible="0">
+ <objectgroup name="Objects" width="160" height="160">
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1856" y="992" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1920" y="1792" width="32" height="32"/>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1984" y="1792" width="32" height="32"/>
