@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="300" height="300" tilewidth="32" tileheight="32">
  <properties>
-  <property name="music" value="cavesong.ogg"/>
+  <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
   <property name="name" value="Bandit Cave"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
@@ -929,7 +929,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Over1" width="300" height="300">
+ <layer name="Over" width="300" height="300">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -1569,7 +1569,7 @@
   <object name="To Bandit Cave" type="warp" x="4640" y="3776" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-6"/>
-    <property name="dest_tile_x" value="47"/>
+    <property name="dest_tile_x" value="48"/>
     <property name="dest_tile_y" value="119"/>
    </properties>
   </object>
@@ -1604,7 +1604,7 @@
   <object name="To Second Bandit Cave" type="warp" x="1504" y="3840" width="32" height="32">
    <properties>
     <property name="dest_map" value="011-6"/>
-    <property name="dest_tile_x" value="145"/>
+    <property name="dest_tile_x" value="146"/>
     <property name="dest_tile_y" value="117"/>
    </properties>
   </object>
@@ -1679,11 +1679,11 @@
     <property name="dest_tile_y" value="6"/>
    </properties>
   </object>
-  <object name="To Lake Cave" type="warp" x="8512" y="5824" width="32" height="32">
+  <object name="To Somber Cave" type="warp" x="8512" y="5824" width="32" height="32">
    <properties>
-    <property name="dest_map" value="011-4"/>
-    <property name="dest_tile_x" value="45"/>
-    <property name="dest_tile_y" value="119"/>
+    <property name="dest_map" value="somber-cave"/>
+    <property name="dest_tile_x" value="0"/>
+    <property name="dest_tile_y" value="0"/>
    </properties>
   </object>
   <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="8000" y="7616" width="32" height="32"/>
@@ -1692,6 +1692,13 @@
     <property name="dest_map" value="011-6"/>
     <property name="dest_tile_x" value="264"/>
     <property name="dest_tile_y" value="237"/>
+   </properties>
+  </object>
+  <object name="To Isolated Storage Room" type="warp" x="8448" y="7552" width="32" height="32">
+   <properties>
+    <property name="dest_map" value="011-6"/>
+    <property name="dest_tile_x" value="174"/>
+    <property name="dest_tile_y" value="255"/>
    </properties>
   </object>
   <object name="Silkworm" type="spawn" x="352" y="288" width="9088" height="4096">
