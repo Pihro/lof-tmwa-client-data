@@ -19,6 +19,7 @@
 ##0 * Upgraded TMWA to v15.11.23
 ##0 * Tons of small map tweaks and fixes
 ##0 * Christmas decorations in Tulimshar
+##0 * Black Mamba armor balancing
 ##0 * Pet balancing
 ##0 * Ring balancing
 ##0 * Centurion and Gladiator helm balancing
