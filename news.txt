@@ -1,5 +1,12 @@
 ##1 Welcome to TMW-LoF V2!
 
+##0 A lot of polishing in this release, but we hope that
+##0 the combination of balancing, bugfixes, and improved
+##0 maps will be a nice change from the bughunt of the last
+##0 release! Have fun!
+
+##3 — The LoF Dev Team
+
 ##0 We have updated our content to the latest version of
 ##0 TMWA. This gives us features like quest logs and
 ##0 exact mob health reporting, but the massive changes
@@ -8,17 +15,18 @@
 ##0 mention it in-game and post the details in the bugs
 ##0 thread on the forum!
 
-##3 -- The LoF Dev Team
+##9 9 December 2015
+##0 * Upgraded TMWA to v15.11.23
+##0 * Tons of small map tweaks and fixes
+##0 * Christmas decorations in Tulimshar
+##0 * Pet balancing
+##0 * Ring balancing
+##0 * Centurion and Gladiator helm balancing
+##0 * Activated jacks-indoor
+##0 * Fixed annual Christmas quest
+##0 * Fixed Paladin helmet bob
 
-##0 Tulimshar finally approved Carston's plans to move his
-##0 inn towards the residential district and the planned
-##0 trade route. The one condition was that he clean up the
-##0 mess that would be left behind. He reciprocated by
-##0 setting a new outdoor hangout for adventurers nestled
-##0 in with the warp gates. You may have find a new place
-##0 to sit....
-
-##9 Current Hotfixable Release
+##9 15-23 November 2015
 ##0 * Upgraded TMWA from v14.4.20 to v15.10.01
 ##0 * Added a few quest logs
 ##0 * Fixed Elanore
