@@ -278,6 +278,7 @@ UBP: All rights reserved, used by permission.
     graphics/items/generic/christmasbulb.png (????, Enchilado)                                               (GPLv2)
     graphics/items/generic/claylump_big.png (Jumpy, Enchilado)                                               (GPLv2)
     graphics/items/generic/claylump_small.png (Fate, Enchilado)                                              (GPLv2), (CC BY-SA 3.0)
+    graphics/items/generic/clothespack.png (????)                                                            (GPLv2)
     graphics/items/generic/coal.png (Enchilado, Meway, Enchilado)                                            (GPLv2), (CC BY-SA 3.0)
     graphics/items/generic/coinbag.png (????, Enchilado)                                                     (GPLv2)
     graphics/items/generic/crystal.png (Crush, Enchilado)                                                    (GPLv2), (CC BY-SA 3.0)
@@ -913,6 +914,23 @@ UBP: All rights reserved, used by permission.
     graphics/tiles/cave2_sewer_mine_x4.png (Fother, wushin)                                                       (GPLv2)
     graphics/tiles/cave2_transistions.png (????, Bjorn, Modanung, Georg, Octalot, Len, Enchilado, Fother, wushin) (GPLv2)
     graphics/tiles/cave2_x2.png (????, Bjorn, Octalot, Len, wushin)                                               (GPLv2)
+    graphics/tiles/christmas-decor.png                                                                            (GPLv2), (CC BY-SA 3.0)
+	* Christmas NPCS from christmas_npcs.png (????, Alige, Lizandra, Salmondine)
+	* Santa and Snowman from npcs.png (????, Crush, Fate, Haay, Lien, Qwerty Dragon, Salmondine, Skipy, Wombat)
+        * Doll from graphics/items/generic/doll.png (Lizandra, Enchilado)
+        * Flighttalisman from graphics/items/generic/flighttalisman.png (Nami, Enchilado)
+        * Gempowder from graphics/items/generic/gempowder.png (Enchilado)
+        * Leatherball from graphics/items/generic/leatherball.png (Lizandra, Salmondine, Enchilado)
+        * Leathersuitcase from graphics/items/generic/leathersuitcase.png (Nami, Enchilado)
+        * Reinboo-stick from graphics/items/generic/reinboo-stick.png (????, Enchilado)
+        * Santaglobe from graphics/items/generic/santaglobe.png (Enchilado)
+        * Snowmanglobe from graphics/items/generic/snowmanglobe.png (????, Enchilado)
+        * Wooden-mouboo from graphics/items/generic/wooden-mouboo.png (????, Enchilado), [pixels] Lavender
+        * Santahat from graphics/sprites/equipment/head/santahat.png (Crush)
+        * Christmastree (hat) from graphics/items/equipment/head/christmastree.png (????)
+        * Spell-book from graphics/items/generic/spell-book.png (Salmondine, Enchilado)
+        * Clothespack from graphics/items/generic/clothespack.png (????)
+	* Remainder: Lavender, Billr, KeeKeeKat
     graphics/tiles/christmastree.png (????)                                                                       (GPLv2)
     graphics/tiles/clock.png (Salmondine)                                                                         (GPLv2)
     graphics/tiles/collision.png (Bjorn)                                                                          (GPLv2)
@@ -927,7 +945,14 @@ UBP: All rights reserved, used by permission.
     graphics/tiles/desert1.png (????)                                                                             (GPLv2)
     graphics/tiles/desert2.png (????)                                                                             (GPLv2)
     graphics/tiles/desert3.png (????,wushin)                                                                      (GPLv2)
+    graphics/tiles/Forest.png (Saphy, Len Pabin)                                                                  (GPLv2)
+    graphics/tiles/forest_winter.png                                                                              (GPLv2), (CC BY-SA 3.0)
+	* Original: from Forest.png (Saphy, Len Pabin)
+	* Reskin: Billr
     graphics/tiles/Forest_cover.png (Len)                                                                         (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/forest_cover_winter.png                                                                        (GPLv2), (CC BY-SA 3.0)
+	* Original: from Forest_cover.png (Len)
+	* Reskin: Billr
     graphics/tiles/icecave.png (????, Crush, Octalot)                                                             (GPLv2)
     graphics/tiles/inn_x2.png (Irukard)                                                                           (GPLv2), (CC BY-SA 3.0)
     graphics/tiles/inn_x3.png (Irukard, Salmondine)                                                               (GPLv2), (CC BY-SA 3.0)
@@ -967,9 +992,15 @@ UBP: All rights reserved, used by permission.
     graphics/tiles/Witch_sisters_picture_x3.png (????)                                                            (GPLv2)
     graphics/tiles/Woodland_graveyard_crypt.png (????, Spit23)                                                    (GPLv2)
     graphics/tiles/Woodland_graveyard_ground.png (????, Crush)                                                    (GPLv2)
+    graphics/tiles/woodland_graveyard_ground_winter.png                                                           (GPLv2), (CC BY-SA 3.0)
+	* Original: from Woodland_graveyard_ground.png (????, Crush)
+	* Reskin: Billr
     graphics/tiles/Woodland_graveyard_x3.png (????, Black Don, Crush)                                             (GPLv2)
     graphics/tiles/Woodland_graveyard_x4.png (????, Crush, Spit23)                                                (GPLv2)
     graphics/tiles/Woodland_ground.png (????, Crush, Wombat, enchilado)                                           (GPLv2)
+    graphics/tiles/woodland_ground_winter.png                                                                     (GPLv2), (CC BY-SA 3.0)
+	* Original: from Woodland_ground.png (????, Crush, Wombat, enchilado)
+	* Reskin: Billr
     graphics/tiles/woodland_indoor_x2.png                                                                         (GPLv2)
         * Original: ????, Crush, tux9th
         * Reskin: Billr, lavender, pydsigner
@@ -985,11 +1016,23 @@ UBP: All rights reserved, used by permission.
         * Window frames and base beds: ????, Crush, Yosuhara
         * Everything else: lavender
     graphics/tiles/Woodland_swamp.png (Len)                                                                       (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/woodland_swamp_winter.png                                                                      (GPLv2), (CC BY-SA 3.0)
+	* Original: based on Woodland_swamp.png (Len)
+	* Reskin: Billr
     graphics/tiles/Woodland_village_x2.png (????, Crush)                                                          (GPLv2)
     graphics/tiles/Woodland_village.png (????, Crush)                                                             (GPLv2)
+    graphics/tiles/woodland_village_winter.png                                                                    (GPLv2), (CC BY-SA 3.0)
+	* Original: based on Woodland_village.png (????, Crush)
+	* Reskin: Billr
     graphics/tiles/Woodland_water.png (????)                                                                      (GPLv2)
     graphics/tiles/Woodland_x2.png (????, Crush, Len, Saphy)                                                      (GPLv2)
-    graphics/tiles/Woodland_x3.png (????, Crush, Len, Saphy)                                                      (GPLv2)
+    graphics/tiles/woodland_x2_winter.png                                                                         (GPLv2), (CC BY-SA 3.0)
+	* Original: based on Woodland_x2.png (????, Crush, Len, Saphy)
+	* Reskin: Billr
+    graphics/tiles/Woodland_x3.png (????, Crush, Len, Saphy)                                                      (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/woodland_x3_winter.png                                                                         (GPLv2)
+	* Original: based on Woodland_x3.png (????, Crush, Len, Saphy)
+	* Reskin: Billr
     graphics/tiles/Woodland_x4.png (????, Len, Saphy)                                                             (GPLv2)
     graphics/tiles/Woodland_x5.png (Saphy, ????)                                                                  (GPLv2)
     graphics/tiles/Woodland_x8.png (Len)                                                                          (GPLv2), (CC BY-SA 3.0)
