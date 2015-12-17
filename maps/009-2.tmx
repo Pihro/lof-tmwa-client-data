@@ -1148,8 +1148,8 @@
     <property name="dest_tile_y" value="50"/>
    </properties>
   </object>
-  <object id="23" name="graphics/particles/fireplace.particle.xml" type="particle_effect" x="3808.5" y="2240.25" width="32" height="32"/>
+  <object id="23" name="graphics/particles/fireplace.particle.xml" type="particle_effect" x="3808" y="2240" width="32" height="32"/>
   <object id="24" name="graphics/particles/fireplace.particle.xml" type="particle_effect" x="5890" y="1728" width="32" height="32"/>
-  <object id="25" name="graphics/particles/cookingfire.particle.xml" type="particle_effect" x="1104.75" y="3039.25" width="32" height="32"/>
+  <object id="25" name="graphics/particles/cookingfire.particle.xml" type="particle_effect" x="1105" y="3039" width="32" height="32"/>
  </objectgroup>
 </map>
