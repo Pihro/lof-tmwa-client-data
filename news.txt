@@ -1,19 +1,23 @@
 ##1 Welcome to TMW-LoF V2!
 
+##0 Christmas has come to LoF! There's even some snow in
+##0 the forecast for Hurnscald! Rumor has it that the cold
+##0 air has increased visibility somewhat....
+
+##3 — The LoF Dev Team
+
 ##0 A lot of polishing in this release, but we hope that
 ##0 the combination of balancing, bugfixes, and improved
 ##0 maps will be a nice change from the bughunt of the last
 ##0 release! Have fun!
 
-##3 — The LoF Dev Team
-
-##0 We have updated our content to the latest version of
-##0 TMWA. This gives us features like quest logs and
-##0 exact mob health reporting, but the massive changes
-##0 needed have caused some bugs, some of which have
-##0 probably not been found. If you find one, please 
-##0 mention it in-game and post the details in the bugs
-##0 thread on the forum!
+##9 17 December 2015
+##0 * Lots and lots of Christmas decor
+##0 * Some snowfall in Hurnscald
+##0 * Assorted mapfixes
+##0 * Increased view range
+##0 * Fixed some item types
+##0 * Let Munro stick to Halloween
 
 ##9 9 December 2015
 ##0 * Upgraded TMWA to v15.11.23
