@@ -332,6 +332,7 @@ UBP: All rights reserved, used by permission.
     graphics/items/generic/powder.png (Crush, Enchilado)                                                                 (GPLv2), (CC BY-SA 3.0)
     graphics/items/generic/pumpkinseed.png (Enchilado)                                                                   (GPLv2)
     graphics/items/generic/presentbox.png (Enchilado)                                                                    (GPLv2), (CC BY-SA 3.0)
+    graphics/items/generic/processed-fur.png (Len+Enchilado [wolvern-pelt.png], pydsigner)                               (GPLv2), (CC BY-SA 3.0)
     graphics/items/generic/rags-rotten.png (FotherJ, Enchilado)                                                          (GPLv2), (CC BY-SA 3.0)
     graphics/items/generic/rawlog.png (Lien, Enchilado)                                                                  (GPLv2)
     graphics/items/generic/rawtalisman.png (Nami, Enchilado)                                                             (GPLv2), (CC BY-SA 3.0)
