@@ -3,23 +3,47 @@
  <image source="../graphics/tiles/candle_flickering.png" width="160" height="32"/>
  <tile id="0">
   <animation>
-   <frame tileid="0" duration="130"/>
-   <frame tileid="1" duration="130"/>
-   <frame tileid="2" duration="130"/>
-   <frame tileid="3" duration="130"/>
-   <frame tileid="4" duration="130"/>
+   <frame tileid="0" duration="260"/>
+   <frame tileid="1" duration="640"/>
+   <frame tileid="2" duration="320"/>
+   <frame tileid="3" duration="260"/>
+   <frame tileid="4" duration="320"/>
   </animation>
-  <properties>
-   <property name="animation-delay0" value="13"/>
-   <property name="animation-delay1" value="20"/>
-   <property name="animation-delay2" value="13"/>
-   <property name="animation-delay3" value="13"/>
-   <property name="animation-delay4" value="13"/>
-   <property name="animation-frame0" value="0"/>
-   <property name="animation-frame1" value="1"/>
-   <property name="animation-frame2" value="2"/>
-   <property name="animation-frame3" value="3"/>
-   <property name="animation-frame4" value="4"/>
-  </properties>
+ </tile>
+ <tile id="1">
+  <animation>
+   <frame tileid="1" duration="480"/>
+   <frame tileid="2" duration="320"/>
+   <frame tileid="0" duration="260"/>
+   <frame tileid="4" duration="320"/>
+   <frame tileid="3" duration="260"/>
+  </animation>
+ </tile>
+ <tile id="2">
+  <animation>
+   <frame tileid="4" duration="380"/>
+   <frame tileid="3" duration="260"/>
+   <frame tileid="2" duration="380"/>
+   <frame tileid="0" duration="260"/>
+   <frame tileid="1" duration="640"/>
+  </animation>
+ </tile>
+ <tile id="3">
+  <animation>
+   <frame tileid="1" duration="640"/>
+   <frame tileid="4" duration="320"/>
+   <frame tileid="0" duration="260"/>
+   <frame tileid="4" duration="320"/>
+   <frame tileid="2" duration="320"/>
+  </animation>
+ </tile>
+ <tile id="4">
+  <animation>
+   <frame tileid="4" duration="320"/>
+   <frame tileid="3" duration="260"/>
+   <frame tileid="1" duration="480"/>
+   <frame tileid="2" duration="320"/>
+   <frame tileid="3" duration="260"/>
+  </animation>
  </tile>
 </tileset>
