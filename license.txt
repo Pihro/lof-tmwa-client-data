@@ -845,6 +845,9 @@ UBP: All rights reserved, used by permission.
     graphics/sprites/npcs/childposes.png (Milla, Mrgrey, Nami, Salmondine)                                     (GPLv2)
     graphics/sprites/npcs/christmas_npcs.png (????, Alige, Lizandra, Salmondine)                               (GPLv2)
     graphics/sprites/npcs/christmastree.png (Chayenne, ????, Alige, Hal9000, Enchilado, Kekskiller, FotherJ)   (GPLv2)
+    graphics/sprites/npcs/npc-christmatree_animated.png                                                        (GPLv2), (CC BY-SA 3.0)
+	* based on graphics/sprites/npcs/christmastree.png (Chayenne, ????, Alige, Hal9000, Enchilado, Kekskiller, FotherJ)
+	* lanterns and animation added: Billr
     graphics/sprites/npcs/evil-obelisk.png (Alige, ChefChelios, Leela)                                         (GPLv2)
     graphics/sprites/npcs/furnace.png (Salmondine)                                                             (GPLv2)
     graphics/sprites/npcs/hugenpcs.png (ChefChelios, Nami)                                                     (GPLv2), (CC BY-SA 3.0)
@@ -893,11 +896,13 @@ UBP: All rights reserved, used by permission.
     graphics/sprites/npcs/thermin_npcs.png (Lien, Nami, Salmondine, Varuna)                                    (GPLv2)
     graphics/sprites/npcs/xmas-palm.png (Chayenne, ????, Enchilado)                                            (GPLv2)
     graphics/sprites/npcs/xmastree-nosnow.png (Chayenne, ????, Alige, Hal9000, Enchilado, Kekskiller, FotherJ) (GPLv2)
+	* Pixel, changed star on top: Billr
 
 # Tilesets
     graphics/tiles/arena.png (????)                                                                               (GPLv2)
     graphics/tiles/barbarians-outdoor.png (Salmondine)                                                            (GPLv2)
     graphics/tiles/barbarians-yurt_x4.png (Alige, Meway, Nami)                                                    (GPLv2), (CC BY-SA 3.0)
+    graphics/tiles/candle_flickering.png (Billr)                                                                  (CC BY-SA 3.0)
     graphics/tiles/castle-1.png (Alige, EJlol, Irukard, Len, MerlinX420)                                          (GPLv2)
     graphics/tiles/castle-2.png (Alige, EJlol, Irukard, IvanMorve Len, MerlinX420)                                (GPLv2)
         * Pixel edits: pydsigner
@@ -960,6 +965,7 @@ UBP: All rights reserved, used by permission.
     graphics/tiles/inn_x4.png (Salmondine)                                                                        (GPLv2)
     graphics/tiles/inn.png (Irukard)                                                                              (GPLv2), (CC BY-SA 3.0)
     graphics/tiles/inn2.png (Alige, Irukard, Salmondine)                                                          (GPLv2)
+    graphics/tiles/lantern.png (Billr)	                                                                          (CC BY-SA 3.0)
     graphics/tiles/mountain.png (????)                                                                            (GPLv2)
     graphics/tiles/mushrooms.png (Dave, Len)                                                                      (GPLv2)
     graphics/tiles/Pots_x2.png (????)                                                                             (GPLv2)
@@ -1008,7 +1014,7 @@ UBP: All rights reserved, used by permission.
     graphics/tiles/woodland_indoor_x3.png                                                                         (GPLv2)
         * Original: ????, Crush
         * Reskin: Billr, lavender
-    graphics/tiles/woodland_indoor_x3_extra.png (Billr, lavender)                                                 (UBP)
+    graphics/tiles/woodland_indoor_x3_extra.png (Billr, lavender)                                                 (CC BY-SA 3.0)
     graphics/tiles/woodland_indoor.png                                                                            (GPLv2)
         * Original: ????, Crush, Yosuhara
         * Reskin: Billr, lavender

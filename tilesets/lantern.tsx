@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset name="lantern" tilewidth="32" tileheight="32" tilecount="30">
+<tileset name="lantern" tilewidth="32" tileheight="32" tilecount="40">
  <image source="../graphics/tiles/lantern.png" width="160" height="256"/>
  <tile id="0">
   <animation>
