@@ -970,6 +970,9 @@ UBP: All rights reserved, used by permission.
     graphics/tiles/mushrooms.png (Dave, Len)                                                                      (GPLv2)
     graphics/tiles/Pots_x2.png (????)                                                                             (GPLv2)
     graphics/tiles/power_circle_x2.png (????)                                                                     (GPLv2)
+    graphics/tiles/palm_lights.png       								          (GPLv2), (CC BY-SA 3.0)
+	* Based on palm tree in graphics/tiles/desert_x5.png (????)
+	* Added Christmas lights and animation (Billr)
     graphics/tiles/set_cave.png (????, PjotrOrial)                                                                (GPLv2)
     graphics/tiles/set_desert.png (????, PjotrOrial)                                                              (GPLv2)
     graphics/tiles/set_icecave.png (????, PjotrOrial)                                                             (GPLv2)
@@ -1019,8 +1022,9 @@ UBP: All rights reserved, used by permission.
         * Original: ????, Crush, Yosuhara
         * Reskin: Billr, lavender
         * Pixel edits: pydsigner
-    graphics/tiles/woodland_indoor_extra.png (lavender)                                                           (GPLv2)
+    graphics/tiles/woodland_indoor_extra.png (lavender)                                                           (GPLv2), (CC BY-SA 3.0)
         * Window frames and base beds: ????, Crush, Yosuhara
+	* Stove and old-timey fridge: KeeKeeKat
         * Everything else: lavender
     graphics/tiles/Woodland_swamp.png (Len)                                                                       (GPLv2), (CC BY-SA 3.0)
     graphics/tiles/woodland_swamp_winter.png                                                                      (GPLv2), (CC BY-SA 3.0)
