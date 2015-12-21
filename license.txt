@@ -845,7 +845,7 @@ UBP: All rights reserved, used by permission.
     graphics/sprites/npcs/childposes.png (Milla, Mrgrey, Nami, Salmondine)                                     (GPLv2)
     graphics/sprites/npcs/christmas_npcs.png (????, Alige, Lizandra, Salmondine)                               (GPLv2)
     graphics/sprites/npcs/christmastree.png (Chayenne, ????, Alige, Hal9000, Enchilado, Kekskiller, FotherJ)   (GPLv2)
-    graphics/sprites/npcs/npc-christmatree_animated.png                                                        (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/npcs/npc-christmas_tree_animated.png                                                        (GPLv2), (CC BY-SA 3.0)
 	* based on graphics/sprites/npcs/christmastree.png (Chayenne, ????, Alige, Hal9000, Enchilado, Kekskiller, FotherJ)
 	* lanterns and animation added: Billr
     graphics/sprites/npcs/evil-obelisk.png (Alige, ChefChelios, Leela)                                         (GPLv2)
