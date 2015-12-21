@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<sprite>
+  <imageset name="base" src="graphics/sprites/npcs/npc-christmas_tree_animated.png" width="128" height="192"/>
+  <action name="stand" imageset="base">
+    <animation direction="default">
+      <frame index="0" delay="260"/>
+      <frame index="1" delay="320"/>
+      <frame index="2" delay="320"/>
+      <frame index="3" delay="260"/>
+      <frame index="4" delay="320"/>
+    </animation>
+  </action>
+</sprite>
