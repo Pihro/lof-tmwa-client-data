@@ -845,7 +845,7 @@ UBP: All rights reserved, used by permission.
     graphics/sprites/npcs/childposes.png (Milla, Mrgrey, Nami, Salmondine)                                     (GPLv2)
     graphics/sprites/npcs/christmas_npcs.png (????, Alige, Lizandra, Salmondine)                               (GPLv2)
     graphics/sprites/npcs/christmastree.png (Chayenne, ????, Alige, Hal9000, Enchilado, Kekskiller, FotherJ)   (GPLv2)
-    graphics/sprites/npcs/npc-christmas_tree_animated.png                                                        (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/npcs/npc-christmas_tree_animated.png                                                      (GPLv2), (CC BY-SA 3.0)
 	* based on graphics/sprites/npcs/christmastree.png (Chayenne, ????, Alige, Hal9000, Enchilado, Kekskiller, FotherJ)
 	* lanterns and animation added: Billr
     graphics/sprites/npcs/evil-obelisk.png (Alige, ChefChelios, Leela)                                         (GPLv2)
@@ -868,6 +868,9 @@ UBP: All rights reserved, used by permission.
     graphics/sprites/npcs/npc-lightman.png (Lien)                                                              (GPLv2)
     graphics/sprites/npcs/npc-lumberjack.png (Crush)                                                           (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/npcs/npc-mirak.png (ChefChelios)                                                          (GPLv2), (CC BY-SA 3.0)
+    graphics/sprites/npcs/npc-palm_lights                                                                      (GPLv2), (CC BY-SA 3.0)
+	* Based on palm tree in graphics/tiles/desert_x5.png (????)
+	* Added Christmas lights and animation (Billr)
     graphics/sprites/npcs/npc-receptionist.png (Skipy)                                                         (GPLv2)
     graphics/sprites/npcs/npc-savannahman.png (Modanung)                                                       (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/npcs/npc-test.png (Modanung)                                                              (GPLv2), (CC BY-SA 3.0)
