@@ -9599,4 +9599,16 @@ an additional item property.
         description="A sewing needle sturdy enough to work with leather."
         type="generic"
         weight="3"/>
+    <item id="8079"
+        image="generic/processed-fur.png"
+        name="Processed Fur"
+        description="A fur that has been processed into a durable form."
+        type="generic"
+        weight="50"/>
+    <item id="8080"
+        image="use/potions/c.png|G:#d7d8df,eaeaf2"
+        name="Dye Stabilizer"
+        description="A bottle of liquid useful for setting dye in fur."
+        type="generic"
+        weight="10"/>
 </items>
