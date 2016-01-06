@@ -5,11 +5,11 @@
   <property name="name" value="Snow Hills"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/Snow.tsx"/>
- <tileset firstgid="259" source="../tilesets/Snow_x2.tsx"/>
- <tileset firstgid="275" source="../tilesets/Snow_tree_x3.tsx"/>
+ <tileset firstgid="3" source="../tilesets/snow.tsx"/>
+ <tileset firstgid="259" source="../tilesets/snow_x2.tsx"/>
+ <tileset firstgid="275" source="../tilesets/snow_tree_x3.tsx"/>
  <tileset firstgid="279" source="../tilesets/woodland_village_winter.tsx"/>
- <tileset firstgid="535" source="../tilesets/Snow_ground.tsx"/>
+ <tileset firstgid="535" source="../tilesets/snow_ground.tsx"/>
  <layer name="Ground" width="225" height="200">
   <data encoding="csv">
 86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,148,148,148,86,86,86,546,551,552,552,538,539,552,552,553,561,548,148,148,148,86,148,148,148,148,86,86,86,86,86,86,86,86,86,86,86,86,535,536,536,536,536,592,591,536,536,536,592,599,580,559,86,86,86,86,86,86,86,86,86,86,70,70,86,86,70,70,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,

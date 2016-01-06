@@ -21,8 +21,8 @@
  <tileset firstgid="547" source="../tilesets/desert_x5.tsx"/>
  <tileset firstgid="553" source="../tilesets/tulimshar1.tsx"/>
  <tileset firstgid="809" source="../tilesets/desert3.tsx"/>
- <tileset firstgid="889" source="../tilesets/Tulimshar_Docks.tsx"/>
- <tileset firstgid="1049" source="../tilesets/christmas-decor.tsx"/>
+ <tileset firstgid="889" source="../tilesets/tulimshar_Docks.tsx"/>
+ <tileset firstgid="1049" source="../tilesets/christmas_decor.tsx"/>
  <layer name="Ground" width="136" height="128">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,442,442,3,3,3,3,397,3,3,396,397,3,3,3,170,170,3,3,427,428,430,3,3,403,404,404,404,404,404,405,358,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,

@@ -10,13 +10,13 @@
   <property name="overlay0scrollY" value="0.1"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/Woodland_ground.tsx"/>
- <tileset firstgid="259" source="../tilesets/Woodland_x2.tsx"/>
- <tileset firstgid="291" source="../tilesets/Woodland_x3.tsx"/>
- <tileset firstgid="323" source="../tilesets/Woodland_village.tsx"/>
- <tileset firstgid="579" source="../tilesets/Woodland_village_x2.tsx"/>
+ <tileset firstgid="3" source="../tilesets/woodland_ground.tsx"/>
+ <tileset firstgid="259" source="../tilesets/woodland_x2.tsx"/>
+ <tileset firstgid="291" source="../tilesets/woodland_x3.tsx"/>
+ <tileset firstgid="323" source="../tilesets/woodland_village.tsx"/>
+ <tileset firstgid="579" source="../tilesets/woodland_village_x2.tsx"/>
  <tileset firstgid="595" source="../tilesets/woodland_indoor.tsx"/>
- <tileset firstgid="851" source="../tilesets/christmas-decor.tsx"/>
+ <tileset firstgid="851" source="../tilesets/christmas_decor.tsx"/>
  <layer name="Ground" width="200" height="120">
   <data encoding="csv">
 19,19,19,19,19,19,19,181,150,123,89,41,73,123,89,89,89,89,89,89,19,19,19,19,19,19,19,19,19,19,19,19,89,89,41,129,73,73,73,128,73,125,19,19,19,72,73,73,123,89,89,89,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,43,44,19,19,19,19,19,19,213,147,123,89,41,73,123,57,105,105,106,19,19,138,56,90,69,71,19,19,19,85,19,19,19,19,19,19,19,19,19,19,19,43,44,19,19,19,19,19,59,60,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,59,60,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,88,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,89,

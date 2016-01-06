@@ -13,12 +13,12 @@
   <property name="overlay1scrollY" value="1.6"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/Snow.tsx"/>
- <tileset firstgid="259" source="../tilesets/Snow_x2.tsx"/>
- <tileset firstgid="275" source="../tilesets/Snow_tree_x3.tsx"/>
+ <tileset firstgid="3" source="../tilesets/snow.tsx"/>
+ <tileset firstgid="259" source="../tilesets/snow_x2.tsx"/>
+ <tileset firstgid="275" source="../tilesets/snow_tree_x3.tsx"/>
  <tileset firstgid="279" source="../tilesets/woodland_village_winter.tsx"/>
- <tileset firstgid="535" source="../tilesets/Snow_ground.tsx"/>
- <tileset firstgid="612" source="../tilesets/Snow_village.tsx"/>
+ <tileset firstgid="535" source="../tilesets/snow_ground.tsx"/>
+ <tileset firstgid="612" source="../tilesets/snow_village.tsx"/>
  <layer name="Ground" width="138" height="128">
   <data encoding="csv">
 544,544,544,544,588,555,556,552,552,565,566,567,552,552,552,553,564,599,599,599,599,562,539,552,538,564,580,559,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,70,86,70,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,8,8,8,8,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,86,546,599,550,541,541,541,541,541,543,543,544,544,544,544,588,555,555,555,555,

@@ -4,9 +4,9 @@
   <property name="name" value="Inner Chamber"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
- <tileset firstgid="3" source="../tilesets/Crypt-Blockwall.tsx"/>
- <tileset firstgid="259" source="../tilesets/Crypt-Fringe.tsx"/>
- <tileset firstgid="515" source="../tilesets/Crypt-Fringe_x3.tsx"/>
+ <tileset firstgid="3" source="../tilesets/crypt_blockwall.tsx"/>
+ <tileset firstgid="259" source="../tilesets/crypt_fringe.tsx"/>
+ <tileset firstgid="515" source="../tilesets/crypt_fringe_x3.tsx"/>
  <tileset firstgid="595" source="../tilesets/arena.tsx"/>
  <layer name="Ground" width="80" height="100">
   <data encoding="csv">

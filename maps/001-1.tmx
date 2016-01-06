@@ -12,11 +12,11 @@
  <tileset firstgid="531" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="547" source="../tilesets/desert_x5.tsx"/>
  <tileset firstgid="553" source="../tilesets/tulimshar1.tsx"/>
- <tileset firstgid="809" source="../tilesets/trans_woodland-desert.tsx"/>
+ <tileset firstgid="809" source="../tilesets/trans_woodland_desert.tsx"/>
  <tileset firstgid="937" source="../tilesets/desert3.tsx"/>
- <tileset firstgid="1017" source="../tilesets/warp-gates.tsx"/>
- <tileset firstgid="1065" source="../tilesets/christmas-decor.tsx"/>
- <tileset firstgid="1369" source="../tilesets/Woodland_village.tsx"/>
+ <tileset firstgid="1017" source="../tilesets/warp_gates.tsx"/>
+ <tileset firstgid="1065" source="../tilesets/christmas_decor.tsx"/>
+ <tileset firstgid="1369" source="../tilesets/woodland_village.tsx"/>
  <tileset firstgid="1625" source="../tilesets/palm_lights.tsx"/>
  <layer name="Ground" width="167" height="114">
   <data encoding="csv">

@@ -10,9 +10,9 @@
  <tileset firstgid="147" source="../tilesets/woodland_indoor.tsx"/>
  <tileset firstgid="403" source="../tilesets/woodland_indoor_x2.tsx"/>
  <tileset firstgid="435" source="../tilesets/woodland_indoor_x3.tsx"/>
- <tileset firstgid="451" source="../tilesets/Woodland_ground.tsx"/>
+ <tileset firstgid="451" source="../tilesets/woodland_ground.tsx"/>
  <tileset firstgid="707" source="../tilesets/woodland_indoor_extra.tsx"/>
- <tileset firstgid="963" source="../tilesets/christmas-decor.tsx"/>
+ <tileset firstgid="963" source="../tilesets/christmas_decor.tsx"/>
  <layer name="Ground" width="150" height="150">
   <data encoding="csv">
 23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,23,

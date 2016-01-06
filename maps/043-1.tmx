@@ -11,7 +11,7 @@
  <tileset firstgid="515" source="../tilesets/desert_x2.tsx"/>
  <tileset firstgid="531" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="547" source="../tilesets/desert_x5.tsx"/>
- <tileset firstgid="553" source="../tilesets/trans_woodland-desert.tsx"/>
+ <tileset firstgid="553" source="../tilesets/trans_woodland_desert.tsx"/>
  <layer name="Ground" width="120" height="150">
   <data encoding="csv">
 651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,651,664,3,3,3,3,3,3,3,3,396,397,3,3,3,3,3,3,3,3,3,3,3,427,412,412,428,430,3,3,3,3,3,3,3,3,3,491,491,491,492,3,474,475,476,3,3,442,442,442,3,352,353,354,442,442,442,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,446,3,3,3,3,399,400,401,3,446,

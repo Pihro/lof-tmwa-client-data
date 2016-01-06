@@ -12,10 +12,10 @@
  <tileset firstgid="531" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="547" source="../tilesets/desert_x5.tsx"/>
  <tileset firstgid="553" source="../tilesets/tulimshar1.tsx"/>
- <tileset firstgid="809" source="../tilesets/trans_woodland-desert.tsx"/>
- <tileset firstgid="937" source="../tilesets/Tulimshar_Docks.tsx"/>
+ <tileset firstgid="809" source="../tilesets/trans_woodland_desert.tsx"/>
+ <tileset firstgid="937" source="../tilesets/tulimshar_Docks.tsx"/>
  <tileset firstgid="1097" source="../tilesets/desert3.tsx"/>
- <tileset firstgid="1177" source="../tilesets/christmas-decor.tsx"/>
+ <tileset firstgid="1177" source="../tilesets/christmas_decor.tsx"/>
  <layer name="Ground" width="119" height="122">
   <data encoding="csv">
 3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,136,137,152,137,3,3,3,3,3,3,597,584,597,598,598,600,597,616,598,3,3,403,404,405,3,3,3,3,403,404,405,3,3,3,3,934,872,919,919,919,919,

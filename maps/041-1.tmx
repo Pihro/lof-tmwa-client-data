@@ -11,9 +11,9 @@
  <tileset firstgid="531" source="../tilesets/desert_x3.tsx"/>
  <tileset firstgid="547" source="../tilesets/desert_x5.tsx"/>
  <tileset firstgid="553" source="../tilesets/tulimshar1.tsx"/>
- <tileset firstgid="809" source="../tilesets/trans_woodland-desert.tsx"/>
+ <tileset firstgid="809" source="../tilesets/trans_woodland_desert.tsx"/>
  <tileset firstgid="937" source="../tilesets/desert3.tsx"/>
- <tileset firstgid="1017" source="../tilesets/christmas-decor.tsx"/>
+ <tileset firstgid="1017" source="../tilesets/christmas_decor.tsx"/>
  <layer name="Ground" width="150" height="125">
   <data encoding="csv">
 907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,907,920,3,3,358,3,360,3,3,3,3,3,3,3,918,919,919,919,919,919,919,887,903,904,3,3,902,888,919,919,920,3,3,3,3,3,3,3,120,121,135,38,135,135,135,136,137,151,151,151,54,151,151,151,54,151,151,151,151,54,151,151,151,151,152,137,151,151,151,151,150,151,151,151,151,54,151,152,137,151,151,152,425,167,167,167,167,167,167,150,151,151,151,151,151,152,154,
