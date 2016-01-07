@@ -13,7 +13,7 @@
  <tileset firstgid="547" source="../tilesets/desert_x5.tsx"/>
  <tileset firstgid="553" source="../tilesets/tulimshar1.tsx"/>
  <tileset firstgid="809" source="../tilesets/trans_woodland_desert.tsx"/>
- <tileset firstgid="937" source="../tilesets/tulimshar_Docks.tsx"/>
+ <tileset firstgid="937" source="../tilesets/tulimshar_docks.tsx"/>
  <tileset firstgid="1097" source="../tilesets/desert3.tsx"/>
  <tileset firstgid="1177" source="../tilesets/christmas_decor.tsx"/>
  <layer name="Ground" width="119" height="122">
