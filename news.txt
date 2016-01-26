@@ -13,6 +13,8 @@
 ##9 25 January 2015
 ##0 * Add second Shannon playthrough Steam Top Hat reward
 ##0 * Fix broken Christmas quest rewards
+##0 * Adjust base Hurnscald decor
+##0 * Fix minor map glitches
 
 ##9 17 December 2015
 ##0 * Lots and lots of Christmas decor
