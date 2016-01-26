@@ -1,15 +1,18 @@
 ##1 Welcome to TMW-LoF V2!
 
+##0 Shannon is celebrating Burns Day this year by giving a
+##0 different hat to those who've already helped him once!
+##0 Take your food and get a nice steampunk top hat!
+
+##3 — The LoF Dev Team
+
 ##0 Christmas has come to LoF! There's even some snow in
 ##0 the forecast for Hurnscald! Rumor has it that the cold
 ##0 air has increased visibility somewhat....
 
-##3 — The LoF Dev Team
-
-##0 A lot of polishing in this release, but we hope that
-##0 the combination of balancing, bugfixes, and improved
-##0 maps will be a nice change from the bughunt of the last
-##0 release! Have fun!
+##9 25 January 2015
+##0 * Add second Shannon playthrough Steam Top Hat reward
+##0 * Fix broken Christmas quest rewards
 
 ##9 17 December 2015
 ##0 * Lots and lots of Christmas decor
