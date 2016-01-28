@@ -10,7 +10,7 @@
 ##0 the forecast for Hurnscald! Rumor has it that the cold
 ##0 air has increased visibility somewhat....
 
-##9 25 January 2015
+##9 25 January 2016
 ##0 * Add second Shannon playthrough Steam Top Hat reward
 ##0 * Fix broken Christmas quest rewards
 ##0 * Adjust base Hurnscald decor
