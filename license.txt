@@ -93,6 +93,7 @@ UBP: All rights reserved, used by permission.
     graphics/items/equipment/hands/leathergloves.png (????)                                                   (GPLv2)
     graphics/items/equipment/hands/minergloves.png (????)                                                     (GPLv2)
 ### Head
+    graphics/items/equipment/head/antalum-helm.png (pydsigner)                                                (CC BY-SA 3.0)
     graphics/items/equipment/head/antlerhat.png (????)                                                        (GPLv2)
     graphics/items/equipment/head/axehat.png (????)                                                           (GPLv2)
     graphics/items/equipment/head/bandana.png (Modanung)                                                      (GPLv2), (CC BY-SA 3.0)
@@ -617,6 +618,7 @@ UBP: All rights reserved, used by permission.
     graphics/sprites/equipment/hands/bromenalgloves-female.png (Skipy)                                        (GPLv2)
     graphics/sprites/equipment/hands/bromenalgloves-male.png (Skipy)                                          (GPLv2)
 ### Head
+    graphics/sprites/equipment/head/antalum-helm.png (pydsigner)                                              (CC BY-SA 3.0)
     graphics/sprites/equipment/head/antlerhat.png (????)                                                      (GPLv2)
     graphics/sprites/equipment/head/axehat.png (????)                                                         (GPLv2)
     graphics/sprites/equipment/head/bandana.png (Modanung)                                                    (GPLv2), (CC BY-SA 3.0)
