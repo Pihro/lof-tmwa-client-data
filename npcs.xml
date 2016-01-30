@@ -1040,7 +1040,18 @@
     <sprite>equipment/chest/leather-male.xml|#573a26,c9866b,d3b79e,ffffff;#b96b3d,fbf5f1</sprite>
     <sprite>equipment/feet/furboots-male.xml</sprite>
   </npc>
-
+   <!-- Horn player -->
+  <npc id="626">
+    <sprite variant="5">npcs/npc-lof.xml</sprite>
+  </npc>
+   <!-- Drummer -->
+  <npc id="627">
+    <sprite variant="6">npcs/npc-lof.xml</sprite>
+  </npc>
+   <!-- Harpist -->
+  <npc id="628">
+    <sprite variant="7">npcs/npc-lof.xml</sprite>
+  </npc>
   <!-- Put new unique sprites above here.  For huge npcs, see range 216-250. For poses/outfits npcs, see 251-299. For new TMW npcs, see 400-599. To save replaced npcs, see 610-619. -->
   <!-- note: don't go above 999, because the 1000's are reserved for mob id -->
 </npcs>
