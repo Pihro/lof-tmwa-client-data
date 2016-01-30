@@ -49,7 +49,7 @@
     <sprite name="Blah" variant="15">emote.xml</sprite>
   </emote>
   <emote id="16">
-    <sprite name="Laugh" variant="16">emote.xml</sprite>
+    <sprite name="Thumpsup" variant="16">emote.xml</sprite>
   </emote>
   <emote id="17">
     <sprite name="Evil Laugh" variant="17">emote.xml</sprite>

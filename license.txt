@@ -532,6 +532,7 @@ UBP: All rights reserved, used by permission.
 # Sprites
     graphics/sprites/emote.png (Alige, Arikel, DerLoisl, Modanung, Reid                                       (GPLv2), (CC BY-SA 3.0)
         * 17-19: Ozthokk; UBP.
+        * 16 Thumbsup: Billr
     graphics/sprites/error.png (Crush)                                                                        (GPLv2), (CC BY-SA 3.0)
     graphics/sprites/icon-feather.png (????)                                                                  (GPLv2)
     graphics/sprites/icon-green-barrier.png (????)                                                            (GPLv2)
