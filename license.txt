@@ -969,11 +969,14 @@ UBP: All rights reserved, used by permission.
     graphics/tiles/barbarians_outdoor.png (barbarians-outdoor.png) (Salmondine)                                   (GPLv2)
     graphics/tiles/barbarians_yurt_x4.png(barbarians-yurt_x4.png) (Alige, Meway, Nami)                            (GPLv2), (CC BY-SA 3.0)
     graphics/tiles/candle_flickering.png (Billr)                                                                  (CC BY-SA 3.0)
-    graphics/tiles/castle_1.png (castle-1.png) (Alige, EJlol, Irukard, Len, MerlinX420)                           (GPLv2)
-        * Recolor roof and hinges: Billr
-    graphics/tiles/castle_1.png (castle-2.png) (Alige, EJlol, Irukard, IvanMorve Len, MerlinX420)                 (GPLv2)
+    graphics/tiles/castle_1.png (castle-1.png) (Alige, EJlol, Irukard, Len, MerlinX420)                           (GPLv2), (CC BY-SA 3.0)
+        * Recolor roof and hinges, redo joints, moved windows to castle_3, some rearranging: Billr
+    graphics/tiles/castle_2.png (castle-2.png) (Alige, EJlol, Irukard, IvanMorve Len, MerlinX420)                 (GPLv2), (CC BY-SA 3.0)
         * Pixel edits: pydsigner
-        * Recolor hinge: Billr
+        * Redo joints, moved pavement and banners to castle_3, some recoloring, adding more wall tiles: Billr
+    graphics/tiles/castle_3.png (Alige, EJlol, Irukard, IvanMorve Len, MerlinX420)                                (GPLv2), (CC BY-SA 3.0)
+        * Pavement, window and banners moved from castle_1 and castle_2
+        * Added more colors of windows, more banners and new flags: Billr
     graphics/tiles/cave_ani_wetwall.png (Octalot)                                                                 (GPLv2)
     graphics/tiles/cave_bilevel.png (Bjorn, Octalot)                                                              (GPLv2)
     graphics/tiles/cave_x2.png (Bjorn, Octalot)                                                                   (GPLv2)
