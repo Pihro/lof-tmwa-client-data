@@ -1020,9 +1020,15 @@ UBP: All rights reserved, used by permission.
     graphics/tiles/desert_x2.png (????, wushin)                                                                   (GPLv2)
     graphics/tiles/desert_x3.png (????)                                                                           (GPLv2)
     graphics/tiles/desert_x5.png (????)                                                                           (GPLv2)
-    graphics/tiles/desert1.png (????)                                                                             (GPLv2)
-    graphics/tiles/desert2.png (????)                                                                             (GPLv2)
+    graphics/tiles/desert1.png (????)                                                                             (GPLv2), (CC BY-SA 3.0)
+	* Added portions of graphics/tiles/castle_1.png (castle-1.png) (Alige, EJlol, Irukard, Len, MerlinX420): Billr   
+        * Added portions of graphics/tiles/castle_2.png (castle-2.png) (Alige, EJlol, Irukard, IvanMorve Len, MerlinX420): Billr   
+    graphics/tiles/desert2.png (????)                                                                             (GPLv2), (CC BY-SA 3.0)
+	* Added portions of graphics/tiles/castle_1.png (castle-1.png) (Alige, EJlol, Irukard, Len, MerlinX420): Billr   
+        * Added portions of graphics/tiles/castle_2.png (castle-2.png) (Alige, EJlol, Irukard, IvanMorve Len, MerlinX420): Billr   
     graphics/tiles/desert3.png (????,wushin)                                                                      (GPLv2)
+    graphics/tiles/fluttering_banners.png (Billr)                                                                 (CC BY-SA 3.0)
+    graphics/tiles/fluttering_flags.png (Billr)                                                                   (CC BY-SA 3.0)
     graphics/tiles/forest.png (Forest.png) (Saphy, Len Pabin)                                                     (GPLv2)
     graphics/tiles/forest_winter.png                                                                              (GPLv2), (CC BY-SA 3.0)
 	* Original: from forest.png (Saphy, Len Pabin)
