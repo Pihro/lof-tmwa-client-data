@@ -1067,6 +1067,8 @@ UBP: All rights reserved, used by permission.
     graphics/tiles/snow_x2.png (Snow_x2.png) (????, Nami, Salmondine)                                             (GPLv2)
     graphics/tiles/snow_x3.png (Snow_x3.png) (????)                                                               (GPLv2)
     graphics/tiles/snow.png (Snow.png) (????)                                                                     (GPLv2)
+    graphics/tiles/stone_mountain (Billr)                                                                         (GPLv2), (CC BY-SA 3.0)
+        * Based on forest.png (Saphy, Len Pabin)
     graphics/tiles/soulmenhirs_x2.png (Alige, Lien)                                                               (GPLv2)
     graphics/tiles/thermin_cave.png (thermin-cave.png) (Lien)                                                     (GPLv2)
     graphics/tiles/thermin_outdoor.png (thermin-outdoor.png) (????, Lien)                                         (GPLv2)
