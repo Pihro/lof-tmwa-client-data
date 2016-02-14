@@ -140,7 +140,7 @@
  </layer>
  <layer name="GroundChristmas1" width="200" height="120">
   <properties>
-   <property name="mask" value="16"/>
+   <property name="Mask" value="16"/>
   </properties>
   <properties>
    "/>
@@ -518,7 +518,7 @@
  </layer>
  <layer name="GroundChristmas2" width="200" height="120">
   <properties>
-   <property name="mask" value="16"/>
+   <property name="Mask" value="16"/>
   </properties>
   <properties>
    "/>
@@ -896,7 +896,7 @@
  </layer>
  <layer name="OverChristmas1" width="200" height="120">
   <properties>
-   <property name="mask" value="16"/>
+   <property name="Mask" value="16"/>
   </properties>
   <properties>
    "/>
