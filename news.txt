@@ -1,19 +1,25 @@
 ##1 Welcome to TMW-LoF V2!
 
+##0 Tulimshar has finally commissioned new work to replace
+##0 its crumbling infrastructure. Meanwhile, candymakers
+##0 are controversially reintroducing their stocks of the
+##0 popular Shock Sweets by putting some in every bag of
+##0 candy. Some citizens hate it, but others are taking to
+##0 the streets to give the revived candy a huge thumbs up.
+
+##3 — The LoF Dev Team
+
 ##0 Mages throughout Land of Fire are rejoicing as they
 ##0 find summons to mysteriously start working again,
 ##0 while the musicians in Dimond's Inn have finally found
 ##0 their instruments. Plus fairies seem to affect their
 ##0 accompanied adventurers in a slightly different way...
 
-##3 — The LoF Dev Team
-
-##0 Shannon is celebrating Burns Day this year by giving a
-##0 different hat to those who've already helped him once!
-##0 Take your food and get a nice steampunk top hat!
-
-##9 22 March 2016
+##9 22-23 March 2016
 ##0 * Make Candy have a 10% chance of being a Shock Sweet
+##0 * New Thumbs Up emote
+##0 * Fresh new Tulimshar look
+##0 * Fix leftover Christmas decor
 
 ##9 15 February 2016
 ##0 * Fix broken summon spells
