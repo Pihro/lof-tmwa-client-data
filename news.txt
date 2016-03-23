@@ -12,6 +12,9 @@
 ##0 different hat to those who've already helped him once!
 ##0 Take your food and get a nice steampunk top hat!
 
+##9 22 March 2016
+##0 * Make Candy have a 10% chance of being a Shock Sweet
+
 ##9 15 February 2016
 ##0 * Fix broken summon spells
 ##0 * Fix a few dialog choices
